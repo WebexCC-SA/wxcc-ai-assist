@@ -87,26 +87,13 @@ icon: material/bullseye-arrow
 
 ## Learning Objectives
 
-Welcome to **"From Good to Great - Enhancing Customer Experience with the Webex Contact Center Flow Designer"** Instructor-led Lab
+Welcome to **"Hands-on AI in Action with Webex Contact Center: Enhancing Self-Service, Agent Assistance & Customer Insights - LTRCCT-2000"** Instructor-led Lab
 
-This advanced lab is designed to empower you with the skills to craft exceptional customer journeys using the **Webex Contact Center Flow Designer**. Over the course of this lab, you’ll work hands-on with features and integrations that bring intelligence and efficiency to every interaction. Take your time to explore and complete each step—you have 24 hours of pod access, and the lab content will remain available even after your pod expires for future reference.
-In this lab, you will:
+In this lab, participants will: • Uncover Trends & Opportunities: Analyze customer conversation data to identify key themes, trends, and automation opportunities for improved service efficiency. • Integrate Intelligent AI Agents: Utilize Cisco AI Agent to build dynamic, context-aware self-service flows that adapt to customer needs in real-time. 
+• Seamless AI-to-Human Collaboration: Experience smooth transitions from AI agents to human agents, ensuring continuous context and interaction summaries for effective issue resolution. 
+• Enhance In-Interaction Insights: Experience AI-driven call summarisation to enhance agent productivity and service quality. 
+• Predict Customer Sentiment: Learn to leverage AI to forecast customer satisfaction (CSAT) based on interaction data, enabling proactive service adjustments and how to use this for proactive customer engagement. • Monitor & Improve Agent Well-being: Use AI to predict and prevent agent burnout by optimising workloads and monitoring signs of stress, contributing to a healthier work environment for Agents. By the end of this session, participants will gain hands-on experience on Webex Contact Center AI capabilities, empowering them to deliver personalised, more efficient customer Interactions while ensuring both customer satisfaction and agent well-being.
 
-- **Master Workflow Creation:** Learn how to build seamless workflows tailored to customer needs, including routing based on preferences and leveraging real-time data.
-
-- **Leverage AI and Automation:** Explore integrations with pre-configured AI tools such as **Webex AI Agent** or interactive customer interactions and **Cisco Text-to-Speech** for dynamic responses.
-
-- **Optimize Routing Logic:** Implement advanced routing capabilities, such as callback handling, last agent routing and using Global ariables to facilitate routing logic .
-
-- **Invoking Flow API:** Advance decision-making by using the Analyzer database on the fly.
-
-Additionally, you will explore side missions for optional deep dives into:
-
-- Event handling functionality for agent efficiency.
-
-- Creating Post Call survey to measure customer satisfaction
-
-- Changing Contact Center flow logic by using your phone only.
     
 ## Disclaimer
 The lab design and configuration examples provided are for educational purposes. For production design queries, please consult your Cisco representative or an authorized Cisco partner.
