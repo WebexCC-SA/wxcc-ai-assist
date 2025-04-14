@@ -89,12 +89,15 @@ icon: material/bullseye-arrow
 
 Welcome to **"Hands-on AI in Action with Webex Contact Center: Enhancing Self-Service, Agent Assistance & Customer Insights - LTRCCT-2000"** Instructor-led Lab
 
-T
+![Profiles](../graphics/NewLab/Overview/1.1.png)
 
-In this lab, participants will: • Uncover Trends & Opportunities: Analyze customer conversation data to identify key themes, trends, and automation opportunities for improved service efficiency. • Integrate Intelligent AI Agents: Utilize Cisco AI Agent to build dynamic, context-aware self-service flows that adapt to customer needs in real-time. 
-• Seamless AI-to-Human Collaboration: Experience smooth transitions from AI agents to human agents, ensuring continuous context and interaction summaries for effective issue resolution. 
-• Enhance In-Interaction Insights: Experience AI-driven call summarisation to enhance agent productivity and service quality. 
-• Predict Customer Sentiment: Learn to leverage AI to forecast customer satisfaction (CSAT) based on interaction data, enabling proactive service adjustments and how to use this for proactive customer engagement. • Monitor & Improve Agent Well-being: Use AI to predict and prevent agent burnout by optimising workloads and monitoring signs of stress, contributing to a healthier work environment for Agents. By the end of this session, participants will gain hands-on experience on Webex Contact Center AI capabilities, empowering them to deliver personalised, more efficient customer Interactions while ensuring both customer satisfaction and agent well-being.
+In this lab, participants will: <br><br>
+ **• Uncover Trends & Opportunities:** Analyze customer conversation data to identify key themes, trends, and automation opportunities for improved service efficiency. <br><br>
+ **• Integrate Intelligent AI Agents:** Utilize Cisco AI Agent to build dynamic, context-aware self-service flows that adapt to customer needs in real-time. <br><br>
+**• Seamless AI-to-Human Collaboration:** Experience smooth transitions from AI agents to human agents, ensuring continuous context and interaction summaries for effective issue resolution. <br><br>
+**• Enhance In-Interaction Insights:** Experience AI-driven call summarisation to enhance agent productivity and service quality. <br><br>
+**• Predict Customer Sentiment:** Learn to leverage AI to forecast customer satisfaction (CSAT) based on interaction data, enabling proactive service adjustments and how to use this for proactive customer engagement. <br><br>
+**• Monitor & Improve Agent Well-being:** Use AI to predict and prevent agent burnout by optimising workloads and monitoring signs of stress, contributing to a healthier work environment for Agents. By the end of this session, participants will gain hands-on experience on Webex Contact Center AI capabilities, empowering them to deliver personalised, more efficient customer Interactions while ensuring both customer satisfaction and agent well-being. <br><br>
 
     
 ## Disclaimer
