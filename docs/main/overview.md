@@ -89,6 +89,8 @@ icon: material/bullseye-arrow
 
 Welcome to **"Hands-on AI in Action with Webex Contact Center: Enhancing Self-Service, Agent Assistance & Customer Insights - LTRCCT-2000"** Instructor-led Lab
 
+Test
+
 In this lab, participants will: • Uncover Trends & Opportunities: Analyze customer conversation data to identify key themes, trends, and automation opportunities for improved service efficiency. • Integrate Intelligent AI Agents: Utilize Cisco AI Agent to build dynamic, context-aware self-service flows that adapt to customer needs in real-time. 
 • Seamless AI-to-Human Collaboration: Experience smooth transitions from AI agents to human agents, ensuring continuous context and interaction summaries for effective issue resolution. 
 • Enhance In-Interaction Insights: Experience AI-driven call summarisation to enhance agent productivity and service quality. 
