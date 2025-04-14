@@ -14,10 +14,10 @@ icon: material/bullseye-arrow
     
     <details><summary>WxCC Schema</summary>![Profiles](../graphics/overview/WxCC_Schema.png)</details>
 
-2. The majority of the configuration in Control Hub is already set up, allowing you to focus primarily on Flow Design. Of course, there may still be some elements to adjust, but these should be minimal, letting you concentrate on building and refining the flow logic rather than spending time on initial setup.
-3. The Agents have been configured for you. You will be performing the rest of the configurations to route voice calls
-4. All your configurations should contain your attendee ID so the lab users don't step over each other's configurations
-5. Each of you has been provided with the phone number to dial (Entry point DN), 1 agents, 1 Supervisor and 1 admin.
+2. The majority of the configuration in Control Hub is already set up, allowing you to focus primarily on configuration Webex AI Virtual Agent and other AI features. Of course, there may still be some elements to adjust, but these should be minimal, letting you concentrate on building and refining the flow logic rather than spending time on initial setup.
+3. The Agents have been configured for you. You will be performing the rest of the configurations for AI Agent and integartion with channels.
+4. All your configurations should contain your attendee ID so the lab users don't step over each other's configurations.
+5. Each of you has been provided with the phone number to dial (Entry point DN), 1 agents and 1 admin.
 6. We are going to use built-in Cisco Text to Speech for playing all messages in the lab.
 7. Please ask for help when you need it. You can do it by clicking on **"Ask a Question"** or by raising your hand and calling the proctor.
 
@@ -30,10 +30,6 @@ icon: material/bullseye-arrow
 > Queue:  **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_Queue">Your_Attendee_ID</span>_Queue<span class="copy"></span></span>**
 
 > Agent:   **<span class="attendee-id-container">wxcclabs+agent_ID<span class="attendee-id-placeholder" data-prefix="wxcclabs+agent_ID" data-suffix="@gmail.com">Your_Attendee_ID</span>@gmail.com<span class="copy"></span></span>**
-
-> Supervisor:   **<span class="attendee-id-container">wxcclabs+supvr_ID<span class="attendee-id-placeholder" data-prefix="wxcclabs+supvr_ID" data-suffix="@gmail.com">Your_Attendee_ID</span>@gmail.com<span class="copy"></span></span>**
-
-> Business Hours: **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_Bussiness_Hours">Your_Attendee_ID</span>_Bussiness_Hours<span class="copy"></span></span>**
 
 > Webex App has been pre-installed on your Lab PC
 
