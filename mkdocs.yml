@@ -105,7 +105,7 @@ nav:
       ## - Flow Designer Overview [To be moved to presentation]: ./main/FlowDesignerOverview.md
   - Autonomouse AI Agent:
       - Lab Guide:
-            - "Mission 1: AI in Action (Autonomous Agent)": ./main/AIAgentTrack_Mission1.md
+            - "Mission 1: Create AI Autonomous Agent": ./main/AIAgentTrack_Mission1.md
       - Conclusion: ./main/CoreTrack_Conclusion.md
   - Integration with Digital Channel:
       - Lab Guide:
