@@ -82,6 +82,9 @@ Your mission is to:
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.3.gif)
 
+11. You can customize the Welcome message:
+
+![Profiles](../graphics/Lab1_AI_Agent/2.8.png)
 
 11. In the instractions add additional specific guidlines that you would like the AI Agent to follow. Just copy the text below and paste it to the Instractions section: <br>
 
@@ -134,9 +137,9 @@ Always read back the address that customer provided and ask for confirmation if 
 
 ![Profiles](../graphics/Lab1_AI_Agent/2.6.gif)
 
-14 Click on **Preview** and spend 5 mins on testing the tenant to understnad how it behaives. You can start the conversation with: **"I need flower for my friend"**<span class="copy-static" title="Click to copy!" data-copy-text="I need flower for my friend"><span class="copy"></span></span> and try to customize you order. 
+14 Click on **Preview** and spend 5 mins on testing the AI Agent to understnad how it behaives. You can start the conversation with: **"I need flower for my friend"**<span class="copy-static" title="Click to copy!" data-copy-text="I need flower for my friend"><span class="copy"></span></span> and try to customize you order. 
 
-![Profiles](../graphics/Lab1/AITrack_AIAgentPreview.gif)
+![Profiles](../graphics/Lab1_AI_Agent/2.7.gif)
 
 ---
 
