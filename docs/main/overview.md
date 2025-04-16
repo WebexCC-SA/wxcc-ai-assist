@@ -85,6 +85,15 @@ icon: material/bullseye-arrow
 
 # Overview
 
+## Use Case 
+
+Please review the quick vidoe of the user case 
+
+https://blog.webex.com/customer-experience/announcing-general-availability-of-webex-ai-agent-paving-way-new-era-cx/
+
+You are designing a Webex AI agent for a flower store named Cisco Flowers. This AI agent will communicate with customers over voice and digital channels. It will recommend flowers, collect order details, and calculate the total price for standard and custom bouquets. Additionally, it will gather delivery information and email addresses to send order confirmations via email. The virtual agent can provide order status updates or transfer customers to a human agent if needed. The human agent will be equipped with the latest AI technology to ensure exceptional customer support.
+
+
 ## Learning Objectives
 
 Welcome to **"Hands-on AI in Action with Webex Contact Center: Enhancing Self-Service, Agent Assistance & Customer Insights - LTRCCT-2000"** Instructor-led Lab

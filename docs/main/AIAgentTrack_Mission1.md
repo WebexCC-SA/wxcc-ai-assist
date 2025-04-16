@@ -5,10 +5,8 @@ icon: material/medal
 
 
 
-# Mission 1: AI Autonomous Agent in Action.
+# Mission 1: Create AI Autonomous Agent.
 
-## <span style="color: blue;">**Recommendation**</span></summary>
-**If the AI Agent feature is already enabled on your Gold Tenant via the Beta Portal, we recommend using it there instead of the shared environment. This helps avoid tenant limitations, such as the maximum of 100 configurable AI Agents.**
 
 **<details><summary>Good to Know <span style="color: orange;">[Optional]</span></summary>**
 
@@ -24,18 +22,19 @@ The Autonomous AI Agent for performing actions can handle various tasks, includi
 
 ## Story
 
-As a visitor to Dallas, you want to quickly find restaurants offering various international cuisines in the city and easily figure out how to get to them from your current location at the Cisco Office in Richardson.
+You are designing a Webex AI agent for a flower store named Cisco Flowers. This agent will recommend flowers to customers, collect order details, and calculate the total price for standard and custom bouquets. 
 
 ### Call Flow Overview
 
-1. A new call enters the flow. </br>
-2. The caller asks about restaurants in Dallas.</br>
-3. The AI agent responds with information generated from the knowledge base configuration.</br>
+1. A new call enters the voice flow. </br>
+2. The AI agent will suggest flowers that suit the occasion.</br>
+3. Customers will also be able to design their own bouquets from single flowers.</br>
+4. AI Agent will generate the order details and total price based on the infrmation in knowledge base</br>
 
 ## Mission overview
 Your mission is to:
 
-1. Create a knowledge base (KB) and AI agent to provide answers about Richardson, including places to visit, restaurants, nightclubs, and directions from the Cisco Office in Richardson.</br>
+1. Create AI agent and upload the knowledge base (KB) and AI agent to provide answers about Richardson, including places to visit, restaurants, nightclubs, and directions from the Cisco Office in Richardson.</br>
 2. Configure the AI agent with handoff functionality to transfer the conversation to a live agent when necessary.</br>
 
 ---
