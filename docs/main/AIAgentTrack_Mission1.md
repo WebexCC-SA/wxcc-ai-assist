@@ -57,13 +57,13 @@ Your mission is to:
 
 4. In AI Agent Builder navigate to **Knowledge** from left hand side menu panel. 
 
-5. Click **Create Knowledge Base**, provide Knowledge base name as **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_AI_KB">Your_Attendee_ID</span>_2000_AI_KB<span class="copy" title="Click to copy!"></span></span>**, then click **Create**.
+5. Click **Create Knowledge Base**, provide Knowledge base name as **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_AI_KB">Your_Attendee_ID</span>_2000_AI_KB<span class="copy" title="Click to copy!"></span></span>**, then click **Create**.
 
-    ![Profiles](../graphics/Lab1/L1M7_AIKBCreate.gif)
+    ![Profiles](../graphics/Lab1_AI_Agent/2.1.gif)
 
-6. Click **Add File** or drag and drop file **Richardson_Tourist_Guide.txt** you downloaded from external drive on **Step 1**. Then click **Process Files**.
+6. Click **Add File** or drag and drop file **Flower_Catalog.xlsx** you downloaded from external drive on **Step 1**. Then click **Process Files**.
 
-    ![Profiles](../graphics/Lab1/L1M7_AIKBFileUpload.gif)
+    ![Profiles](../graphics/Lab1_AI_Agent/2.2.gif)
 
 7. Navigate to **Dashboard** from the right-hand side menu panel and click **Create Agent**
 8. Select **Start from Scratch** and click **Next**
@@ -71,29 +71,70 @@ Your mission is to:
 
 10. New section **Add the essential details** will appear. Provide the following information, then click **Create**:
 
-    > Agent Name: **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_AutoAI_Lab">Your_Attendee_ID</span>_AutoAI_Lab<span   class="copy" title="Click to copy!"></span></span>**
+    > Agent Name: **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="-2000_AutoAI_Lab">Your_Attendee_ID</span>_2000_AutoAI_Lab<span   class="copy" title="Click to copy!"></span></span>**
     >
     > System ID is created automatically
     >
     > AI engine: **Webex AI Pro 1.0**
-    >
-    > Knowledge base: **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_AI_KB">Your_Attendee_ID</span>_AI_KB<span class="copy"></span>**
     > 
-    > Agent's goal: ***You are a helpful, polite agent who will help the user with their Dallas related queries such as restaurant, pubs, places to visit and what transport can be used to get there.***<span class="copy-static" title="Click to copy!" data-copy-text="You are a helpful, polite agent who will help the user with their Dallas related queries such as restaurant, pubs, places to visit and what transport can be used to get there."><span class="copy"></span></span>
+    > Agent's goal: ***This is Flower Shop. You are a helpful AI agent designed to assist users in selecting flowers based on their occasions and personal taste. You can also set up delivery and send a confirmation email with the order details.***<span class="copy-static" title="Click to copy!" data-copy-text="This is Flower Shop. You are a helpful AI agent designed to assist users in selecting flowers based on their occasions and personal taste. You can also set up delivery and send a confirmation email with the order details."><span class="copy"></span></span>
 
 
-    ![Profiles](../graphics/Lab1/AITrack_AIAgentCreate.gif)
+    ![Profiles](../graphics/Lab1_AI_Agent/2.3.gif)
 
 
-11. Switch to **Actions** tab ans make sure **Agent handover** togle is turned on. This will allow you to handoff calls to human agent on request while talking to your Virtual Agent.
+11. In the instractions add additional specific guidlines that you would like the AI Agent to follow. Just copy the text below and paste it to the Instractions section: <br>
 
-12. Switch to **Knowledge** tab and from **Knowledge base** drop-down list select **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_AI_KB">Your_Attendee_ID</span>_AI_KB<span class="copy" title="Click to copy!"></span></span>**
+<i>Always first check what is the event for the flowers so you can provide the best option. 
 
-13. Click **Save Changes**, then click **Publish**. Provide any version name in popped up window (ex. "1.0").
+Always print the total at the end of the conversation at any stage.
 
-    ![Profiles](../graphics/Lab1/AITrack_AIAgentaMapKB.gif)
+Assist in Flower Selection:
+Provide information on individual flowers, including descriptions, prices, and symbolic meanings.
+Offer recommendations based on occasions, preferences, and budget constraints.
 
-14. Click on **Preview** to test your AI Agent and ask the following: **"I'm looking for an Italian restaurant close to Cisco Office in Richardson."**<span class="copy-static" title="Click to copy!" data-copy-text="I'm looking for an Italian restaurant close to Cisco Office in Richardson."><span class="copy"></span></span>
+Guide in Bouquet Creation:
+Suggest bouquet options tailored to specific occasions such as weddings, anniversaries, birthdays, and more.
+Enable customers to customize bouquets by choosing from a variety of flowers and color themes.
+
+Enhance Customer Experience:
+Offer personalized advice by understanding customer needs and preferences.
+Ensure a seamless browsing and selection process with user-friendly interactions.
+
+Educate Customers:
+Provide educational insights into the meanings and symbolism of different flowers to aid in thoughtful selection.
+Share care tips for maintaining flower freshness and longevity.
+
+Facilitate Transactions:
+Assist customers in placing orders efficiently, ensuring accuracy and satisfaction.
+Provide support for payment processing and order confirmations.
+
+Ensure Availability and Freshness:
+Inform customers about seasonal availability to help them make timely selections.
+Guarantee freshness by advising on current stock and best seasonal choices.
+
+Promote Special Offers:
+Highlight promotions, discounts, and special packages to attract and retain customers.
+Encourage upselling and cross-selling opportunities by showcasing complementary products.
+
+Never ever user double quotes (") in the generated responses. 
+For example never response with something like "Thankful Blooms"
+
+Ask if the customer needs the deliver. Collect the address and add price of the delivery to the Total. 
+
+Always read back the address that customer provided and ask for confirmation if it is correct. If it is not correct, ask to provide the address again.</i>
+
+![Profiles](../graphics/Lab1_AI_Agent/2.4.gif)
+
+12  Switch to **Knowledge** tab and from **Knowledge base** drop-down list select **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_AI_KB">Your_Attendee_ID</span>_2000_AI_KB<span class="copy" title="Click to copy!"></span></span>**. Click **Save Changes**.
+
+![Profiles](../graphics/Lab1_AI_Agent/2.5.gif)
+
+13  Click **Publish**. Provide any version name in popped up window (ex. "1.0").
+
+![Profiles](../graphics/Lab1_AI_Agent/2.6.gif)
+
+14 Click on **Preview** and spend 5 mins on testing the tenant to understnad how it behaives. You can start the conversation with: **"I need flower for my friend"**<span class="copy-static" title="Click to copy!" data-copy-text="I need flower for my friend"><span class="copy"></span></span> and try to customize you order. 
 
 ![Profiles](../graphics/Lab1/AITrack_AIAgentPreview.gif)
 
