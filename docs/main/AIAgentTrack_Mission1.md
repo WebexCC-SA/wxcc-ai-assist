@@ -22,7 +22,7 @@ The Autonomous AI Agent for performing actions can handle various tasks, includi
 
 ## Story
 
-You are designing a Webex AI agent for a flower store named Cisco Flowers. This agent will recommend flowers to customers, collect order details, and calculate the total price for standard and custom bouquets. 
+You are designing a Webex AI agent for a flower store. This agent will recommend flowers to customers, collect order details, and calculate the total price for standard and custom bouquets. 
 
 ### Call Flow Overview
 
@@ -43,10 +43,10 @@ Your mission is to:
 
 ### Creating a Knowldge Base
 
-1. <span style="color: red;">[IMPORTANT]</span> [Download](https://drive.google.com/drive/folders/1b8x_om4rQonuJ52wRYif1LPP5qEX4RDI?usp=sharing){:target="_blank"} source file from shared folder.
+1. <span style="color: red;">[IMPORTANT]</span> [Flowrs_Catalog](https://cisco.box.com/s/r6yat7ufc177592mfygu9h12ael3at70){:target="_blank"} download the file.
     
     > 
-    > **Richardson_Tourist_Guide.txt** - file contains information for tourists like places to visit, restaurants, pubs etc. and how to reach those places from the Cisco Office in Richardson.
+    > **Flower_Catalog.xlsx** - file contains information on the available single flowers and bouquets, including the price of the flowers or bouquets and occasions that suit the flowers.
     >
 
 2. Login into [Webex Control Hub](https://admin.webex.com){:target="_blank"} by using your Admin profile **<span class="attendee-id-container">wxcclabs+admin_ID<span class="attendee-id-placeholder" data-prefix="wxcclabs+admin_ID" data-suffix="@gmail.com">Your_Attendee_ID</span>@gmail.com<span class="copy" title="Click to copy!"></span></span>**. You will see another login screen with OKTA on it where you may need to enter the email address again and the password provided to you.
@@ -57,7 +57,7 @@ Your mission is to:
 
 4. In AI Agent Builder navigate to **Knowledge** from left hand side menu panel. 
 
-5. Click **Create Knowledge Base**, provide Knowledge base name as **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_AI_KB">Your_Attendee_ID</span>_AI_KB<span class="copy" title="Click to copy!"></span></span>**, then click **Create**.
+5. Click **Create Knowledge Base**, provide Knowledge base name as **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_AI_KB">Your_Attendee_ID</span>_2000_AI_KB<span class="copy" title="Click to copy!"></span></span>**, then click **Create**.
 
     ![Profiles](../graphics/Lab1/L1M7_AIKBCreate.gif)
 
@@ -99,7 +99,7 @@ Your mission is to:
 
 ---
 
-## Integrating the Bot with Flow for Voice Calls
+### Integrating the Bot with Flow for Voice Calls
 
 1. In Control Hub navigate to **Flows**, click on **Manage Flows** dropdown list and select **Create Flows**
 
