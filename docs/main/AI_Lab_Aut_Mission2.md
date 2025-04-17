@@ -38,7 +38,8 @@ Configure an action to collect order details from the customer and send them to 
     ![Profiles](../graphics/Lab1_AI_Agent/2.10.gif)
 
 
-3. Click on Flows and create new flow with the name <b>Create_Ordedr_Flowers.</b>
+3. Click on Flows and create new flow with the name ***Create_Ordedr_Flowers***<span class="copy-static" title="Click to copy!" data-copy-text="Create_Ordedr_Flowers"><span class="copy"></span></span>.
+
     ![Profiles](../graphics/Lab1_AI_Agent/2.11.gif)
 
 4. From the Integrations list select AI Agent. 
@@ -46,3 +47,12 @@ Configure an action to collect order details from the customer and send them to 
 
 5. For now, save the flow and make it live. We will return to configuring this flow later. Creating it now is necessary to complete configurations in the AI Studio Portal.
     ![Profiles](../graphics/Lab1_AI_Agent/2.13.gif)
+
+### Task 2. Configure Action in the AI Studio.
+
+1. Login to the AI Studio Portal. 
+    ![Profiles](../graphics/Lab1_AI_Agent/2.14.gif)
+
+2. Select your AI agent with name **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_AutoAI_Lab">Your_Attendee_ID</span>_2000_AutoAI_Lab<span   class="copy" title="Click to copy!"></span></span>** that we created earlier, go to Actions. You will see one action is already created by default for the Agent Handoff. We will be creating more actions.
+
+    ![Profiles](../graphics/Lab1_AI_Agent/2.17.gif)

@@ -58,9 +58,10 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.3.gif)
 
-11. You can customize the Welcome message:
+11. Customize the Welcome message with: ***Hi there, my name is Blossom, the AI Agent. How can I assist you?***<span class="copy-static" title="Click to copy!" data-copy-text="Hi there, my name is Blossom, the AI Agent. How can I assist you?"><span class="copy"></span></span>
 
-    ![Profiles](../graphics/Lab1_AI_Agent/2.8.png)
+
+    ![Profiles](../graphics/Lab1_AI_Agent/2.16.png)
 
 
 12. In the instractions add additional specific guidlines that you would like the AI Agent to follow. Just copy the text below and paste it to the Instractions section: <br>
