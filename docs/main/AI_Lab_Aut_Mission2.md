@@ -104,4 +104,20 @@ Example: ***new***<span class="copy-static" title="Click to copy!" data-copy-tex
 Required: <b>Yes</b>
 
 10. At this point you should see 6 created entities. Please double check it. 
-    ![Profiles](../graphics/Lab1_AI_Agent/2.20.png)
+    ![Profiles](../graphics/Lab1_AI_Agent/2.21.png)
+
+11. In the Webex Connect Builder Fulfillment select Service: **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Service">Your_Attendee_ID</span>_2000_Service<span   class="copy" title="Click to copy!"></span></span>** and Flow: <b>Create_Order_Flowers</b>
+   ![Profiles](../graphics/Lab1_AI_Agent/2.22.gif)
+
+12. Publish the update of your AI Agent. 
+   ![Profiles](../graphics/Lab1_AI_Agent/2.23.gif)
+
+### Task 3. Complete configurations on Webex Connect side.
+
+1. Login to the Webex Connect, got to the Service **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Service">Your_Attendee_ID</span>_2000_Service<span   class="copy" title="Click to copy!"></span></span>** and click on <b>Manage</b> the flow that you have created earlier.
+   ![Profiles](../graphics/Lab1_AI_Agent/2.24.gif)
+
+2. Click on Edit the flow on the right top. Then double click on the AI Agent. In the Provide Sample JSON, replace the standard JSON body with the following: <br>
+<b>{ "orderDetails": "ID", "orderTotal": "Type", "delivery": "Type", "address": "Type", "status": "Type", "email": "Type" }</b> <br>
+Then click on Parse and Save the change. 
+   ![Profiles](../graphics/Lab1_AI_Agent/2.26.gif)
