@@ -117,7 +117,49 @@ Required: <b>Yes</b>
 1. Login to the Webex Connect, got to the Service **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Service">Your_Attendee_ID</span>_2000_Service<span   class="copy" title="Click to copy!"></span></span>** and click on <b>Manage</b> the flow that you have created earlier.
    ![Profiles](../graphics/Lab1_AI_Agent/2.24.gif)
 
-2. Click on Edit the flow on the right top. Then double click on the AI Agent. In the Provide Sample JSON, replace the standard JSON body with the following: <br>
-<b>{ "orderDetails": "ID", "orderTotal": "Type", "delivery": "Type", "address": "Type", "status": "Type", "email": "Type" }</b> <br>
-Then click on Parse and Save the change. 
-   ![Profiles](../graphics/Lab1_AI_Agent/2.26.gif)
+2. Click on **Edit** the flow on the right top. Then double click on the AI Agent. In the Provide Sample JSON, replace the standard JSON body with the following: <br>
+ > 
+{
+    "orderDetails": "ID",
+    "orderTotal": "Type",
+    "delivery": "Type",
+    "address": "Type",
+    "status": "Type",
+    "email": "Type"
+}
+
+Then click on **Parse** and **Save** the change.
+   ![Profiles](../graphics/Lab1_AI_Agent/2.25.gif)
+
+3. Drag and drop HTTP Request node from the left side of the Webex Connect Flow Builder. Connect AI Agent block to the HTTP Request block. 
+   ![Profiles](../graphics/Lab1_AI_Agent/2.27.gif)
+
+
+4. Open up HTTP Request node and configure it with the following HTTP Request: <br>
+<br>
+Method: **POST**
+<br>
+Endpoint URL: ***https://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder***<span class="copy-static" title="Click to copy!" data-copy-text="https://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder"><span class="copy"></span></span><br>
+Header: ***Content-Type***<span class="copy-static" title="Click to copy!" data-copy-text="Content-Type"><span class="copy"></span></span>: ***application/json***<span class="copy-static" title="Click to copy!" data-copy-text="application/json"><span class="copy"></span></span>
+<br>
+Body: <br>
+<b>{
+    "orderDetails": "$(n2.aiAgent.orderDetails)",
+    "orderTotal": "$(n2.aiAgent.orderTotal)",
+    "delivery": "$(n2.aiAgent.delivery)",
+    "address": "$(n2.aiAgent.address)",
+    "status": "$(n2.aiAgent.status)",
+    "email": "$(n2.aiAgent.email)"
+}</b><br>
+Output Variable Type: <b>JSON</b><br>
+Output Variable Name: ***orderNumber***<span class="copy-static" title="Click to copy!" data-copy-text="orderNumber"><span class="copy"></span></span><br>
+Response Entity: ***Body***<span class="copy-static" title="Click to copy!" data-copy-text="Body"><span class="copy"></span></span><br>
+Response Path ***$.id***<span class="copy-static" title="Click to copy!" data-copy-text="$.id"><span class="copy"></span></span><br>
+
+   ![Profiles](../graphics/Lab1_AI_Agent/2.28.gif)
+
+
+5. Compare your settings with the screenshot below to make sure you configured the HTTP Request correctly. 
+   ![Profiles](../graphics/Lab1_AI_Agent/2.29.png)
+
+6. 
