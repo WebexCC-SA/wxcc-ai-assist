@@ -8,40 +8,16 @@ icon: material/medal
 # Mission 1: Create AI Autonomous Agent.
 
 
-**<details><summary>Good to Know <span style="color: orange;">[Optional]</span></summary>**
-
-### AI Autonomous Agent Overview
-
-The Autonomous AI Agent for performing actions can handle various tasks, including:
-
-  - Natural Language Processing (NLP)—Understand and respond to human language in a natural and conversational manner.
-  - Decision making—Make informed choices based on available information and predefined rules.
-  - Automation—Automate repetitive or time-consuming tasks.
-</details>
-
-
-## Story
-
-You are designing a Webex AI agent for a flower store. This agent will recommend flowers to customers, collect order details, and calculate the total price for standard and custom bouquets. 
-
-### Call Flow Overview
-
-1. A new call enters the voice flow. </br>
-2. The AI agent will suggest flowers that suit the occasion.</br>
-3. Customers will also be able to design their own bouquets from single flowers.</br>
-4. AI Agent will generate the order details and total price based on the infrmation in knowledge base</br>
-
 ## Mission overview
 Your mission is to:
 
-1. Create AI agent and upload the knowledge base (KB) and AI agent to provide answers about Richardson, including places to visit, restaurants, nightclubs, and directions from the Cisco Office in Richardson.</br>
-2. Configure the AI agent with handoff functionality to transfer the conversation to a live agent when necessary.</br>
+Create an AI agent and upload the knowledge base (KB) to enable the agent to provide answers about available flowers and assist customers with creating an order.
 
 ---
 
 ## Build
 
-### Creating a Knowldge Base
+### TASK 1. Creating a Knowldge Base
 
 1. <span style="color: red;">[IMPORTANT]</span> [Flowrs_Catalog](https://cisco.box.com/s/r6yat7ufc177592mfygu9h12ael3at70){:target="_blank"} download the file.
     
@@ -86,7 +62,7 @@ Your mission is to:
 
 ![Profiles](../graphics/Lab1_AI_Agent/2.8.png)
 
-11. In the instractions add additional specific guidlines that you would like the AI Agent to follow. Just copy the text below and paste it to the Instractions section: <br>
+12. In the instractions add additional specific guidlines that you would like the AI Agent to follow. Just copy the text below and paste it to the Instractions section: <br>
 
 <i>Always first check what is the event for the flowers so you can provide the best option. 
 
@@ -129,21 +105,27 @@ Always read back the address that customer provided and ask for confirmation if 
 
 ![Profiles](../graphics/Lab1_AI_Agent/2.4.gif)
 
-12  Switch to **Knowledge** tab and from **Knowledge base** drop-down list select **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_AI_KB">Your_Attendee_ID</span>_2000_AI_KB<span class="copy" title="Click to copy!"></span></span>**. Click **Save Changes**.
+13  Switch to **Knowledge** tab and from **Knowledge base** drop-down list select **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_AI_KB">Your_Attendee_ID</span>_2000_AI_KB<span class="copy" title="Click to copy!"></span></span>**. Click **Save Changes**.
 
 ![Profiles](../graphics/Lab1_AI_Agent/2.5.gif)
 
-13  Click **Publish**. Provide any version name in popped up window (ex. "1.0").
+14  Click **Publish**. Provide any version name in popped up window (ex. "1.0").
 
 ![Profiles](../graphics/Lab1_AI_Agent/2.6.gif)
 
-14 Click on **Preview** and spend 5 mins on testing the AI Agent to understnad how it behaives. You can start the conversation with: **"I need flower for my friend"**<span class="copy-static" title="Click to copy!" data-copy-text="I need flower for my friend"><span class="copy"></span></span> and try to customize you order. 
+15 Click on **Preview** and spend 5 mins on testing the AI Agent to understnad how it behaives. You can start the conversation with: **"I need flower for my friend"**<span class="copy-static" title="Click to copy!" data-copy-text="I need flower for my friend"><span class="copy"></span></span> and try to customize you order. 
 
 ![Profiles](../graphics/Lab1_AI_Agent/2.7.gif)
 
 ---
 
-### Integrating the Bot with Flow for Voice Calls
+# Mission ? Integrating the Bot with Flow for Voice Calls
+
+## Mission overview
+Your mission is to:
+
+Integrate the AI Agent with the Voice Flow. 
+
 
 1. In Control Hub navigate to **Flows**, click on **Manage Flows** dropdown list and select **Create Flows**
 
