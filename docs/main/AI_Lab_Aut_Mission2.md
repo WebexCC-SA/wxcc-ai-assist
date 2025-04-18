@@ -5,7 +5,7 @@ icon: material/medal
 
 
 
-# Mission 2: Configure Action to create an order.
+# Mission 2: Configure Action and create an order.
 
  **<details><summary>What is Action? <span style="color: orange;">[Optional]</span></summary>**
 An action is a functionality that lets your AI agent connect with external systems so it can perform more
@@ -112,7 +112,7 @@ Required: <b>Yes</b>
 12. Publish the update of your AI Agent. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.23.gif)
 
-### Task 3. Complete configurations on Webex Connect side.
+### Task 3. Deliver collected order information to Webex Connect for fulfillment.
 
 1. Login to the Webex Connect, got to the Service **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Service">Your_Attendee_ID</span>_2000_Service<span   class="copy" title="Click to copy!"></span></span>** and click on <b>Manage</b> the flow that you have created earlier.
    ![Profiles](../graphics/Lab1_AI_Agent/2.24.gif)
@@ -162,4 +162,27 @@ Response Path ***$.id***<span class="copy-static" title="Click to copy!" data-co
 5. Compare your settings with the screenshot below to make sure you configured the HTTP Request correctly. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.29.png)
 
-6. 
+
+6. Save changies and publish the flow.
+   ![Profiles](../graphics/Lab1_AI_Agent/2.32.gif)
+
+### Task 3. Deliver data from Webex Connect to AI studio for the response to the customer. 
+
+1. <span style="color: red;">[Read Only]</span> Once the HTTP request is completed a new object will be created on the third pary application. You can see all opbject by using the this link [ttps://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder](ttps://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder){:target="_blank"}. Below you can see the screenshot with all order informations. Currently there are only 2, but by the time of this lab there could be more.
+   ![Profiles](../graphics/Lab1_AI_Agent/2.30.png)
+Each order/object will content all the information that we sent from AI Studio but one - id. This key is created automatically once we create the object. The goal of this talks to send the value of the ID back to the AI Agent so he can provide it to the customer while they are still in live contact, like you can see on the picture below.<br>
+   ![Profiles](../graphics/Lab1_AI_Agent/2.31.png)
+
+2. <span style="color: red;">[Read Only]</span> When you were configuring HTTP Request in your previous TASK on the bottom of the request you were configuring the Output Variable. This variable will be used to parse the unique order id and pass the value to the Outbobount Variable with name orderNumber. See the screenshot below. In the next step we will be configuring this orderNumber variable to be sent Webex AI studio. 
+   ![Profiles](../graphics/Lab1_AI_Agent/2.35.png)
+
+3. While on your Webex Connect flow, click on **Edit** the flow then click on the settings and on the top select **Flow Outcomes**. In the JSON payout section select **Enter JSON**.
+   ![Profiles](../graphics/Lab1_AI_Agent/2.36.gif)
+
+4. We need to add the key-value pear to the existing JSON body. Add the comma after the last pear and insert ***"orderNumber": "$(n3.orderNumber)"***. Make sure there is no comma after the pear that you inserted. 
+   ![Profiles](../graphics/Lab1_AI_Agent/2.37.png) <br>
+   <br>
+Alse see this change in action below. 
+   ![Profiles](../graphics/Lab1_AI_Agent/2.38.gif)
+
+    
