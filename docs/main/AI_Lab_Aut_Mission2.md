@@ -117,18 +117,20 @@ Required: <b>Yes</b>
 1. Login to the Webex Connect, got to the Service **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Service">Your_Attendee_ID</span>_2000_Service<span   class="copy" title="Click to copy!"></span></span>** and click on <b>Manage</b> the flow that you have created earlier.
    ![Profiles](../graphics/Lab1_AI_Agent/2.24.gif)
 
-2. Click on **Edit** the flow on the right top. Then double click on the AI Agent. In the Provide Sample JSON, replace the standard JSON body with the following: <br>
- > 
-{
-    "orderDetails": "ID",
-    "orderTotal": "Type",
-    "delivery": "Type",
-    "address": "Type",
-    "status": "Type",
-    "email": "Type"
-}
+2. Click on **Edit** the flow on the right top. Then double click on the AI Agent. In the Provide Sample JSON, replace the standard JSON body with the following: 
+<br>
+    ``` JSON
+    {
+      "orderDetails": "ID",
+      "orderTotal": "Type",
+      "delivery": "Type",
+      "address": "Type",
+      "status": "Type",
+      "email": "Type"
+    }
+    ```
 
-Then click on **Parse** and **Save** the change.
+3. Then click on **Parse** and **Save** the change.
    ![Profiles](../graphics/Lab1_AI_Agent/2.25.gif)
 
 3. Drag and drop HTTP Request node from the left side of the Webex Connect Flow Builder. Connect AI Agent block to the HTTP Request block. 
@@ -136,27 +138,31 @@ Then click on **Parse** and **Save** the change.
 
 
 4. Open up HTTP Request node and configure it with the following HTTP Request: <br>
-<br>
-Method: **POST**
-<br>
-Endpoint URL: ***https://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder***<span class="copy-static" title="Click to copy!" data-copy-text="https://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder"><span class="copy"></span></span><br>
-Header: ***Content-Type***<span class="copy-static" title="Click to copy!" data-copy-text="Content-Type"><span class="copy"></span></span>: ***application/json***<span class="copy-static" title="Click to copy!" data-copy-text="application/json"><span class="copy"></span></span>
-<br>
-Body: <br>
-<b>{
-    "orderDetails": "$(n2.aiAgent.orderDetails)",
-    "orderTotal": "$(n2.aiAgent.orderTotal)",
-    "delivery": "$(n2.aiAgent.delivery)",
-    "address": "$(n2.aiAgent.address)",
-    "status": "$(n2.aiAgent.status)",
-    "email": "$(n2.aiAgent.email)"
-}</b><br>
-Output Variable Type: <b>JSON</b><br>
-Output Variable Name: ***orderNumber***<span class="copy-static" title="Click to copy!" data-copy-text="orderNumber"><span class="copy"></span></span><br>
-Response Entity: ***Body***<span class="copy-static" title="Click to copy!" data-copy-text="Body"><span class="copy"></span></span><br>
-Response Path ***$.id***<span class="copy-static" title="Click to copy!" data-copy-text="$.id"><span class="copy"></span></span><br>
 
-   ![Profiles](../graphics/Lab1_AI_Agent/2.28.gif)
+    > Method: **POST**
+    > <br>
+    > Endpoint URL: ***https://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder***<span class="copy-static" title="Click to copy!" data-copy-text="https://        > 67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder"><span class="copy"></span></span><br>
+    > Header: ***Content-Type***<span class="copy-static" title="Click to copy!" data-copy-text="Content-Type"><span class="copy"></span></span>: ***application/      > json***<span class="copy-static" title="Click to copy!" data-copy-text="application/json"><span class="copy"></span></span>
+    > <br>
+    > Body: <br>
+    >       ``` JSON
+    >       {
+    >        "orderDetails": "$(n2.aiAgent.orderDetails)",
+    >        "orderTotal": "$(n2.aiAgent.orderTotal)",
+    >        "delivery": "$(n2.aiAgent.delivery)",
+    >        "address": "$(n2.aiAgent.address)",
+    >        "status": "$(n2.aiAgent.status)",
+    >        "email": "$(n2.aiAgent.email)"
+    >       }
+    >       ```   
+    > <br>
+    > 
+    > Output Variable Type: <b>JSON</b><br>
+    > Output Variable Name: ***orderNumber***<span class="copy-static" title="Click to copy!" data-copy-text="orderNumber"><span class="copy"></span></span><br>
+    > Response Entity: ***Body***<span class="copy-static" title="Click to copy!" data-copy-text="Body"><span class="copy"></span></span><br>
+    > Response Path ***$.id***<span class="copy-static" title="Click to copy!" data-copy-text="$.id"><span class="copy"></span></span><br>
+    > 
+    >    ![Profiles](../graphics/Lab1_AI_Agent/2.28.gif)
 
 
 5. Compare your settings with the screenshot below to make sure you configured the HTTP Request correctly. 
@@ -166,14 +172,14 @@ Response Path ***$.id***<span class="copy-static" title="Click to copy!" data-co
 6. Save changies and publish the flow.
    ![Profiles](../graphics/Lab1_AI_Agent/2.32.gif)
 
-### Task 3. Deliver data from Webex Connect to AI studio for the response to the customer. 
+### Task 4. Deliver data from Webex Connect to AI studio for the response to the customer. 
 
 1. <span style="color: red;">[Read Only]</span> Once the HTTP request is completed a new object will be created on the third pary application. You can see all opbject by using the this link [ttps://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder](ttps://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder){:target="_blank"}. Below you can see the screenshot with all order informations. Currently there are only 2, but by the time of this lab there could be more.
    ![Profiles](../graphics/Lab1_AI_Agent/2.30.png)
 Each order/object will content all the information that we sent from AI Studio but one - id. This key is created automatically once we create the object. The goal of this talks to send the value of the ID back to the AI Agent so he can provide it to the customer while they are still in live contact, like you can see on the picture below.<br>
    ![Profiles](../graphics/Lab1_AI_Agent/2.31.png)
 
-2. <span style="color: red;">[Read Only]</span> When you were configuring HTTP Request in your previous TASK on the bottom of the request you were configuring the Output Variable. This variable will be used to parse the unique order id and pass the value to the Outbobount Variable with name orderNumber. See the screenshot below. In the next step we will be configuring this orderNumber variable to be sent Webex AI studio. 
+2. <span style="color: red;">[Read Only]</span> When you were configuring HTTP Request in your previous TASK on the bottom of the request you were configuring the Output Variable. This variable will be used to parse the unique order id and pass the value to the Outbobount Variable with name orderNumber. See the screenshot below. In the next step we will be configuring this orderNumber variable to be sent Webex AI studio.</br>
    ![Profiles](../graphics/Lab1_AI_Agent/2.35.png)
 
 3. While on your Webex Connect flow, click on **Edit** the flow then click on the settings and on the top select **Flow Outcomes**. In the JSON payout section select **Enter JSON**.
@@ -186,5 +192,12 @@ Alse see this change in action below.
    ![Profiles](../graphics/Lab1_AI_Agent/2.38.gif)
 
 
-test
+### Task 5. Configure email confirmation. 
+
+1. Open up Webex Connect Portal. Find your Service **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Service">Your_Attendee_ID</span>_2000_Service<span   class="copy" title="Click to copy!"></span></span>**, navigate to the flow and click on **Manage** the flow. 
+   ![Profiles](../graphics/Lab1_AI_Agent/2.39.gif)
+
+
+2. On the right top click on **Edit** then from the available Utilities on the left side find the Email and drag and drop the block to the flow. Connect HTTP node to the Email node. 
+
     
