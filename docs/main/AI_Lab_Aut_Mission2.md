@@ -199,5 +199,29 @@ Alse see this change in action below.
 
 
 2. On the right top click on **Edit** then from the available Utilities on the left side find the Email and drag and drop the block to the flow. Connect HTTP node to the Email node. 
+   ![Profiles](../graphics/Lab1_AI_Agent/2.40.gif)
 
-    
+3. Double clikc on the Email Block and configure the following:
+
+     > Destination ID: ***$(n2.aiAgent.email)***<span class="copy-static" title="Click to copy!" data-copy-text="$(n2.aiAgent.email)"><span class="copy"></span></span><br>
+     > From Name: ***Flower Shop***<span class="copy-static" title="Click to copy!" data-copy-text="Flower Shop"><span class="copy"></span></span><br>
+     >Subject: ***Fower Order Details***<span class="copy-static" title="Click to copy!" data-copy-text="Fower Order Details"><span class="copy"></span></span><br>
+     ><br>
+     >Message as below:<br>
+     ><br>
+     ><b>Here is your order details:<br>
+     >orderNumber: "$(n2.aiAgent.orderNumber)"<br>
+     >orderDetails: "$(n2.aiAgent.orderDetails)"<br>
+     >orderTotal: "$(n2.aiAgent.orderTotal)"<br>
+     >delivery: "$(n2.aiAgent.delivery)"<br>
+     >address: "$(n2.aiAgent.address)"<br>
+     >status: "$(n2.aiAgent.status)"<br>
+     >email: "$(n2.aiAgent.email)"<br></b>
+     >
+     >
+     >
+   ![Profiles](../graphics/Lab1_AI_Agent/2.41.gif)
+
+4. Save and Publish the flow. When it will ask to select the appliction, choose **CCBU2000EmailApp** from the list. This is the application that is configured for the eamils for this tenant. 
+   ![Profiles](../graphics/Lab1_AI_Agent/2.42.gif)
+
