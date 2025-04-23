@@ -225,3 +225,4 @@ Alse see this change in action below.
 4. Save and Publish the flow. When it will ask to select the appliction, choose **CCBU2000EmailApp** from the list. This is the application that is configured for the eamils for this tenant. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.42.gif)
 
+test
