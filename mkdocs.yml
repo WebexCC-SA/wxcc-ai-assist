@@ -103,6 +103,14 @@ nav:
       - Chrome and Webex App Setup: ./main/Browser_and_Desktop_Setup.md 
       - Choose Your Adventure: ./main/Choose_Your_Adventure.md
       ## - Flow Designer Overview [To be moved to presentation]: ./main/FlowDesignerOverview.md
+  - Topic Analytics:
+      - Lab Guide:
+            - "Lab overview": ./main/AI_Lab_Overview.md
+            - "Mission 1: Create AI Autonomous Agent": ./main/AIAgentTrack_Mission1.md
+            - "Mission 2: (Read Only) Configure Action and create an order": ./main/AI_Lab_Aut_Mission2.md
+            - "Mission 3: (Not Completed)Upload prebuild AI Agent": ./main/AI_Lab_Aut_Mission3.md
+            - "Mission 4: (Not Completed)Integrating the AI Agent with Flow for Voice Calls": ./main/AI_Lab_Aut_MissionX.md
+      - Conclusion: ./main/CoreTrack_Conclusion.md
   - Autonomouse AI Agent:
       - Lab Guide:
             - "Lab overview": ./main/AI_Lab_Overview.md
@@ -111,24 +119,20 @@ nav:
             - "Mission 3: (Not Completed)Upload prebuild AI Agent": ./main/AI_Lab_Aut_Mission3.md
             - "Mission 4: (Not Completed)Integrating the AI Agent with Flow for Voice Calls": ./main/AI_Lab_Aut_MissionX.md
       - Conclusion: ./main/CoreTrack_Conclusion.md
-  - Integration with Digital Channel:
+  - AI Features:
       - Lab Guide:
             ##- "Advacned Call Routing and Flow Simplification by using API Integration Overview": ./main/Lab2.md
-            - "Introduction to Developer Portal": ./main/APITrack_DeveloperPortal.md
-            - "Mission 1: Emergency config change": ./main/APITrack_Mission1.md
-            - "Mission 2: Routing facilitation": ./main/APITrack_Mission2.md 
-            - "Mission 3: Last Agent Routing": ./main/APITrack_Mission3_AutoCSAT.md
-            - "Mission 4: Routing Returning Callers": ./main/APITrack_Mission4.md
-            - "Mission 5: Personalized Customer Notification with Functions": ./main/APITrack_Mission5_Function.md
+            - "Mission 3: Seamless AI to Human Agent Handoffs": ./main/AIAgentTrack_Mission3.md
+            - "Mission 4: Call Drop Summary": ./main/AI_Assistant_CallDropSummary.md
       - Conclusion: ./main/APITrack_Conclusion.md
-  - IVR Campaign:
+  - Integration with Digital Channel:
       - Lab Guide:
             - "Mission 1: Basic Call Routing (Flow Template, TTS, Language)": ./main/CallbackTrack_Mission1.md ## Same as CoreTrack Mission1
             - "Mission 2: Adding Call-back functionality to your flow": ./main/CallbackTrack_Mission2.md ## Same as CoreTrack Mission3
             - "Mission 3: CallBack on Global Error": ./main/CallbackTrack_Mission3.md
             - "Mission 4: Preventing Callback duplication": ./main/CallbackTrack_Mission4.md
       - Conclusion: ./main/CallbackTrack_Conclusion.md
-  - AI Features:
+  - IVR Campaign:
       - Lab Guide:
             - "Mission 3: Seamless AI to Human Agent Handoffs": ./main/AIAgentTrack_Mission3.md
             - "Mission 4: Call Drop Summary": ./main/AI_Assistant_CallDropSummary.md
