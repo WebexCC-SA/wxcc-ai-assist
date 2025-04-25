@@ -4,14 +4,14 @@ icon: material/medal
 ---
 
 
-# Mission  Integrating the Bot with Flow for Voice Calls
+# Mission  Integrating the AI Agent with Flow for Voice Calls
 
 ## Mission overview
 Your mission is to:
 
 Integrate the AI Agent with the Voice Flow. 
 
-### Task 1. ...
+### Task 1. Build WxCC voice flow with AI Agent.
 
 1. In Control Hub navigate to **Flows**, click on **Manage Flows** dropdown list and select **Create Flows**
 
@@ -81,7 +81,7 @@ Integrate the AI Agent with the Voice Flow.
 9. Dial Support Number assigned to your **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_Channel** to test the Autonomous Virtual Agent over a voice call.
 
 
-## Testing
+### Task 2. Test the AI Agent integration with voice flow.
 
 1. Your Agent desktop session should be still active but if not, use Webex CC Desktop application ![profiles](../graphics/overview/Desktop_Icon40x40.png) and login with agent credentials you have been provided **<span class="attendee-id-container">wxcclabs+agent_ID<span class="attendee-id-placeholder" data-prefix="wxcclabs+agent_ID" data-suffix="@gmail.com">Your_Attendee_ID</span>@gmail.com<span class="copy" title="Click to copy!"></span></span>**. You will see another login screen with OKTA on it where you may need to enter the email address again and the password provided to you. 
 2. Select Team **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_Team">Your_Attendee_ID</span>_Team<span class="copy" title="Click to copy!"></span></span>**. Click **Submit**. Allow browser to access Microphone by clicking **Allow** on every visit.
