@@ -78,7 +78,7 @@ Required: <b>Yes</b>
 6. By following the same pattern, create an entity to collect the customer's email address.
 Entity Name: ***email***<span class="copy-static" title="Click to copy!" data-copy-text="email"><span class="copy"></span></span> <br>
 Entity Typs: <b>string</b> <br>
-Description: ***After the customer complete the order, ask if they would like to receive confirmation over the email. If so, collect the email address.***<span class="copy-static" title="Click to copy!" data-copy-text="After the customer complete the order, ask if they would like to receive confirmation over the email. If so, collect the email address."><span class="copy"></span></span> <br>
+Description: ***Before the customer complete the order, ask if they would like to receive confirmation over the email. If so, collect the email address.***<span class="copy-static" title="Click to copy!" data-copy-text="Before the customer complete the order, ask if they would like to receive confirmation over the email. If so, collect the email address."><span class="copy"></span></span> <br>
 Example: ***mdanylch@cisco.com, ktyagi@cisco.com***<span class="copy-static" title="Click to copy!" data-copy-text="mdanylch@cisco.com, ktyagi@cisco.com"><span class="copy"></span></span> <br>
 Required: <b>Yes</b>
 
