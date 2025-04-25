@@ -65,23 +65,25 @@ Integrate the AI Agent with the Voice Flow.
     ![Profiles](../graphics/Lab1_AI_Agent/2.50.gif)  
 
 5. **Validate** and **Publish** Flow. In popped up window click on dropdown menu to select **Latest** label, then click **Publish**  
+    ![Profiles](../graphics/Lab1_AI_Agent/2.51.gif)  
 
-    ![Profiles](../graphics/Lab1/L1M7_AutonomousAI_Flow_AddQueue.gif)  
-
-6. Assign the Flow to your **Channel (Entry Point)** - Do this by first going to **Channel** > Search for your channel **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_Channel**.
-7. Click on **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_Channel**
+6. Assign the Flow to your **Channel (Entry Point)** - Do this by first going to **Channel** > Search for your channel **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel**.
+7. Click on **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel**
+    ![Profiles](../graphics/Lab1_AI_Agent/2.52.png)  
 8. In **Entry Point** Settings section change the following:
 
-    > Routing Flow: **<span class="attendee-id-container">AutonomousAI_Flow_<span class="attendee-id-placeholder" data-prefix="AutonomousAI_Flow_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>**
+    > Routing Flow: **<span class="attendee-id-container">AutonomousAI_Flow_2000_<span class="attendee-id-placeholder" data-prefix="AutonomousAI_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>**
 
     > Version Label: **Latest**
 
-    ![Profiles](../graphics/Lab1/L1M7_AutonomousAI_FlowtoEP.gif)  
+    > Music on Hold: **defaultmusic_on_hold.wav**
 
-9. Dial Support Number assigned to your **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_Channel** to test the Autonomous Virtual Agent over a voice call.
+    ![Profiles](../graphics/Lab1_AI_Agent/2.53.gif)
+
+9. Dial Support Number assigned to your **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel** to test the Autonomous Virtual Agent over a voice call.
 
 
-### Task 2. Test the AI Agent integration with voice flow.
+### Task 2. Test Agent Handoff Configurations.
 
 1. Your Agent desktop session should be still active but if not, use Webex CC Desktop application ![profiles](../graphics/overview/Desktop_Icon40x40.png) and login with agent credentials you have been provided **<span class="attendee-id-container">wxcclabs+agent_ID<span class="attendee-id-placeholder" data-prefix="wxcclabs+agent_ID" data-suffix="@gmail.com">Your_Attendee_ID</span>@gmail.com<span class="copy" title="Click to copy!"></span></span>**. You will see another login screen with OKTA on it where you may need to enter the email address again and the password provided to you. 
 2. Select Team **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_Team">Your_Attendee_ID</span>_Team<span class="copy" title="Click to copy!"></span></span>**. Click **Submit**. Allow browser to access Microphone by clicking **Allow** on every visit.
