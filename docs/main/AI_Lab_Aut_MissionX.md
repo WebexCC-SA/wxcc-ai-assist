@@ -13,11 +13,11 @@ Integrate the AI Agent with the Voice Flow.
 
 ### Task 1. Build WxCC voice flow with AI Agent.
 
-1. In Control Hub navigate to **Flows**, click on **Manage Flows** dropdown list and select **Create Flows**
+1. In Control Hub navigate to **Flows**, click on **Manage Flows** dropdown list and select **Create Flows**. Select Start Fresh.
+   ![Profiles](../graphics/Lab1_AI_Agent/2.47.gif)
 
-2. Select Start Fresh and name the new flow **<span class="attendee-id-container">AutonomousAI_Flow_<span class="attendee-id-placeholder" data-prefix="AutonomousAI_Flow_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>**
-
-    ![Profiles](../graphics/Lab1/L1M7_AutonomousAI_Flow_CreateFlow.gif)  
+2.  Name the new flow **<span class="attendee-id-container">AutonomousAI_Flow_2000_<span class="attendee-id-placeholder" data-prefix="AutonomousAI_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>** and click **Create Flow**.
+   ![Profiles](../graphics/Lab1_AI_Agent/2.48.png)
 
 3. Make sure the **Edit** mode at the top is set to **ON**. Then, drag and drop the **Virtual Agent V2** and **DisconnectContact** activities from the left panel onto the canvas.
 
@@ -34,9 +34,8 @@ Integrate the AI Agent with the Voice Flow.
     >
     > Contact Center AI Config: **Webex AI Agent (Autonomous)**
     >
-    > Virtual Agent: **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_AutoAI_Lab">Your_Attendee_ID</span>_AutoAI_Lab<span class="copy" title="Click to copy!"></span></span>**
-
-    ![Profiles](../graphics/Lab1/L1M7_AutonomousAI_Flow_AddVAv2.gif)  
+    > Virtual Agent: **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_AutoAI_Lab">Your_Attendee_ID</span>_2000_AutoAI_Lab<span   class="copy" title="Click to copy!"></span></span>**
+    ![Profiles](../graphics/Lab1_AI_Agent/2.49.gif)  
 
 4. Drag and drop following nodes:
 
@@ -51,7 +50,7 @@ Integrate the AI Agent with the Voice Flow.
       > 
       > Select **Static Queue**
       > 
-      > Queue name: **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_Queue">Your_Attendee_ID</span>_Queue<span class="copy" title="Click to copy!"></span></span>**
+      > Queue name: **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Voice_Queue">Your_Attendee_ID</span>_2000_Voice_Queue<span class="copy" title="Click to copy!"></span></span>**
       > 
 
     - **Play Music**
@@ -63,7 +62,8 @@ Integrate the AI Agent with the Voice Flow.
       > 
       > Music File: **defaultmusic_on_hold.wav**
       >
-  
+    ![Profiles](../graphics/Lab1_AI_Agent/2.50.gif)  
+
 5. **Validate** and **Publish** Flow. In popped up window click on dropdown menu to select **Latest** label, then click **Publish**  
 
     ![Profiles](../graphics/Lab1/L1M7_AutonomousAI_Flow_AddQueue.gif)  
