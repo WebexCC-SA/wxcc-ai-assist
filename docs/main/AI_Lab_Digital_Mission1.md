@@ -3,14 +3,15 @@
 icon: material/medal
 ---
 
-<span style="color: red;">[READ ONLY]</span> 
+This entire mission is <span style="color: red;">READ ONLY</span> 
 
 ## Introduction
 
-#### Mission Objective
+## Mission Objective
 
 In this mission, you can review the tasks required to complete the basic web chat configuration. All the configurations shown in this mission are preconfigured for you in this lab. This serves as a reference guide in case you wish to build this integration for your customer in the future.
 
+## Build
 
 ### Task 1. Find your Service.
 1. Login to Webex Connect Portal.
@@ -45,7 +46,7 @@ Go to **Services** and look for the service that you have created earlier. The n
    ![Profiles](../graphics/Lab1_AI_Agent/4.7.png)
 
 
-## Task 3. Create Entry Point for Chat
+### Task 3. Create Entry Point for Chat
 
 1. Login to Control Hub and go to Channels and click on **Create Channel**.
    ![Profiles](../graphics/Lab1_AI_Agent/4.8.png)
@@ -60,7 +61,7 @@ Go to **Services** and look for the service that you have created earlier. The n
 
 
 
-## Task 4. Create Queue for Chat
+### Task 4. Create Queue for Chat
 
 1.  While on the **Control Hub** portal go to Queues and click on **Create a queue**.
    ![Profiles](../graphics/Lab1_AI_Agent/4.11.png)
@@ -77,7 +78,7 @@ Go to **Services** and look for the service that you have created earlier. The n
    ![Profiles](../graphics/Lab1_AI_Agent/4.14.png)
 
 
-## Task 5. Website Widget Configuration
+### Task 5. Website Widget Configuration
 
 1.  Login to Webex Engage Portal.
    ![Profiles](../graphics/Lab1_AI_Agent/4.15.gif)
@@ -138,7 +139,7 @@ Go to **Services** and look for the service that you have created earlier. The n
      ![Profiles](../graphics/Lab1_AI_Agent/4.23.gif)
 
 
-## Task 6. Paste the script to the test website. 
+### Task 6. Paste the script to the test website. 
 
 1. In this lab, we are using the glitch.com platform to test our chat functionality on a sample website. While we have provided prebuilt sample websites for this lab, you also have the option to log in to glitch.com and create your own custom website where you can embed the chat widget.
 
@@ -151,4 +152,4 @@ Go to **Services** and look for the service that you have created earlier. The n
 4. Click on the website preview, and you should see the chat bubble appear in the bottom-right corner.
      ![Profiles](../graphics/Lab1_AI_Agent/4.26.gif)
 
-## 7. Create Chat Inbound Flow
+
