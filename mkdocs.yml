@@ -114,13 +114,13 @@ nav:
             - "Mission 1: Create AI Autonomous Agent": ./main/AIAgentTrack_Mission1.md
             - "Mission 2: Configure Action and create an order": ./main/AI_Lab_Aut_Mission2.md
             - "Mission 3: Upload prebuilt AI Agent. Failover for Mission 2": ./main/AI_Lab_Aut_Mission3.md
-            - "Mission 4: (Not Completed)Integrating the AI Agent with Flow for Voice Calls": ./main/AI_Lab_Aut_MissionX.md
+            - "Mission 4: Integrating the AI Agent with Flow for Voice Calls": ./main/AI_Lab_Aut_MissionX.md
       - Conclusion: ./main/CoreTrack_Conclusion.md
   - AI Features:
       - Lab Guide:
-            ##- "Advacned Call Routing and Flow Simplification by using API Integration Overview": ./main/Lab2.md
-            - "Mission 3: Seamless AI to Human Agent Handoffs": ./main/AIAgentTrack_Mission3.md
-            - "Mission 4: Call Drop Summary": ./main/AI_Assistant_CallDropSummary.md
+            - "Lab overview": ./main/AI_Lab_Overvie.md
+            - "Mission 1: Seamless AI to Human Agent Handoffs": ./main/AIAgentTrack_Mission3.md
+            - "Mission 2: Call Drop Summary": ./main/AI_Assistant_CallDropSummary.md
       - Conclusion: ./main/APITrack_Conclusion.md
   - Integration with Digital Channel:
       - Lab Guide:

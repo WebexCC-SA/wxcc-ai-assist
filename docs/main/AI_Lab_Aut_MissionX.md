@@ -93,4 +93,11 @@ Integrate the AI Agent with the Voice Flow.
 
 4. Dial the support number assigned to your **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel** channel, and during the conversation with the virtual agent, ask to talk to a representetive or live agent. 
 
+5. By default, the **Conversation Transcripts** setting is enabled in VirtualAgentV2 block.
+    ![Profiles](../graphics/Lab1_AI_Agent/2.54.png)
+
+6. With this setting enabled, the live agent can see the conversation details between the caller and the AI agent. Please check if you can view the IVR transcripts during your test calls with Agent Handoff. 
+    ![Profiles](../graphics/Lab1_AI_Agent/2.55.png)
+
+
 <p style="text-align:center"><strong>Congratulations, you have officially completed the Autonomous Virtual Agent lab! 🎉🎉 </strong></p>
