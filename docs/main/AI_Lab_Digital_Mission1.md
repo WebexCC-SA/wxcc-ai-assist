@@ -2,6 +2,9 @@
 #icon: material/folder-open-outline
 icon: material/medal
 ---
+
+<span style="color: red;">[READ ONLY]</span> 
+
 ## Introduction
 
 #### Mission Objective
@@ -20,7 +23,7 @@ Go to **Services** and look for the service that you have created earlier. The n
    ![Profiles](../graphics/Lab1_AI_Agent/4.2.png)
 
 
-2.  Input ***Name*** as Agent Name: **Chat_App_<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000**
+2.  Input ***Name*** as **Chat_App_<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000**
 
 3.  Toggle/enable ***Live Chat / In-AppMessaging*** to ***ON*** and choose ***Primary Transport Protocol*** as **`MQTT`** & ***Secondary Transport Protocol*** as **`Web Socket`** then tick ***Use Secured Port*** checkbox and press ***Save*** button.
    ![Profiles](../graphics/Lab1_AI_Agent/4.3.png)
@@ -76,61 +79,76 @@ Go to **Services** and look for the service that you have created earlier. The n
 
 ## Task 5. Website Widget Configuration
 
--  Login to WxCC Management Portal access the menu and cross launch Engage Portal by choosing ***New Digital Channels***.
+1.  Login to Webex Engage Portal.
+   ![Profiles](../graphics/Lab1_AI_Agent/4.15.gif)
 
 
-
--  Go to ***Assets*** -> search and edit ***Chat_Asset*** which you have created in Connect Portal.
-
-
-
--  Scroll down and click on ***Save Changes*** button.
--  Scroll to top of the page and choose ***Websites*** tab.
--  Click on ***ADD Website***.
+2.  Go to ***Assets*** -> search and edit **Chat_App_<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000** which you have created in Connect Portal.
+   ![Profiles](../graphics/Lab1_AI_Agent/4.16.gif)
 
 
+3. Scroll down and click on ***Save Changes*** button.
+   ![Profiles](../graphics/Lab1_AI_Agent/4.17.gif)
 
--  Fill in the respective fields as per the table below:
-
-| **Parameter Name**                | **Parameter Value**            |
-| ----------------------------- | -------------------------- |
-| Chat Widget Language          | English-US                 |
-| Display Name                  | Webex CC Chat Demo         |
-| Byline Text                   | Web chat of the future     |
-| Button Text                   | Start Chat                 |
-| First message                 | Hello! Welcome to the chat |
-| PCI Compliance Banner Message | This chat is PCI compliant |
-| Domain                        | www.w3schools.com          |
-| Set wait time                 | Disabled                   |
-| Set Chat Announcement         | Enabled                    | 
-
--  Scroll down and click on ***Save changes*** button after comparing your values with the screenshot below.
+4.  Scroll to top of the page and choose ***Websites*** tab. Click on ***ADD Website***.
+   ![Profiles](../graphics/Lab1_AI_Agent/4.18.gif)
 
 
--  Scroll up, select ***Appearance*** and change the settings:
+5.  Fill in the respective fields as per the table below:
+
+    | **Parameter Name**                | **Parameter Value**            |
+    | ----------------------------- | -------------------------- |
+    | Chat Widget Language          | English-US                 |
+    | Display Name                  | Flower Shop                |
+    | Byline Text                   |                            |
+    | Button Text                   | Start Chat                 |
+    | First message                 | Hello! Welcome to the chat |
+    | PCI Compliance Banner Message | This chat is PCI compliant |
+    | Domain                        | *.glitch.me                |
+    | Set wait time                 | Disabled                   |
+    | Set Chat Announcement         | Enabled                    | 
+
+
+6. Review the configurations and **Save changes**
+   ![Profiles](../graphics/Lab1_AI_Agent/4.19.gif)
+
+
+7.  Scroll up, select ***Appearance*** and change the settings:
 	- \[Optional\] Widget Color
 	- \[Optional\] Widget Button Type
 	- \[Optional\[ Logo
 	- Enable Emojis
 	- Enable Attachments
--  Press ***Save changes*** button at the bottom of the page.
+  Press ***Save changes*** button at the bottom of the page.
+     ![Profiles](../graphics/Lab1_AI_Agent/4.20.gif)
 
 
  
--  Scroll up, select ***Widget Visibility*** tab and make sure that ***Force Turn Off Widget*** switch is disabled.  Then select ***Widget Visibility*** as ***Show without any restrictions*** and save changes.
+8.  Scroll up, select ***Widget Visibility*** tab and make sure that ***Force Turn Off Widget*** switch is disabled.  Then select ***Widget Visibility*** as ***Show without any restrictions*** and save changes.
+     ![Profiles](../graphics/Lab1_AI_Agent/4.21.gif)
 
 
 
--  Now click on ***<*** arrow near ***Website Settings*** and go-back to edit your chat asset.
+9.  Now click on ***<*** arrow near ***Website Settings*** and go-back to edit your chat asset.
+     ![Profiles](../graphics/Lab1_AI_Agent/4.22.gif)
 
 
 
-- Select ***Installation*** then click on ***Copy*** to copy the chat script to clipboard.
+10. Select ***Installation*** then click on ***Copy*** to copy the chat script to clipboard.
+     ![Profiles](../graphics/Lab1_AI_Agent/4.23.gif)
 
 
+## Task 6. Paste the script to the test website. 
 
+1. In this lab, we are using the glitch.com platform to test our chat functionality on a sample website. While we have provided prebuilt sample websites for this lab, you also have the option to log in to glitch.com and create your own custom website where you can embed the chat widget.
 
- 
--  Paste copied script into a text editor and save it. We will paste it on web site later.
+2. Login to the glitch.com and go to Dashboards. Select the Project that you have created. 
+     ![Profiles](../graphics/Lab1_AI_Agent/4.24.png)
+
+3. Once open up the project, click on index.html file. Copy the script that you have save in notepad in the prevouse Task and paste it between ***footer*** and ***body*** tags. 
+     ![Profiles](../graphics/Lab1_AI_Agent/4.25.gif)
+
+4. Click on the website preview, and you should see the chat bubble appear in the bottom-right corner.
+     ![Profiles](../graphics/Lab1_AI_Agent/4.26.gif)
 
 ## 7. Create Chat Inbound Flow
