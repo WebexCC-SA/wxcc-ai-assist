@@ -20,3 +20,4 @@ You are designing a Webex AI agent for a flower store. This agent will recommend
 4. AI Agent will generate the order details and total price based on the infrmation in knowledge base</br>
 5. AI Agent will send the information about the order to the third pary system. </br>
 6. Customer will receive email confirmation with the order details. </br>
+7. The customer can always be transferred to a live agent along with the details of the conversation between the AI agent and the caller.</br>
