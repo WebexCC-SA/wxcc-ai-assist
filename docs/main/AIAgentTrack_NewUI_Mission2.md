@@ -3,20 +3,6 @@
 icon: material/medal
 ---
 
-## <span style="color: blue;">**Recommendation**</span></summary>
-**If the AI Agent feature is already enabled on your Gold Tenant via the Beta Portal, we recommend using it there instead of the shared environment. This helps avoid tenant limitations, such as the maximum of 100 configurable AI Agents.**
-
-## Story
-
-The mission is designed to provide a hands-on understanding of creating Cisco Virtual Agents, covering key tasks such as creating a virtual agent using a template, integrating the bot with flow for voice calls, updating bot responses, adding new intents and entities, enhancing training data using generative AI, and leveraging bot transcripts and analytics for insights.
-
-
-### Call Flow Overview
-
-1. A new call enters the flow. </br>
-2. The AI Agent interacts with the caller by asking configured questions. </br>
-3. The AI Agent ends the conversation after collecting all the necessary details. </br>
-
 
 ### Mission Details
 
