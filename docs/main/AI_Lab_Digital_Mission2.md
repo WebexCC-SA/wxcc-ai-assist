@@ -48,6 +48,10 @@ In this mission, you will download the Webex Connect flow and configure it to wo
 5. Go to your Webex Connect Flow, open up **Flow Settings**, click on **Custom Variables** and adjust the appID with the one you copied in the previous step. 
    ![Profiles](../graphics/Lab1_AI_Agent/4.36.gif)
 
+6. For better tracking purposes, also change the **liveChatDomain** in the **Custom Variables** settings from *.glitch.me to the website that is associated with your user account. For example for my test account it is shine-rapid-freesia.glitch.me. For your account please refare the table below. <span style="color: red;">[NEED to Add Table]</span> 
+   ![Profiles](../graphics/Lab1_AI_Agent/4.41.gif)
+
+
 6. Open the first **Receive** node and **Save** it.
    ![Profiles](../graphics/Lab1_AI_Agent/4.37.gif)
 
@@ -56,3 +60,7 @@ In this mission, you will download the Webex Connect flow and configure it to wo
 
 8. **Save** and **Make Live** the flow. On the following page, select the Chat Application that you have created earlier. The name can be **Chat_AI_Agent_<span class="attendee-id-placeholder">Your_Attendee_ID</span>**.
    ![Profiles](../graphics/Lab1_AI_Agent/4.39.gif)
+
+9. If you noticed any error while making the flow Live, please wait until the flow is published and publish it one more time. 
+   ![Profiles](../graphics/Lab1_AI_Agent/4.39.gif)
+
