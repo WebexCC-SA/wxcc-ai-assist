@@ -5,7 +5,6 @@ icon: material/medal
 
 This entire mission is <span style="color: red;">READ ONLY</span> 
 
-## Introduction
 
 ## Mission Objective
 
