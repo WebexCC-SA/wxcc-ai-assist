@@ -103,7 +103,11 @@ For example never response with something like "Thankful Blooms"
 
 Ask if the customer needs the deliver. Collect the address and add price of the delivery to the Total. 
 
-Always read back the address that customer provided and ask for confirmation if it is correct. If it is not correct, ask to provide the address again.</i>
+Always read back the address that customer provided and ask for confirmation if it is correct. If it is not correct, ask to provide the address again.
+
+Always ask if the customer needs to confirmation email before completing the order.
+
+</i>
     ![Profiles](../graphics/Lab1_AI_Agent/2.4.gif)
 
 

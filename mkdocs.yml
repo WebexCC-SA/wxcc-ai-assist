@@ -127,7 +127,7 @@ nav:
             - "Lab overview": ./main/AI_Lab_Digital_Ch_Overview.md
             - "Mission 1 (Read Only): Create Chat Appliction and configure Webex Engage": ./main/AI_Lab_Digital_Mission1.md
             - "Mission 2: Upload and configure Webex Connect flow": ./main/AI_Lab_Digital_Mission2.md
-            - "Mission 3: Test": ./main/CallbackTrack_Mission4.md
+            - "Mission 3: Test the AI Agent integration with the Digital Channel": ./main/AI_Lab_Digital_Mission3.md
       - Conclusion: ./main/CallbackTrack_Conclusion.md
   - IVR Campaign:
       - Lab Guide:
