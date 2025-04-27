@@ -6,31 +6,30 @@ icon: material/medal
 
 ### Mission Details
 
-This mission is designed to provide an in-depth understanding of the Webex AI Agents available in Webex Contact Center. By completing this section of the lab, you will:
+This mission is designed to provide an in-depth understanding of the Scripted AI Agents. By completing this section of the lab, you will:
 
-- Gain practical skills and knowledge on how to effectively utilize Webex Contact Center's AI capabilities to create self-service automation.v
+- Gain practical skills and knowledge on how to effectively utilize Scripted AI Agent to create self-service automation.
 - Improve the containment rate of your contact center, increasing efficiency and reducing costs.
-- Learn how to create an effective AI Voice solution using Cisco's Webex Connect Bot builder platform and Webex Contact Center Flow Designer.
-- Understand the use of Generative AI to fast-track bot development and save time.
-- Troubleshoot AI Agent functionality to enhance performance.
+- Understand the use of Generative AI to fast-track AI Agent development and save time.
+- Troubleshoot the Scipted AI Agent functionality to enhance performance.
 
 ### Build
 
 #### Creating a AI Agent using a Template
 
-0. <span style="color: red;">[IMPORTANT]</span> [Download](https://drive.google.com/drive/folders/1b8x_om4rQonuJ52wRYif1LPP5qEX4RDI?usp=sharing){:target="_blank"} source file from shared folder.
+1. <span style="color: red;">[IMPORTANT]</span> Download the [Scripted Agent](https://cisco.box.com/s/vl6ugdvm7p7lx2cqdkhhxrluu1oog165){:target="_blank"}.
     
     > 
-    > **TaskBot.json** - The Appointment Booking template for the AI Agent in Webex Contact Center enables customers to schedule, reschedule, or cancel appointments through an AI-powered virtual agent, integrating with backend systems for real-time availability and confirmations.
+    > **ScriptedAIAgent.json** - The Appointment Booking template for the AI Agent in Webex Contact Center enables customers to schedule, reschedule, or cancel appointments through an AI-powered virtual agent, integrating with backend systems for real-time availability and confirmations.
     >
 
-1. Login into [Webex Control Hub](https://admin.webex.com){:target="_blank"} by using your Admin profile **wxcclabs+admin_ID<span class="attendee-id-placeholder">Your_Attendee_ID</span>@gmail.com**. You will see another login screen with OKTA on it where you may need to enter the email address again and the password provided to you.
+2. Login into [Webex Control Hub](https://admin.webex.com){:target="_blank"} by using your Admin profile **wxcclabs+admin_ID<span class="attendee-id-placeholder">Your_Attendee_ID</span>@gmail.com**. You will see another login screen with OKTA on it where you may need to enter the email address again and the password provided to you.
 
-2. Go to Contact Center from the left side navigation panel, and under Quick Links, click on **Webex AI Agent**
+3. Go to Contact Center from the left side navigation panel, and under Quick Links, click on **Webex AI Agent**
 
     ![Profiles](../graphics/AI_Track/AI_Scripted_OpenWebexAI.gif)  
 
-3. Click on **Import agent** to create a new bot by importing preconfigured template. Click on **Upload** button, locate and select **TaskBot.json** you downloaded at the beginning of the mission..
+3. Click on **Import agent** to create a new AI Agent by importing preconfigured template. Click on **Upload** button, locate and select **ScriptedAIAgent.json** you downloaded at the beginning of the mission.
 4. Name your Agent as **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_TaskBot">Your_Attendee_ID</span>_TaskBot<span class="copy" title="Click to copy!"></span></span>** and click **Import**
 5. Make the bot live by clicking on the **Publish** button on the top right.
 6. Enter **v1** in the popup window, then click **Publish**.
