@@ -15,7 +15,7 @@ This mission is designed to provide an in-depth understanding of the Scripted AI
 
 ### Build
 
-#### Creating a AI Agent using a Template
+#### Task 1. Creating a AI Agent using a Template
 
 1. <span style="color: red;">[IMPORTANT]</span> Download the [Scripted Agent](https://cisco.box.com/s/vl6ugdvm7p7lx2cqdkhhxrluu1oog165){:target="_blank"}.
     
@@ -30,11 +30,10 @@ This mission is designed to provide an in-depth understanding of the Scripted AI
     ![Profiles](../graphics/AI_Track/AI_Scripted_OpenWebexAI.gif)  
 
 3. Click on **Import agent** to create a new AI Agent by importing preconfigured template. Click on **Upload** button, locate and select **ScriptedAIAgent.json** you downloaded at the beginning of the mission.
-4. Name your Agent as **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_TaskBot">Your_Attendee_ID</span>_TaskBot<span class="copy" title="Click to copy!"></span></span>** and click **Import**
+4. Name your Agent as **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_Scripted_AI">Your_Attendee_ID</span>_Scripted_AI<span class="copy" title="Click to copy!"></span></span>** and click **Import**
 5. Make the bot live by clicking on the **Publish** button on the top right.
 6. Enter **v1** in the popup window, then click **Publish**.
-
-    ![Profiles](../graphics/AI_Track/AI_Scripted_TaskBot_Create.gif)  
+    ![Profiles](../graphics/Lab1_AI_Agent/5.1.gif)
 
 7. Click on the **Preview** button on the top right side to test the bot. Try the bot flow by typing ***"I would like to cancel an appointment"***<span class="copy-static" title="Click to copy!" data-copy-text="I would like to cancel an appointment"><span class="copy"></span></span>
 
@@ -51,17 +50,16 @@ This mission is designed to provide an in-depth understanding of the Scripted AI
         **You**: yes</br>
         **AI Agent**: Your appointment for 20/01/2025 at 15:00 is cancelled.</br>
 
-    ![Profiles](../graphics/AI_Track/AI_Scripted_TaskBot_Preview.gif)  
+    ![Profiles](../graphics/Lab1_AI_Agent/5.2.gif)
 
 ---
 
-#### Integrating the Bot with Flow for Voice Calls
+#### Task 2. Integrating the Bot with Flow for Voice Calls
 
 1. In Control Hub navigate to **Flows**, click on **Manage Flows** dropdown list and select **Create Flows**
 
-2. Select **Start Fresh** and name the new flow **<span class="attendee-id-container">TaskBot_Flow_<span class="attendee-id-placeholder" data-prefix="TaskBot_Flow_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>**.
-
-    ![Profiles](../graphics/Lab1/L1M6_TaskBot_CreateFlow.gif)  
+2. Select **Start Fresh** and name the new flow **<span class="attendee-id-container">Scripted_AI_Flow_<span class="attendee-id-placeholder" data-prefix="Scripted_AI_Flow_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>**.
+    ![Profiles](../graphics/Lab1_AI_Agent/5.3.gif) 
 
 3. Make sure the **Edit** mode at the top is set to **ON**. Then, drag and drop the **Virtual Agent V2** and **DisconnectContact** activity from the left panel onto the canvas.
 
@@ -80,26 +78,25 @@ This mission is designed to provide an in-depth understanding of the Scripted AI
     >
     > Contact Center AI Config: **Webex AI Agent (Scripted)**
     >
-    > Virtual Agent: **<span class="attendee-id-placeholder" data-suffix="_TaskBot">Your_Attendee_ID</span>_TaskBot**
+    > Virtual Agent: **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_Scripted_AI">Your_Attendee_ID</span>_Scripted_AI<span class="copy" title="Click to copy!"></span></span>**
 
 
 4. On bottom right corner toggle **Validation** from **Off** to **On**
 5.  Click **Publish** Flow. In Popped up window click on dropdown menu to select **Latest** label, then click **Publish**
+    ![Profiles](../graphics/Lab1_AI_Agent/5.4.gif) 
 
-    ![Profiles](../graphics/Lab1/L1M6_TaskBot_FlowAddVA.gif)  
-
-6. Assign the Flow to your **Channel (Entry Point)** - Do this by first going to **Channel**, search for your channel **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_Channel">Your_Attendee_ID</span>_Channel<span class="copy" title="Click to copy!"></span></span>**.
-7. Click on **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_Channel**
+6. Assign the Flow to your **Channel (Entry Point)** - Do this by first going to **Channel**, search for your channel **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Channel">Your_Attendee_ID</span>_2000_Channel<span class="copy" title="Click to copy!"></span></span>**.
+7. Click on **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel**
 8. In **Entry Point** Settings section change the following:
 
-    > Routing Flow: **<span class="attendee-id-container">TaskBot_Flow_<span class="attendee-id-placeholder" data-prefix="TaskBot_Flow_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>**
+    > Routing Flow: **<span class="attendee-id-container">Scripted_AI_Flow_<span class="attendee-id-placeholder" data-prefix="Scripted_AI_Flow_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>**
 
     > Version Label: **Latest**
 
-    ![Profiles](../graphics/Lab1/L1M6_TaskBot_FlowtoEP.gif)  
+    ![Profiles](../graphics/Lab1_AI_Agent/5.5.gif)
 
 
-9. Dial Support Number assigned to your **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_Channel** to test the Virtual Agent over a voice call.
+9. Dial Support Number assigned to your **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel** to test the Virtual Agent over a voice call.
 
 ---
 
