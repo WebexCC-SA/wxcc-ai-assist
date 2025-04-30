@@ -17,7 +17,7 @@ This mission is designed to provide an in-depth understanding of the Scripted AI
 
 #### Task 1. Creating a AI Agent using a Template
 
-1. <span style="color: red;">[IMPORTANT]</span> Download the [Scripted Agent](https://cisco.box.com/s/vl6ugdvm7p7lx2cqdkhhxrluu1oog165){:target="_blank"}.
+1. <span style="color: red;">[IMPORTANT]</span> Download the [Scripted Agent](https://cisco.box.com/shared/static/3s198j4u8ukmjc230yugr2kkx9el12s9.json){:target="_blank"}.
     
     > 
     > **ScriptedAIAgent.json** - The Appointment Booking template for the AI Agent in Webex Contact Center enables customers to schedule, reschedule, or cancel appointments through an AI-powered virtual agent, integrating with backend systems for real-time availability and confirmations.
@@ -121,16 +121,16 @@ In this step, we will learn how to update bot responses and test these changes, 
     >
     > Update the text to ***"Welcome to Cumulus Healthcare. We are here to help. How may I assist you today?"***<span class="copy-static" title="Click to copy!" data-copy-text="Welcome to Cumulus Healthcare. We are here to help. How may I assist you today?"><span class="copy"></span></span> for the Default (web) channel.
     >
-    > Switch to the Voice Channel and update the text to ***""Welcome to Cumulus Healthcare. We are here to help. How may I assist you today?"***<span class="copy-static" title="Click to copy!" data-copy-text="Welcome to Cumulus Healthcare. We are here to help. How may I assist you today?"><span class="copy"></span></span>
+    > Switch to the Voice Channel and update the text to ***"Welcome to Cumulus Healthcare. We are here to help. How may I assist you today?"***<span class="copy-static" title="Click to copy!" data-copy-text="Welcome to Cumulus Healthcare. We are here to help. How may I assist you today?"><span class="copy"></span></span>
     >
     > Click on the **Save** button to confirm the changes. Make the bot live by clicking on the **Publish** button. Add a version name on pop-up window and click **Publish** again. 
 
-    ![Profiles](../graphics/Lab1_AI_Agent/5.7.gif)
+    ![Profiles](../graphics/Lab1_AI_Agent/5.15.gif)
 
 
 5. Click on **Preview** to test if the Greeting has been successfully updated.
 
-    ![Profiles](../graphics/Lab1_AI_Agent/5.8.gif)
+    ![Profiles](../graphics/Lab1_AI_Agent/5.16.gif)
 
 ---
 
@@ -140,12 +140,12 @@ In this step, we will learn how to add new intents and entities to enhance the b
 
 
 1. While on the **Script** configuration page, switch to **Intents** tab and click on the **Create Intent** button located in the top right corner.
-2. Add a new intent by providing the intent name as ***ReferralRequest_***<span class="copy-static" title="Click to copy!" data-copy-text="ReferralRequest_"><span class="copy"></span></span> and include the following two utterances:
+2. Add a new intent by providing the intent name as ***ReferralRequest***<span class="copy-static" title="Click to copy!" data-copy-text="ReferralRequest"><span class="copy"></span></span> and include the following two utterances:
 
     - ***I would like a referral for a cardiologist.***<span class="copy-static" title="Click to copy!" data-copy-text="I would like a referral for a cardiologist."><span class="copy"></span></span>
     - ***I need a referral to visit a neurologist.***<span class="copy-static" title="Click to copy!" data-copy-text="I need a referral to visit a neurologist."><span class="copy"></span></span>
 
-    ![Profiles](../graphics/Lab1_AI_Agent/5.9.gif)
+    ![Profiles](../graphics/Lab1_AI_Agent/5.17.gif)
 
 3. Click on **+ Link** and add **patient phone number** as an entity.
 
@@ -154,7 +154,7 @@ In this step, we will learn how to add new intents and entities to enhance the b
     >
     > Select the template key as **askPhoneNumber**, which will be used to prompt the patient for their phone number.
 
-    ![Profiles](../graphics/Lab1_AI_Agent/5.10.gif)    
+    ![Profiles](../graphics/Lab1_AI_Agent/5.18.gif)    
 
 4. Again, click on **+ Link** and add **patient dob** (date of birth) 
 
@@ -163,10 +163,10 @@ In this step, we will learn how to add new intents and entities to enhance the b
     > 
     > Select the template key as **askPatientDob**. When this intent is matched, it will trigger the Virtual Agent to ask the user to provide their phone number and date of birth for verification purposes.
 
-    ![Profiles](../graphics/Lab1_AI_Agent/5.11.gif)  
+    ![Profiles](../graphics/Lab1_AI_Agent/5.19.gif)  
 
 
-6. On the same page in **Response** section at the bottom, click on **Select a response** drop down list and scroll down to **Create new**.
+5. On the same page in **Response** section at the bottom, click on **Select a response** drop down list and scroll down to **Create new**.
 
     > 
     > Template key: **ReferralResp_**<span class="copy-static" title="Click to copy!" data-copy-text="ReferralResp_"><span class="copy"></span></span>
@@ -180,23 +180,22 @@ In this step, we will learn how to add new intents and entities to enhance the b
     >> In the Text section replace the text with: ***Your request has been logged and will be reviewed by our team. You will receive a callback once it's approved. Is there anything else I can assist you with?***<span class="copy-static" title="Click to copy!" data-copy-text="Your request has been logged and will be reviewed by our team. You will receive a callback once it's approved. Is there anything else I can assist you with?"><span class="copy"></span></span>
     >
     > Click on **Create**.
-    ![Profiles](../graphics/Lab1_AI_Agent/5.12.gif)
+    > Click on **Add**.
+    ![Profiles](../graphics/Lab1_AI_Agent/5.20.gif)
 
-7. Click on **Add**.
+ 6. Click on the **Save Changes** button to confirm the changes. Make the bot live by clicking on the **Publish** button. Add a version name on pop-up window and click **Publish** again. 
 
- 8. Click on the **Save Changes** button to confirm the changes. Make the bot live by clicking on the **Publish** button. Add a version name on pop-up window and click **Publish** again. 
-
-    ![Profiles](../graphics/Lab1_AI_Agent/5.13.gif)
+    ![Profiles](../graphics/Lab1_AI_Agent/5.21.gif)
 
 
-9. Use the **Preview** feature to test the bot flow with the input query: ***I need a referral for a cardiologist***<span class="copy-static" title="Click to copy!" data-copy-text="I need a referral for a cardiologist"><span class="copy"></span></span>.</br>
+7. Use the **Preview** feature to test the bot flow with the input query: ***I need a referral for a cardiologist***<span class="copy-static" title="Click to copy!" data-copy-text="I need a referral for a cardiologist"><span class="copy"></span></span>.</br>
 10. You can also test this interaction in voice mode by dialing the Supported Number assigned to your pod.
 
-    ![Profiles](../graphics/AI_Track/AIScripted_NewIntentPreview.gif) 
+    ![Profiles](../graphics/Lab1_AI_Agent/5.22.gif)
 
 ---
 
-#### Adding Training Data using Generative AI
+#### Task 5. Adding Training Data using Generative AI
 
 In this step, we will learn how to enhance the bot's capabilities by adding training data using generative AI and validate the changes by making a call.
 
@@ -210,12 +209,12 @@ In this step, we will learn how to enhance the bot's capabilities by adding trai
 
 5. Click on the **Save Changes** button to confirm the changes. Make the bot live by clicking on the **Publish** button. Add a version name on pop-up window and click **Publish** again. 
 
-     ![Profiles](../graphics/AI_Track/AIScripted_CreateGenAIIntent.gif)  
+    ![Profiles](../graphics/Lab1_AI_Agent/5.23.gif)
 
 
 6. Test the updated bot flow by using the **Preview** button and inputting queries related to the new training data.
 
-     ![Profiles](../graphics/AI_Track/AIScripted_PreviewGenAI.gif)
+    ![Profiles](../graphics/Lab1_AI_Agent/5.24.gif)
 
 ---
 
@@ -229,13 +228,13 @@ In this step, we will explore how to access and analyze bot transcripts and anal
 
 3. Review the transcript for the selected interaction to gain insights into how the conversation unfolded.
 
-    ![Profiles](../graphics/AI_Track/AIScripted_AnalyzeSession.gif)
+    ![Profiles](../graphics/Lab1_AI_Agent/5.25.gif)
 
 4. Click on individual messages from the user to examine the intents and entities identified by the Virtual Agent during the conversation.
 
 5. By carefully analyzing these transcripts and analytics, you can identify areas for improvement, understand user behavior, and refine the Virtual Agent's performance accordingly. 
 
-    ![Profiles](../graphics/AI_Track/AIScripted_AnalyzeDeepDive.gif)
+    ![Profiles](../graphics/Lab1_AI_Agent/5.25.gif)
 
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed the Cisco Virtual Agent mission! 🎉🎉 </strong></p>
