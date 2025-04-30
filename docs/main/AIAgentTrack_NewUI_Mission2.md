@@ -17,7 +17,7 @@ This mission is designed to provide an in-depth understanding of the Scripted AI
 
 #### Task 1. Creating a AI Agent using a Template
 
-1. <span style="color: red;">[IMPORTANT]</span> Download the [Scripted Agent](https://cisco.box.com/shared/static/3s198j4u8ukmjc230yugr2kkx9el12s9.json){:target="_blank"}.
+1. <span style="color: red;">[IMPORTANT]</span> Download the [Scripted Agent](https://cisco.box.com/shared/static/q636qc41q0brifn0h8anbfug7duq3536.json){:target="_blank"}.
     
     > 
     > **ScriptedAIAgent.json** - The Appointment Booking template for the AI Agent in Webex Contact Center enables customers to schedule, reschedule, or cancel appointments through an AI-powered virtual agent, integrating with backend systems for real-time availability and confirmations.
