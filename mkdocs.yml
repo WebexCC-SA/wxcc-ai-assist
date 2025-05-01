@@ -116,11 +116,13 @@ nav:
             - "Mission 3: Upload prebuilt AI Agent. Failover for Mission 2": ./main/AI_Lab_Aut_Mission3.md
             - "Mission 4: Integrating the AI Agent with Flow for Voice Calls": ./main/AI_Lab_Aut_MissionX.md
       - Conclusion: ./main/CoreTrack_Conclusion.md
-  - AI Features:
+  - AI Assistant:
       - Lab Guide:
             - "Lab overview": ./main/AI_Lab_Features_Overview.md
-            - "Mission 1: Seamless AI to Human Agent Handoffs": ./main/AIAgentTrack_Mission3.md
-            - "Mission 2: Call Drop Summary": ./main/AI_Assistant_CallDropSummary.md
+            - "Mission 1: Configure AI Agent Transfer Summary": ./main/AI_Lab_Assist_Mission1.md
+            - "Mission 2: Real Time Transcript": ./main/AIAgentTrack_Mission3.md
+            - "Mission 3: Routing based on intent": ./main/AIAgentTrack_Mission3.md
+            - "Mission 4: Call Drop Summary": ./main/AI_Assistant_CallDropSummary.md
       - Conclusion: ./main/APITrack_Conclusion.md
   - Integration with Digital Channel:
       - Lab Guide:
