@@ -43,7 +43,7 @@ Your mission is to:
    ![Profiles](../graphics/Lab1_AI_Agent/3.4.png) 
     <br/>Desktop Layout file: Make sure **RT_TRANSCRIPT** widget is configured. 
    ![Profiles](../graphics/Lab1_AI_Agent/3.11.png) 
-   <br/>Desktop Layout file: You can download preconfigured desktop layout here.
+   <br/>You can download preconfigured desktop layout here.
    [Desktop Layout](https://cisco.box.com/shared/static/o4nrnjengm6od7coql9etz3a3lwzvw1w.json){:target="_blank"}
 
 ### Task 2. Test Agent Transfer Summary Feature

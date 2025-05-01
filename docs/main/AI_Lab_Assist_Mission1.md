@@ -34,10 +34,15 @@ Your mission is to:
    ![Profiles](../graphics/Lab1_AI_Agent/3.4.png) 
     <br/>Desktop Layout file: Make sure **ai-assistant** is configured under the **advancedHeader**
    ![Profiles](../graphics/Lab1_AI_Agent/3.5.png)
-    <br/>Desktop Layout file: You can download preconfigured desktop layout here.
+    <br/>You can download preconfigured desktop layout here.
    [Desktop Layout](https://cisco.box.com/shared/static/o4nrnjengm6od7coql9etz3a3lwzvw1w.json){:target="_blank"} 
 
-### Task 2. Test Agent Transfer Summary Feature
+
+### Task 2. Configure Flow for real-time transcripts
+
+
+
+### Task 3. Test Agent Transfer Summary Feature
 
 1. Login to the Agent Deskopt and make sure you can see Agent Assistant widgit
    ![Profiles](../graphics/Lab1_AI_Agent/3.6.png)
