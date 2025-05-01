@@ -21,10 +21,10 @@ Benefits:
 
 Your mission is to:
 
-1. Configure a smoth handoff to live human agent from AI Agent.
-2. Modify Virtual Agent transcript
-3. Configure routing based on last used intent
-4. Use AI Assistant
+1. Enable Real-Time Transcript feautre
+2. Configure flow with **Start Media Stream** block
+3. Test Real-Time Transcript feature
+
 
 ## Build
 
