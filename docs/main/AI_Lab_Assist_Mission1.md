@@ -23,7 +23,7 @@ Your mission is to:
 
 1. You should purchase the new AI Assistant SKU **A-FLEX-AI-ASST** from CCW.
 
-2. Once you purchas the offer, admins with the appropriate profile and access controls will be able to see the AI Assistant menu in Control Hub. Post purchasing the offer, the customer can enable/disable the summary features from the Control Hub.
+2. Once you purchas the offer, admins with the appropriate profile and access controls will be able to see the AI Assistant menu in Control Hub. Post purchasing the offer, the customer can enable/disable the **Virtual Agent Transfer Summary** features from the Control Hub.
    ![Profiles](../graphics/Lab1_AI_Agent/3.1.png)
 
 
@@ -33,7 +33,9 @@ Your mission is to:
     <br/>Desktop Layout:
    ![Profiles](../graphics/Lab1_AI_Agent/3.4.png) 
     <br/>Desktop Layout file: Make sure **ai-assistant** is configured under the **advancedHeader**
-   ![Profiles](../graphics/Lab1_AI_Agent/3.5.png) 
+   ![Profiles](../graphics/Lab1_AI_Agent/3.5.png)
+    <br/>Desktop Layout file: You can download preconfigured desktop layout here.
+   [Desktop Layout](https://cisco.box.com/shared/static/o4nrnjengm6od7coql9etz3a3lwzvw1w.json){:target="_blank"} 
 
 ### Task 2. Test Agent Transfer Summary Feature
 
