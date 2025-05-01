@@ -121,8 +121,8 @@ nav:
             - "Lab overview": ./main/AI_Lab_Features_Overview.md
             - "Mission 1: Configure AI Agent Transfer Summary": ./main/AI_Lab_Assist_Mission1.md
             - "Mission 2: Real Time Transcript": ./main/AI_Lab_Assist_Mission2.md
-            - "Mission 3: Routing based on intent": ./main/AIAgentTrack_Mission3.md
-            - "Mission 4: Call Drop Summary": ./main/AI_Assistant_CallDropSummary.md
+            - "Mission 3: (Not Completed)Routing based on intent": ./main/AIAgentTrack_Mission3.md
+            - "Mission 4: (Not Completed)Call Drop Summary": ./main/AI_Assistant_CallDropSummary.md
       - Conclusion: ./main/APITrack_Conclusion.md
   - Integration with Digital Channel:
       - Lab Guide:

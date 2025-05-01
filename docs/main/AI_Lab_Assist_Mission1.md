@@ -38,16 +38,12 @@ Your mission is to:
    [Desktop Layout](https://cisco.box.com/shared/static/o4nrnjengm6od7coql9etz3a3lwzvw1w.json){:target="_blank"} 
 
 
-### Task 2. Configure Flow for real-time transcripts
-
-
-
-### Task 3. Test Agent Transfer Summary Feature
+### Task 2. Test Agent Transfer Summary Feature
 
 1. Login to the Agent Deskopt and make sure you can see Agent Assistant widgit
    ![Profiles](../graphics/Lab1_AI_Agent/3.6.png)
 
-2. Confirm that your Channel is still configured with the flow that includes the Autonomous AI agent, and the "Escalated" output is connected to the Queue node. This configuration is expected to remain the same as in the Autonomous AI Agent lab.
+2. Confirm that your Channel **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel** is still configured with the flow **<span class="attendee-id-container">AutonomousAI_Flow_2000_<span class="attendee-id-placeholder" data-prefix="AutonomousAI_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>** that includes the Autonomous AI agent, and the **Escalated** output is connected to the Queue node. This configuration is expected to remain the same as in the Autonomous AI Agent lab.
    ![Profiles](../graphics/Lab1_AI_Agent/3.7.gif)
 
 3. Place a test call and, for example, mention that you need some flowers for a wedding party. **Allow the AI Agent to complete its response before requesting to transfer the call to a live or human agent**. 

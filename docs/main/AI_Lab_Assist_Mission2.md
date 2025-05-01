@@ -46,10 +46,31 @@ Your mission is to:
    <br/>You can download preconfigured desktop layout here.
    [Desktop Layout](https://cisco.box.com/shared/static/o4nrnjengm6od7coql9etz3a3lwzvw1w.json){:target="_blank"}
 
-### Task 2. Test Agent Transfer Summary Feature
 
-1. Login to the Agent Deskopt and make sure you can see Agent Assistant widgit
-   ![Profiles](../graphics/Lab1_AI_Agent/3.6.png)
+### Task 2. Configure Flow for real-time transcripts
 
-2. Confirm that your Channel is still configured with the flow that includes the Autonomous AI agent, and the "Escalated" output is connected to the Queue node. This configuration is expected to remain the same as in the Autonomous AI Agent lab.
+1. Open up your voice flow **<span class="attendee-id-container">AutonomousAI_Flow_2000_<span class="attendee-id-placeholder" data-prefix="AutonomousAI_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>** and click on **Edit**.
+   ![Profiles](../graphics/Lab1_AI_Agent/3.12.gif) 
+
+2. Click on the **Event Flow**.
+   ![Profiles](../graphics/Lab1_AI_Agent/3.13.gif) 
+
+3. Drag and drop **Start Media Stream** node and connect **AgentAnswer** node to the **Start Media Stream** node. 
+4. Drag and drop **End Flow** node and connect **Start Media Stream** to **End Flow**.
+5. Validate and Publish the flow. 
+   ![Profiles](../graphics/Lab1_AI_Agent/3.14.gif) 
+
+### Task 3. Test Agent Transfer Summary Feature
+
+1. Login to the Agent Deskopt.
+   ![Profiles](../graphics/Lab1_AI_Agent/3.15.png)
+
+2. Confirm that your Channel **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel** is still configured with the flow **<span class="attendee-id-container">AutonomousAI_Flow_2000_<span class="attendee-id-placeholder" data-prefix="AutonomousAI_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>** that includes the Autonomous AI agent, and the **Escalated** output is connected to the Queue node. This configuration is expected to remain the same as in the Autonomous AI Agent lab.
    ![Profiles](../graphics/Lab1_AI_Agent/3.7.gif)
+
+3. Place a test call and ask to talk to an agent. 
+
+4. Become Available on the Agent Desktop and answer the call. You will see the Live Transcripts window with the latest live transcripts between the caller and the human agent.
+   ![Profiles](../graphics/Lab1_AI_Agent/3.16.png)
+
+<p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
