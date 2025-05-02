@@ -5,19 +5,15 @@ icon: material/medal
 
 
 
-# Mission 4: AI Assistant - Call Drop Summary..
+# Mission 4: AI Assistant - Call Drop Summary
 
-## Story
+## Feature Description
 
-As the agent answers the call, a Webex Contact Center AI popup appears, summarizing the previous conversation before the call was dropped. Armed with this insight, the agent seamlessly picks up where they left off, ensuring a smooth customer experience.
+Customers find it frustrating to repeat themselves, especially after a call drop. Now, agents can pick up where the call left off, reducing frustration and handling time, while empowering agents to work more efficiently.
 
-### Call Flow Overview
+The Cisco AI Assistant provides a summary of the recently dropped interaction, detailing the reason for the call and the last action discussed. This enables agents to seamlessly resume the conversation.
 
-1. You are going to use your <span class="attendee-id-container">**Main_Flow_<span class="attendee-id-placeholder" data-prefix="Main_Flow_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>** to test Call Drop Summary. </br>
-2. To simulate one of the required Termination Types your agent will transfer the call to a "dummy" queue with no agents avaialble in it.
-3. After second call to your agent Call Drop Summary will popup.</br>
-
-## Mission overview
+## Mission Details
 Your mission is to:
 
 1. The current mission does not include any configuration steps, but rather testing only.</br>
