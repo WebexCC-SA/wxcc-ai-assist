@@ -120,9 +120,8 @@ nav:
       - Lab Guide:
             - "Lab overview": ./main/AI_Lab_Features_Overview.md
             - "Mission 1: Configure AI Agent Transfer Summary": ./main/AI_Lab_Assist_Mission1.md
-            - "Mission 2: (Not Completed)Call Drop Summary": ./main/AI_Assistant_CallDropSummary.md
-            - "Mission 3: Real Time Transcript": ./main/AI_Lab_Assist_Mission2.md
-            - "Mission 4: (Not Completed)Routing based on intent": ./main/AIAgentTrack_Mission3.md
+            - "Mission 2: Call Drop Summary": /main/AI_Lab_Assist_Mission_2.md
+            - "Mission 3: Real Time Transcript": ./main/AI_Lab_Assist_Mission3.md
       - Conclusion: ./main/APITrack_Conclusion.md
   - Integration with Digital Channel:
       - Lab Guide:
@@ -141,6 +140,7 @@ nav:
       - Lab Guide:
             - "Lab overview": ./main/AI_Lab_Scripted_Overview.md
             - "Mission 1: Scripted AI Agent in Action": ./main/AIAgentTrack_NewUI_Mission2.md
+            - "Mission 4: (Not Completed)Routing based on intent": ./main/AIAgentTrack_Mission3.md
 ###            - "Hint for Final Challenge Mission!": ./main/FinalBossFight_Hint1.md
 ###            - "Solution Guidance for Final Challenge Fight Mission!": ./main/FinalBossFight_Solution.md
   - Quick Links: quicklinks.md
