@@ -124,7 +124,7 @@ nav:
             - "Mission 3: Real Time Transcript": ./main/AI_Lab_Assist_Mission3.md
             - "Mission 4: AutoCSAT": ./main/AI_Lab_Assist_AutoCSAT.md
       - Conclusion: ./main/APITrack_Conclusion.md
-  - Integration with Digital Channel:
+  - (BONUS) Integration with Digital Channel:
       - Lab Guide:
             - "Lab overview": ./main/AI_Lab_Digital_Ch_Overview.md
             - "Mission 1 (Read Only): Create Chat Appliction and configure Webex Engage": ./main/AI_Lab_Digital_Mission1.md
