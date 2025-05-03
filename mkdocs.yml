@@ -107,7 +107,7 @@ nav:
       - Lab Guide:
             - "Lab overview": ./main/AI_Lab_Topic_Overview.md
             - "Mission 1: Explore Topic Analytics": ./main/AI_Lab_Topic_Mission1.md
-      - Conclusion: ./main/CoreTrack_Conclusion.md
+      - Conclusion: ./main/AI_Lab_Topic_Conclusion.md
   - Autonomouse AI Agent:
       - Lab Guide:
             - "Lab overview": ./main/AI_Lab_Overview.md
@@ -119,9 +119,10 @@ nav:
   - AI Assistant:
       - Lab Guide:
             - "Lab overview": ./main/AI_Lab_Features_Overview.md
-            - "Mission 1: Configure AI Agent Transfer Summary": ./main/AI_Lab_Assist_Mission1.md
+            - "Mission 1: AI Agent Transfer Summary": ./main/AI_Lab_Assist_Mission1.md
             - "Mission 2: Call Drop Summary": ./main/AI_Lab_Assist_Mission_2.md
             - "Mission 3: Real Time Transcript": ./main/AI_Lab_Assist_Mission3.md
+            - "Mission 4: AutoCSAT": ./main/AI_Lab_Assist_AutoCSAT.md
       - Conclusion: ./main/APITrack_Conclusion.md
   - Integration with Digital Channel:
       - Lab Guide:
