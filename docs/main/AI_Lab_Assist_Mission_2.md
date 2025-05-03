@@ -21,7 +21,7 @@ Understand the provisioning process and Control Hub settings required to activat
 1. You should purchase the new AI Assistant SKU **A-FLEX-AI-ASST** from CCW.
 
 2. Once you purchas the offer, admins with the appropriate profile and access controls will be able to see the AI Assistant menu in Control Hub. Post purchasing the offer, the customer can enable/disable the **Virtual Agent Transfer Summary** features from the Control Hub.
-   ![Profiles](../graphics/Lab1_AI_Agent/3.1.png)
+   ![Profiles](../graphics/Lab1_AI_Agent/3.18.png)
 
 
 3. The Agent needs to logged in to the Team that is configured with Desktop Layout that has AS 
@@ -36,3 +36,21 @@ Understand the provisioning process and Control Hub settings required to activat
 
 
 ### Task 2. Test Call Drop Summary Feature
+
+1. Login to the Agent Deskopt.
+   ![Profiles](../graphics/Lab1_AI_Agent/3.15.png)
+
+2. Confirm that your Channel **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel** is still configured with the flow **<span class="attendee-id-container">AutonomousAI_Flow_2000_<span class="attendee-id-placeholder" data-prefix="AutonomousAI_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>** that includes the Autonomous AI agent, and the **Escalated** output is connected to the Queue node. This configuration is expected to remain the same as in the Autonomous AI Agent lab.
+   ![Profiles](../graphics/Lab1_AI_Agent/3.7.gif)
+
+3. Place a test call and ask to talk to an agent. 
+
+4. Become Available on the Agent Desktop and answer the call. Stay on the call for 35 - 45 seconds and then disconnect form the caller side. 
+   ![Profiles](../graphics/Lab1_AI_Agent/3.19.png)
+
+5. Call back from the same number. Ask to talk to an agnet. 
+
+6. Become Available on the Agnet Desktop and answer the call. You will see AI Assistant Widgit will have Call Drop Summary and the Agent Transfer Summary.
+   ![Profiles](../graphics/Lab1_AI_Agent/3.20.png)
+
+<p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
