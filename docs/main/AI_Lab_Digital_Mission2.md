@@ -3,7 +3,6 @@
 icon: material/medal
 ---
 
-## Introduction
 
 ## Mission Objective
 

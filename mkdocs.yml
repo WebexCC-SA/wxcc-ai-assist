@@ -124,26 +124,29 @@ nav:
             - "Mission 3: Real Time Transcript": ./main/AI_Lab_Assist_Mission3.md
             - "Mission 4: AutoCSAT": ./main/AI_Lab_Assist_AutoCSAT.md
       - Conclusion: ./main/APITrack_Conclusion.md
+  - New Scripted AI Agent:
+      - Lab Guide:
+            - "Lab overview": ./main/AI_Lab_Scripted_Overview_New.md
+            - "Mission 1: Scripted AI Agent in Action": ./main/AI_Lab_Scripted_Mission1.md
+          #  - "Mission 4: (Not Completed)Routing based on intent": ./main/AIAgentTrack_Mission3.md
+  - Scripted AI Agent:
+      - Lab Guide:
+            - "Lab overview": ./main/AI_Lab_Scripted_Overview.md
+            - "Mission 1: Scripted AI Agent in Action": ./main/AIAgentTrack_NewUI_Mission2.md
+          #  - "Mission 4: (Not Completed)Routing based on intent": ./main/AIAgentTrack_Mission3.md
   - (BONUS) Integration with Digital Channel:
       - Lab Guide:
             - "Lab overview": ./main/AI_Lab_Digital_Ch_Overview.md
-            - "Mission 1 (Read Only): Create Chat Appliction and configure Webex Engage": ./main/AI_Lab_Digital_Mission1.md
+            - "Mission 1: Create Chat Appliction and configure Webex Engage": ./main/AI_Lab_Digital_Mission1.md
             - "Mission 2: Upload and configure Webex Connect flow": ./main/AI_Lab_Digital_Mission2.md
             - "Mission 3: Test the AI Agent integration with the Digital Channel": ./main/AI_Lab_Digital_Mission3.md
       - Conclusion: ./main/CallbackTrack_Conclusion.md
-  - IVR Campaign:
+  - (BONUS) IVR Campaign:
       - Lab Guide:
             - "Mission 3: Seamless AI to Human Agent Handoffs": ./main/AIAgentTrack_Mission3.md
             - "Mission 4: Call Drop Summary": ./main/AI_Assistant_CallDropSummary.md
 ###            - "Mission 5: AI in Action (Scripted Agent) - Old UI Interface": ./main/AIAgentTrack_Mission5.md
       - Conclusion: ./main/AIAgentTrack_Conclusion.md
-  - Scripted AI Agent:
-      - Lab Guide:
-            - "Lab overview": ./main/AI_Lab_Scripted_Overview.md
-            - "Mission 1: Scripted AI Agent in Action": ./main/AIAgentTrack_NewUI_Mission2.md
-            - "Mission 4: (Not Completed)Routing based on intent": ./main/AIAgentTrack_Mission3.md
-###            - "Hint for Final Challenge Mission!": ./main/FinalBossFight_Hint1.md
-###            - "Solution Guidance for Final Challenge Fight Mission!": ./main/FinalBossFight_Solution.md
   - Quick Links: quicklinks.md
 ###  - Ask a Question<i class="fa-solid fa-hand" style="color:#63E6BE;"></i>: slido-QA-iFrame.md
 

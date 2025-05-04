@@ -3,13 +3,10 @@
 icon: material/medal
 ---
 
-This entire mission is <span style="color: red;">READ ONLY</span> 
-
 
 ## Mission Objective
 
-In this mission, you can review the tasks required to complete the basic web chat configuration. All the configurations shown in this mission are preconfigured for you in this lab. This serves as a reference guide in case you wish to build this integration for your customer in the future.
-
+In this mission, you need to complete web chat configuration tasks, including creating a Chat Asset, linking it to a Channel, and test website.
 ## Build
 
 ### Task 1. Find your Service.
@@ -54,7 +51,7 @@ Go to **Services** and look for the service that you have created earlier. The n
 2.  Input ***Name*** as **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Chat_Channel">Your_Attendee_ID</span>_2000_Chat_Channel<span   class="copy" title="Click to copy!"></span></span>**
    ![Profiles](../graphics/Lab1_AI_Agent/4.9.png)
 
-3. Select **`Chat`** from the ***Channel Type*** drop-down list. Select **Chat_App_<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000** as an ***Asset Name***. Set ***Service Level Threshold*** as **`360`** and click on **Save**.
+3. Select **Chat** from the ***Channel Type*** drop-down list. Select **Chat_App_<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000** as an ***Asset Name***. Set ***Service Level Threshold*** as **`360`** and click on **Save**.
    ![Profiles](../graphics/Lab1_AI_Agent/4.10.png)
 
 
@@ -70,7 +67,7 @@ Go to **Services** and look for the service that you have created earlier. The n
 2. Input ***Name*** as **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Chat_Queue">Your_Attendee_ID</span>_2000_Chat_Queue<span   class="copy" title="Click to copy!"></span></span>**. Also select **`Chat`** in the ***Channel Type*** section.
    ![Profiles](../graphics/Lab1_AI_Agent/4.12.png)
 
-3. Scroll down to **Chat Distribution** click on ***Add Group*** and select **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Team">Your_Attendee_ID</span>_2000_AutoAI_Lab<span   class="copy" title="Click to copy!"></span></span>**
+3. Scroll down to **Chat Distribution** click on ***Add Group*** and select **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Team">Your_Attendee_ID</span>_2000_Team<span   class="copy" title="Click to copy!"></span></span>**
    ![Profiles](../graphics/Lab1_AI_Agent/4.13.gif)
 
 4. Set ***Service Level Threshold*** as **`7200`** seconds (2 hours). Set ***Maximum Time in Queue*** as **`10800`** seconds (3 hours). Click on ***Save*** after comparing your values with the screenshot below.
@@ -140,12 +137,10 @@ Go to **Services** and look for the service that you have created earlier. The n
 
 ### Task 6. Paste the script to the test website. 
 
-1. In this lab, we are using the glitch.com platform to test our chat functionality on a sample website. While we have provided prebuilt sample websites for this lab, you also have the option to log in to glitch.com and create your own custom website where you can embed the chat widget.
+1. In this lab, we are using the glitch.com platform to test our chat functionality on a sample website. Using your personal gmail plesae login to glitch.com and create your own custom website where you can embed the chat widget. Open index.html file to see the structure of the website. 
+     ![Profiles](../graphics/Lab1_AI_Agent/4.45.gif)
 
-2. Login to the glitch.com and go to Dashboards. Select the Project that you have created. 
-     ![Profiles](../graphics/Lab1_AI_Agent/4.24.png)
-
-3. Once open up the project, click on index.html file. Copy the script that you have save in notepad in the prevouse Task and paste it between ***footer*** and ***body*** tags. 
+2. While having index.html file open, copy the script that you have save in notepad in the prevouse Task and paste it between ***footer*** and ***body*** tags. 
      ![Profiles](../graphics/Lab1_AI_Agent/4.25.gif)
 
 4. Click on the website preview, and you should see the chat bubble appear in the bottom-right corner.
