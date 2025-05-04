@@ -127,7 +127,7 @@ nav:
   - New Scripted AI Agent:
       - Lab Guide:
             - "Lab overview": ./main/AI_Lab_Scripted_Overview_New.md
-            - "Mission 1: Scripted AI Agent in Action": ./main/AI_Lab_Scripted_Mission1.md
+            - "Mission 1: Scripted AI Agent basic functionalities": ./main/AI_Lab_Scripted_Mission1.md
           #  - "Mission 4: (Not Completed)Routing based on intent": ./main/AIAgentTrack_Mission3.md
   - Scripted AI Agent:
       - Lab Guide:
