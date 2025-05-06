@@ -5,7 +5,7 @@ icon: material/medal
 
 ### Mission Details
 
-Your mission is to configure intents, entities, and responses to check the status of an existing order that you created in the **Autonomous AI Agent** lab. In the next Mission (Mission 3), you will configure Fulfillment for this order tracking flow.
+Your mission is to configure intents, entities, and responses to check the status of an existing order that you created in the **Autonomous AI Agent** lab. In the next **Mission 4**, you will configure Fulfillment for this order tracking flow.
 
 ### Build
 

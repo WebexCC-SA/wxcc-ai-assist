@@ -130,6 +130,7 @@ nav:
             - "Mission 1: Configure Scripted Agent to answer basic questions": ./main/AI_Lab_Scripted_Mission1.md
             - "Mission 2: Integrate Scripted Agent with Voice Flow.": ./main/AI_Lab_Scripted_Mission2.md
             - "Mission 3: Configure flow to track an order": ./main/AI_Lab_Scripted_Mission3.md
+            - "Mission 4: Configure the fulfillment": ./main/AI_Lab_Scripted_Mission4.md
       - Conclusion: ./main/CallbackTrack_Conclusion.md
 #  - Scripted AI Agent:
 #      - Lab Guide:
