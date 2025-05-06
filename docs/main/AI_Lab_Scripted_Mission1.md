@@ -25,7 +25,7 @@ Your mission is to create a new Scripted AI Agent from the template and configur
     ![Profiles](../graphics/AI_Track/AI_Scripted_OpenWebexAI.gif)  
 
 3. Click on **Import agent** to create a new AI Agent by importing preconfigured template. Click on **Upload** button, locate and select **ScriptedAIAgent.json** you downloaded at the beginning of the mission.
-4. Name your Agent as **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_Scripted_AI">Your_Attendee_ID</span>_Scripted_AI<span class="copy" title="Click to copy!"></span></span>** and click **Import**
+4. Name your Agent as **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_Scripted_AI_Agent">Your_Attendee_ID</span>_Scripted_AI_Agent<span class="copy" title="Click to copy!"></span></span>** and click **Import**
 5. Make the bot live by clicking on the **Publish** button on the top right.
 6. Enter **v1** in the popup window, then click **Publish**.
     ![Profiles](../graphics/Lab1_AI_Agent/5.1.gif)

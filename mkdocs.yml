@@ -128,7 +128,8 @@ nav:
       - Lab Guide:
             - "Lab overview": ./main/AI_Lab_Scripted_Overview_New.md
             - "Mission 1: Configure Scripted Agent to answer basic questions": ./main/AI_Lab_Scripted_Mission1.md
-            - "Mission 2: Configure flow to track an order": ./main/AI_Lab_Scripted_Mission2.md
+            - "Mission 2: Integrate Scripted Agent with Voice Flow.": ./main/AI_Lab_Scripted_Mission2.md
+            - "Mission 3: Configure flow to track an order": ./main/AI_Lab_Scripted_Mission3.md
   - Scripted AI Agent:
       - Lab Guide:
             - "Lab overview": ./main/AI_Lab_Scripted_Overview.md
