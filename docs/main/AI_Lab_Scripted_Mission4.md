@@ -22,8 +22,12 @@ Event payload: **{"ordernumber":"${entity.order_number}"}**.</br>
 **Save** the updated response. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.39.gif) 
 
+4. Save and Publish your changies. 
+    ![Profiles](../graphics/Lab1_AI_Agent/6.54.png) 
+
 4. Understanding why we need to use a Custom Event for fulfillment: The API call to retrieve the order status can be made from the Voice Flow. By using a Custom Event, we send the order_number entity that the Scripted Agent collects during the call to retrieve the status.
     ![Profiles](../graphics/Lab1_AI_Agent/6.40.png) 
+
 
 #### Task 2. Make API call from Voice Flow to retrive the order status. 
 
@@ -75,3 +79,12 @@ Parse Settings:</br>
 Content Type: **JSON**</br>
 Output Variable: **order_status**</br>
 Path Expression: **$[0].status**</br>
+    ![Profiles](../graphics/Lab1_AI_Agent/6.52.gif)
+
+12. Add **Disconnect Contact** and connect **HTTPRequest** node to the **Disconnect Contact** node. Validate and Publish the flow. 
+    ![Profiles](../graphics/Lab1_AI_Agent/6.53.gif)
+
+13. Please test the call by dialing the number configured with the **Channel** and **Flow**. Select option 2 in the IVR and say, "I want to track my order." Provide the order number that you created earlier. The call will then be disconnected. Open the Debug mode for your flow, find the latest call, and review the logs. You should see the status of your order.
+    ![Profiles](../graphics/Lab1_AI_Agent/6.55.gif)
+
+14. In the next **Mission 5** you will configure the flow to return the order status details back to the caller. 
