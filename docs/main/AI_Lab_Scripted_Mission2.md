@@ -44,4 +44,4 @@ Your mission is to integrate the Scripted AI agent with Voiceflow to enable it t
 11. Dial the number that is assosiated with **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel** Channel. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.37.png) 
 
-12. During IVR, press to and ask **What is the store hours?**
+12. During IVR, press 2 to and ask **What is the store hours?**
