@@ -124,7 +124,7 @@ nav:
             - "Mission 3: Real Time Transcript": ./main/AI_Lab_Assist_Mission3.md
             - "Mission 4: AutoCSAT": ./main/AI_Lab_Assist_AutoCSAT.md
       - Conclusion: ./main/APITrack_Conclusion.md
-  - (Not Ready) New Scripted AI Agent:
+  - Scripted AI Agent:
       - Lab Guide:
             - "Lab overview": ./main/AI_Lab_Scripted_Overview_New.md
             - "Mission 1: Configure Scripted Agent to answer basic questions": ./main/AI_Lab_Scripted_Mission1.md
