@@ -17,7 +17,7 @@ icon: material/bullseye-arrow
 2. The majority of the configuration in Control Hub is already set up, allowing you to focus primarily on configuration Webex AI Virtual Agent and other AI features. Of course, there may still be some elements to adjust, but these should be minimal, letting you concentrate on building and refining the flow logic rather than spending time on initial setup.
 3. The Agents have been configured for you. You will be performing the rest of the configurations for AI Agent and integartion with channels.
 4. All your configurations should contain your attendee ID so the lab users don't step over each other's configurations.
-5. Each of you has been provided with the phone number to dial (Entry point DN), 1 agents and 1 admin.
+5. Each of you has been provided with the phone number to dial (Entry point DN), 1 agent and 1 admin.
 6. We are going to use built-in Cisco Text to Speech for playing all messages in the lab.
 7. Please ask for help when you need it. You can do it by clicking on **"Ask a Question"** or by raising your hand and calling the proctor.
 
@@ -25,9 +25,13 @@ icon: material/bullseye-arrow
 
 ### Predefined configuration
 
-> Entry Point/Channels:  **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_Channel">Your_Attendee_ID</span>_Channel<span class="copy"></span></span>**
+> Entry Point/Channels:  **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Channel">Your_Attendee_ID</span>_2000_Channel<span class="copy"></span></span>**
 
-> Queue:  **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_Queue">Your_Attendee_ID</span>_Queue<span class="copy"></span></span>**
+> Queue:  **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Voice_Queue">Your_Attendee_ID</span>_2000_Voice_Queue<span class="copy"></span></span>**
+
+> Team:  **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Team">Your_Attendee_ID</span>_2000_Team<span class="copy"></span></span>**
+
+> Admin:   **<span class="attendee-id-container">wxcclabs+admin_ID<span class="attendee-id-placeholder" data-prefix="wxcclabs+admin_ID" data-suffix="@gmail.com">Your_Attendee_ID</span>@gmail.com<span class="copy"></span></span>**
 
 > Agent:   **<span class="attendee-id-container">wxcclabs+agent_ID<span class="attendee-id-placeholder" data-prefix="wxcclabs+agent_ID" data-suffix="@gmail.com">Your_Attendee_ID</span>@gmail.com<span class="copy"></span></span>**
 
@@ -47,7 +51,7 @@ Use Agent Desktop application ![profiles](../graphics/overview/Desktop_Icon40x40
 
 
 #### Calling to Contact Center
-All call to Webex Contact center should be done from Webex App which has been pre-installed for you as well as pre-logined to it.
+You can place calls from Webex App which has been pre-installed for you as well as pre-logined to it.
 To make a test just open Webex App and dial the provided Support Number assigned to you.
 
    ![profiles](../graphics/Lab1/WxApp_Test.gif)
