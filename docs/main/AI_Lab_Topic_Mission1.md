@@ -13,7 +13,7 @@ icon: material/medal
 3. Make a note of Total Analyzed interaction and how many of those has recording available.
    ![Profiles](../graphics/Lab1_AI_Agent/1.3.png)
 
-4. Click on **Topic**. There are different Topics for which customers are calling into the contact center represent opportunities for automation and additional self-service via virtual agents. For example, one such topic is Flower Delivery. As the business analyst, you could consider implementing an AI agent that can create orders and set up deliveries.
+4. Click on **Topic**. There are various **Topics** for which customers are contacting the Contct Center. Knowing this information gives the opportunities for automation and enhanced self-service through virtual agents. For example, one such topic could be **Flower Delivery**. As a business analyst, you might consider implementing an AI agent capable of creating an order and scheduling deliveries.
    ![Profiles](../graphics/Lab1_AI_Agent/1.4.png)
 
 5. There is option for you to download the Topics with details. 

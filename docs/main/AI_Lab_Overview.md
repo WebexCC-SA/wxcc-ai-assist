@@ -10,7 +10,8 @@ The Autonomous AI Agent for performing actions can handle various tasks, includi
 
 ## Story
 
-You are designing a Webex AI agent for a flower store. This agent will recommend flowers to customers, collect order details, and calculate the total price for standard and custom bouquets. 
+You are designing a Webex Autonomous AI agent for a flower store. This AI agent will recommend flowers to customers based on the occasion, collect order details, calculate the total price, update the order information in a third-party application using APIs, and send a confirmation email with the order details.</br></br>
+Remember, customers will trust the AI Agent only when they truly believe it can assist them effectively. That’s exactly what you’ll be working to achieve in this lab!
 
 ## Call Flow Overview
 
