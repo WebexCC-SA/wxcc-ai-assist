@@ -106,7 +106,7 @@ nav:
             - "Lab overview": ./main/AI_Lab_Topic_Overview.md
             - "Mission 1: Explore Topic Analytics": ./main/AI_Lab_Topic_Mission1.md
       - Conclusion: ./main/AI_Lab_Topic_Conclusion.md
-  - New Autonomouse AI Agent:
+  - Autonomouse AI Agent:
       - Lab Guide:
             - "Lab overview": ./main/AI_Lab_Overview.md
             - "Mission 1: Create AI Autonomous Agent": ./main/AIAgentTrack_Mission1.md
@@ -114,14 +114,6 @@ nav:
             - "Mission 3: Upload prebuilt AI Agent. Failover for Mission 2": ./main/AI_Lab_Aut_Mission3.md
             - "Mission 4: Integrating the AI Agent with Flow for Voice Calls": ./main/AI_Lab_Aut_MissionX.md
       - Conclusion: ./main/CoreTrack_Conclusion.md
-#  - Autonomouse AI Agent:
-#      - Lab Guide:
-#            - "Lab overview": ./main/AI_Lab_Overview.md
-#            - "Mission 1: Create AI Autonomous Agent": ./main/AIAgentTrack_Mission1.md
-#            - "Mission 2: Configure Action and create an order": ./main/AI_Lab_Aut_Mission2.md
-#            - "Mission 3: Upload prebuilt AI Agent. Failover for Mission 2": ./main/AI_Lab_Aut_Mission3.md
-#            - "Mission 4: Integrating the AI Agent with Flow for Voice Calls": ./main/AI_Lab_Aut_MissionX.md
-#      - Conclusion: ./main/CoreTrack_Conclusion.md
   - AI Assistant:
       - Lab Guide:
             - "Lab overview": ./main/AI_Lab_Features_Overview.md

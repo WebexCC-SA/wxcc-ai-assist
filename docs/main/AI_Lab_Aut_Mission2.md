@@ -75,28 +75,28 @@ Description: ***Check if the customer needs delivery or not. Event if they want 
 Example: ***Yes,No***<span class="copy-static" title="Click to copy!" data-copy-text="Yes,No"><span class="copy"></span></span> <br>
 Required: <b>Yes</b>
 
-6. By following the same pattern, create an entity to collect the customer's email address.
-Entity Name: ***email***<span class="copy-static" title="Click to copy!" data-copy-text="email"><span class="copy"></span></span> <br>
+6. By following the same pattern, create an entity to collect the customer's email address.<br>
+Entity Name: ***phoneNumber***<span class="copy-static" title="Click to copy!" data-copy-text="phoneNumber"><span class="copy"></span></span> <br>
 Entity Typs: <b>string</b> <br>
-Description: ***Before the customer complete the order, ask if they would like to receive confirmation over the email. If so, collect the email address.***<span class="copy-static" title="Click to copy!" data-copy-text="Before the customer complete the order, ask if they would like to receive confirmation over the email. If so, collect the email address."><span class="copy"></span></span> <br>
-Example: ***mdanylch@cisco.com, ktyagi@cisco.com***<span class="copy-static" title="Click to copy!" data-copy-text="mdanylch@cisco.com, ktyagi@cisco.com"><span class="copy"></span></span> <br>
+Description: ***Collect customer's phone number. Before the customer complete the order, ask if they would like to receive confirmation over the SMS. If so, collect the phone number.***<span class="copy-static" title="Click to copy!" data-copy-text="Collect customer's phone number. Before the customer complete the order, ask if they would like to receive confirmation over the SMS. If so, collect the phone number."><span class="copy"></span></span> <br>
+Example: ***3477579861***<span class="copy-static" title="Click to copy!" data-copy-text="3477579861"><span class="copy"></span></span> <br>
 Required: <b>Yes</b>
 
-7. By following the same pattern, create an entity to collect the customer's order details.
+7. By following the same pattern, create an entity to collect the customer's order details.<br>
 Entity Name: ***orderDetails***<span class="copy-static" title="Click to copy!" data-copy-text="orderDetails"><span class="copy"></span></span> <br>
 Entity Typs: <b>string</b> <br>
 Description: ***Collect the flowers and bouquets information that customer orders. Make sure to do correct math. If one rose is 20 dollars and the customer would like buy 9 rouses then the price should be 180 dollars. Don't use double quotes (") in the generated responses.***<span class="copy-static" title="Click to copy!" data-copy-text="Collect the flowers and bouquets information that customer orders. Make sure to do correct math. If one rose is 20 dollars and the customer would like buy 9 rouses then the price should be 180 dollars. Don't use double quotes in the generated responses."><span class="copy"></span></span> <br>
 Example: ***Romantic Roses standard bouquet and one more bouquet with 9 roses***<span class="copy-static" title="Click to copy!" data-copy-text="Romantic Roses standard bouquet and one more bouquet with 9 roses"><span class="copy"></span></span> <br>
 Required: <b>Yes</b>
 
-8. By following the same pattern, create an entity to store the total price information of the order.
+8. By following the same pattern, create an entity to store the total price information of the order.<br>
 Entity Name: ***orderTotal***<span class="copy-static" title="Click to copy!" data-copy-text="orderTotal"><span class="copy"></span></span> <br>
 Entity Typs: <b>string</b> <br>
 Description: ***After the customer inform if they need delivery or not, and confirm that they would like to proceed with completing the order, collect the Total information and assigned it to this slot.***<span class="copy-static" title="Click to copy!" data-copy-text="After the customer inform if they need delivery or not, and confirm that they would like to proceed with completing the order, collect the Total information and assigned it to this slot."><span class="copy"></span></span> <br>
 Example: ***150 dollars, 70 $***<span class="copy-static" title="Click to copy!" data-copy-text="Romantic Roses standard bouquet and one more bouquet with 9 roses"><span class="copy"></span></span> <br>
 Required: <b>Yes</b>
 
-9. By following the same pattern, create an entity to store the order status information.
+9. By following the same pattern, create an entity to store the order status information.<br>
 Entity Name: ***status***<span class="copy-static" title="Click to copy!" data-copy-text="status"><span class="copy"></span></span> <br>
 Entity Typs: <b>string</b> <br>
 Description: ***Always create it as "new"***<span class="copy-static" title="Click to copy!" data-copy-text="Always create it as new"><span class="copy"></span></span> <br>
@@ -104,7 +104,7 @@ Example: ***new***<span class="copy-static" title="Click to copy!" data-copy-tex
 Required: <b>Yes</b>
 
 10. At this point you should see 6 created entities. Please double check it. 
-    ![Profiles](../graphics/Lab1_AI_Agent/2.21.png)
+    ![Profiles](../graphics/Lab1_AI_Agent/2.61.png)
 
 11. In the Webex Connect Builder Fulfillment select Service: **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Service">Your_Attendee_ID</span>_2000_Service<span   class="copy" title="Click to copy!"></span></span>** and Flow: <b>Create_Order_Flowers</b>
    ![Profiles](../graphics/Lab1_AI_Agent/2.22.gif)
@@ -126,14 +126,14 @@ Required: <b>Yes</b>
       "delivery": "Type",
       "address": "Type",
       "status": "Type",
-      "email": "Type"
+      "phoneNumber": "Type"
     }
     ```
 
 3. Then click on **Parse** and **Save** the change.
-   ![Profiles](../graphics/Lab1_AI_Agent/2.25.gif)
+   ![Profiles](../graphics/Lab1_AI_Agent/2.62.gif)
 
-3. Drag and drop HTTP Request node from the left side of the Webex Connect Flow Builder. Connect AI Agent block to the HTTP Request block. 
+3. Drag and drop **HTTP Request** node from the left side of the Webex Connect Flow Builder. Connect **AI Agent** block to the **HTTP Request** block. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.27.gif)
 
 
@@ -152,7 +152,7 @@ Required: <b>Yes</b>
     >        "delivery": "$(n2.aiAgent.delivery)",
     >        "address": "$(n2.aiAgent.address)",
     >        "status": "$(n2.aiAgent.status)",
-    >        "email": "$(n2.aiAgent.email)"
+    >        "phoneNumber": "$(n2.aiAgent.phoneNumber)"
     >       }
     >       ```   
     > <br>
@@ -162,67 +162,69 @@ Required: <b>Yes</b>
     > Response Entity: ***Body***<span class="copy-static" title="Click to copy!" data-copy-text="Body"><span class="copy"></span></span><br>
     > Response Path ***$.id***<span class="copy-static" title="Click to copy!" data-copy-text="$.id"><span class="copy"></span></span><br>
     > 
-    >    ![Profiles](../graphics/Lab1_AI_Agent/2.28.gif)
+    >    ![Profiles](../graphics/Lab1_AI_Agent/2.63.gif)
 
 
-5. Compare your settings with the screenshot below to make sure you configured the HTTP Request correctly. 
+5. Compare your settings with the screenshot below to make sure you configured the HTTP Request correctly. Make sure you **Save**S the changies. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.29.png)
 
 
-6. Save changies and publish the flow.
+6. Save changies and click on **Make Live**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.32.gif)
 
 ### Task 4. Deliver data from Webex Connect to AI studio for the response to the customer. 
 
 1. <span style="color: red;">[Read Only]</span> Once the HTTP request is completed a new object will be created on the third pary application. You can see all opbject by using the this link [ttps://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder](ttps://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder){:target="_blank"}. Below you can see the screenshot with all order informations. Currently there are only 2, but by the time of this lab there could be more.
-   ![Profiles](../graphics/Lab1_AI_Agent/2.30.png)
+   ![Profiles](../graphics/Lab1_AI_Agent/2.64.png)
 Each order/object will content all the information that we sent from AI Studio but one - id. This key is created automatically once we create the object. The goal of this talks to send the value of the ID back to the AI Agent so he can provide it to the customer while they are still in live contact, like you can see on the picture below.<br>
    ![Profiles](../graphics/Lab1_AI_Agent/2.31.png)
 
 2. <span style="color: red;">[Read Only]</span> When you were configuring HTTP Request in your previous TASK on the bottom of the request you were configuring the Output Variable. This variable will be used to parse the unique order id and pass the value to the Outbobount Variable with name orderNumber. See the screenshot below. In the next step we will be configuring this orderNumber variable to be sent Webex AI studio.</br>
-   ![Profiles](../graphics/Lab1_AI_Agent/2.35.png)
+   ![Profiles](../graphics/Lab1_AI_Agent/2.65.png)
 
 3. While on your Webex Connect flow, click on **Edit** the flow then click on the settings and on the top select **Flow Outcomes**. In the JSON payout section select **Enter JSON**.
-   ![Profiles](../graphics/Lab1_AI_Agent/2.36.gif)
+   ![Profiles](../graphics/Lab1_AI_Agent/2.66.gif)
 
 4. We need to add the key-value pear to the existing JSON body. Add the comma after the last pear and insert ***"orderNumber": "$(n3.orderNumber)"***. Make sure there is no comma after the pear that you inserted. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.37.png) <br>
    <br>
-Alse see this change in action below. 
+Also see this change in action below. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.38.gif)
 
+5. Click on **Make Live** to publish the flow. 
+   ![Profiles](../graphics/Lab1_AI_Agent/2.367.gif)
 
-### Task 5. Configure email confirmation. 
+### Task 5. Configure SMS confirmation. 
 
 1. Open up Webex Connect Portal. Find your Service **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Service">Your_Attendee_ID</span>_2000_Service<span   class="copy" title="Click to copy!"></span></span>**, navigate to the flow and click on **Manage** the flow. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.39.gif)
 
 
-2. On the right top click on **Edit** then from the available Utilities on the left side find the Email and drag and drop the block to the flow. Connect HTTP node to the Email node. 
-   ![Profiles](../graphics/Lab1_AI_Agent/2.40.gif)
+2. On the right top click on **Edit** then from the available Utilities on the left side find the **SMS** and drag and drop the block to the flow. Connect **HTTP Request** node to the **SMS** node. 
+   ![Profiles](../graphics/Lab1_AI_Agent/2.68.gif)
 
-3. Double clikc on the Email Block and configure the following:
+3. Double clikc on the SMS block and configure the following:
 
-     > Destination ID: ***$(n2.aiAgent.email)***<span class="copy-static" title="Click to copy!" data-copy-text="$(n2.aiAgent.email)"><span class="copy"></span></span><br>
-     > From Name: ***Flower Shop***<span class="copy-static" title="Click to copy!" data-copy-text="Flower Shop"><span class="copy"></span></span><br>
-     >Subject: ***Fower Order Details***<span class="copy-static" title="Click to copy!" data-copy-text="Fower Order Details"><span class="copy"></span></span><br>
+     > Destination: ***$(n2.aiAgent.phoneNumber)***<span class="copy-static" title="Click to copy!" data-copy-text="$(n2.aiAgent.phoneNumber)"><span class="copy"></span></span><br>
+     > From Number: ***12066478712***<span class="copy-static" title="Click to copy!" data-copy-text="12066478712"><span class="copy"></span></span><br>
+     >Message Type: **Text**<br>
      ><br>
      >Message as below:<br>
      ><br>
      ><b>Here is your order details:<br>
-     >orderNumber: "$(n2.aiAgent.orderNumber)"<br>
      >orderDetails: "$(n2.aiAgent.orderDetails)"<br>
      >orderTotal: "$(n2.aiAgent.orderTotal)"<br>
      >delivery: "$(n2.aiAgent.delivery)"<br>
      >address: "$(n2.aiAgent.address)"<br>
      >status: "$(n2.aiAgent.status)"<br>
-     >email: "$(n2.aiAgent.email)"<br></b>
+     >phoneNumber: "$(n2.aiAgent.phoneNumber)"<br></b>
      >
      >
      >
-   ![Profiles](../graphics/Lab1_AI_Agent/2.41.gif)
+   ![Profiles](../graphics/Lab1_AI_Agent/2.69.gif)
 
-4. Save and Publish the flow. When it will ask to select the appliction, choose **CCBU2000EmailApp** from the list. This is the application that is configured for the eamils for this tenant. 
-   ![Profiles](../graphics/Lab1_AI_Agent/2.42.gif)
+4. Click on **Make Live**. 
+   ![Profiles](../graphics/Lab1_AI_Agent/2.70.gif)
 
 
+### Task 5. The order creating and details delivery over SMS. 
