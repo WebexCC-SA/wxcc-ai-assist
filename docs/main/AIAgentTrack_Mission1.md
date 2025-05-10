@@ -25,27 +25,32 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
     > **Flower_Catalog.xlsx** - file contains information on the available single flowers and bouquets, including the price of the flowers or bouquets and occasions that suit the flowers.
     >
 
-2. Login into [Webex Control Hub](https://admin.webex.com){:target="_blank"} by using your Admin profile **<span class="attendee-id-container">wxcclabs+admin_ID<span class="attendee-id-placeholder" data-prefix="wxcclabs+admin_ID" data-suffix="@gmail.com">Your_Attendee_ID</span>@gmail.com<span class="copy" title="Click to copy!"></span></span>**. You will see another login screen with OKTA on it where you may need to enter the email address again and the password provided to you.
+2. Open up and review the file. 
+    ![Profiles](../graphics/Lab1_AI_Agent/2.56.png)
 
-3. Go to Contact Center from the left side navigation panel, and under Quick Links, click on **Webex AI Agent**
+
+3. Login into [Webex Control Hub](https://admin.webex.com){:target="_blank"} by using your Admin profile **<span class="attendee-id-container">wxcclabs+admin_ID<span class="attendee-id-placeholder" data-prefix="wxcclabs+admin_ID" data-suffix="@gmail.com">Your_Attendee_ID</span>@gmail.com<span class="copy" title="Click to copy!"></span></span>**. You will see another login screen with OKTA on it where you may need to enter the email address again and the password provided to you.
+
+4. Go to Contact Center from the left side navigation panel, and under Quick Links, click on **Webex AI Agent**
 
     ![Profiles](../graphics/Lab1/L1M6_OpenWebexAI.gif)  
 
-4. In AI Agent Builder navigate to **Knowledge** from left hand side menu panel. 
+5. In AI Agent Builder navigate to **Knowledge** from left hand side menu panel. 
 
-5. Click **Create Knowledge Base**, provide Knowledge base name as **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_AI_KB">Your_Attendee_ID</span>_2000_AI_KB<span class="copy" title="Click to copy!"></span></span>**, then click **Create**.
+6. Click **Create Knowledge Base**, provide Knowledge base name as **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_AI_KB">Your_Attendee_ID</span>_2000_AI_KB<span class="copy" title="Click to copy!"></span></span>**, then click **Create**.
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.1.gif)
 
-6. Click **Add File** or drag and drop file **Flower_Catalog.xlsx** you downloaded from external drive on **Step 1**. Then click **Process Files**.
+7. Click **Add File** or drag and drop file **Flower_Catalog.xlsx** you downloaded from external drive on **Step 1**. Then click **Process Files**.
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.2.gif)
 
-7. Navigate to **Dashboard** from the right-hand side menu panel and click **Create Agent**
-8. Select **Start from Scratch** and click **Next**
-9. On **Create an AI agent** page select the following select the type of agent: **Autonomous**
+8. Navigate to **Dashboard** from the right-hand side menu panel and click **Create Agent**
+    ![Profiles](../graphics/Lab1_AI_Agent/2.58.gif)
+9. Select **Start from Scratch** and click **Next**
+10. On **Create an AI agent** page select the following select the type of agent: **Autonomous**
 
-10. New section **Add the essential details** will appear. Provide the following information, then click **Create**:
+11. New section **Add the essential details** will appear. Provide the following information, then click **Create**:
 
     > Agent Name: **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_AutoAI_Lab">Your_Attendee_ID</span>_2000_AutoAI_Lab<span   class="copy" title="Click to copy!"></span></span>**
     >
@@ -58,73 +63,73 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.3.gif)
 
-11. Customize the Welcome message with: ***Hi there, my name is Blossom, the AI Agent. How can I assist you?***<span class="copy-static" title="Click to copy!" data-copy-text="Hi there, my name is Blossom, the AI Agent. How can I assist you?"><span class="copy"></span></span>
+12. Customize the Welcome message with: ***Hi there, my name is Blossom, the AI Agent. How can I assist you?***<span class="copy-static" title="Click to copy!" data-copy-text="Hi there, my name is Blossom, the AI Agent. How can I assist you?"><span class="copy"></span></span>
 
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.16.png)
 
 
-12. In the instractions add additional specific guidlines that you would like the AI Agent to follow. Just copy the text below and paste it to the Instractions section: <br>
+13. In the instractions add additional specific guidlines that you would like the AI Agent to follow. Just **copy the text below and paste it to the Instractions section**: <br>
 
-<i>Always first check what is the event for the flowers so you can provide the best option. 
 
-Always print the total at the end of the conversation at any stage.
+    >Always first check what is the event for the flowers so you can provide the best option. 
 
-Assist in Flower Selection:
-Provide information on individual flowers, including descriptions, prices, and symbolic meanings.
-Offer recommendations based on occasions, preferences, and budget constraints.
+    >Always print the total at the end of the conversation at any stage.
 
-Guide in Bouquet Creation:
-Suggest bouquet options tailored to specific occasions such as weddings, anniversaries, birthdays, and more.
-Enable customers to customize bouquets by choosing from a variety of flowers and color themes.
+    >Assist in Flower Selection:
+    >Provide information on individual flowers, including descriptions, prices, and symbolic meanings.
+    >Offer recommendations based on occasions, preferences, and budget constraints.
 
-Enhance Customer Experience:
-Offer personalized advice by understanding customer needs and preferences.
-Ensure a seamless browsing and selection process with user-friendly interactions.
+    >Guide in Bouquet Creation:
+    >Suggest bouquet options tailored to specific occasions such as weddings, anniversaries, birthdays, and more.
+    >Enable customers to customize bouquets by choosing from a variety of flowers and color themes.
 
-Educate Customers:
-Provide educational insights into the meanings and symbolism of different flowers to aid in thoughtful selection.
-Share care tips for maintaining flower freshness and longevity.
+    >Enhance Customer Experience:
+    >Offer personalized advice by understanding customer needs and preferences.
+    >Ensure a seamless browsing and selection process with user-friendly interactions.
 
-Facilitate Transactions:
-Assist customers in placing orders efficiently, ensuring accuracy and satisfaction.
-Provide support for payment processing and order confirmations.
+    >Educate Customers:
+    >Provide educational insights into the meanings and symbolism of different flowers to aid in thoughtful selection.
+    >Share care tips for maintaining flower freshness and longevity.
 
-Ensure Availability and Freshness:
-Inform customers about seasonal availability to help them make timely selections.
-Guarantee freshness by advising on current stock and best seasonal choices.
+    >Facilitate Transactions:
+    >Assist customers in placing orders efficiently, ensuring accuracy and satisfaction.
+    >Provide support for payment processing and order confirmations.
 
-Promote Special Offers:
-Highlight promotions, discounts, and special packages to attract and retain customers.
-Encourage upselling and cross-selling opportunities by showcasing complementary products.
+    >Ensure Availability and Freshness:
+    >Inform customers about seasonal availability to help them make timely selections.
+    >Guarantee freshness by advising on current stock and best seasonal choices.
 
-Never ever user double quotes (") in the generated responses. 
-For example never response with something like "Thankful Blooms"
+    >Promote Special Offers:
+    >Highlight promotions, discounts, and special packages to attract and retain customers.
+    >Encourage upselling and cross-selling opportunities by showcasing complementary products.
 
-Ask if the customer needs the deliver. Collect the address and add price of the delivery to the Total. 
+    >Never ever user double quotes (") in the generated responses. 
+    >For example never response with something like "Thankful Blooms"
 
-Always read back the address that customer provided and ask for confirmation if it is correct. If it is not correct, ask to provide the address again.
+    >Ask if the customer needs the deliver. Collect the address and add price of the delivery to the Total. 
 
-Always ask if the customer needs to confirmation email before completing the order.
+    >Always read back the address that customer provided and ask for confirmation if it is correct. If it is not correct, ask to provide the address again.
 
-</i>
+    >Always ask if the customer needs to confirmation SMS before completing the order.</br></br>
     ![Profiles](../graphics/Lab1_AI_Agent/2.4.gif)
 
 
 
 
-13  Switch to **Knowledge** tab and from **Knowledge base** drop-down list select **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_AI_KB">Your_Attendee_ID</span>_2000_AI_KB<span class="copy" title="Click to copy!"></span></span>**. Click **Save Changes**.
+14.  Switch to **Knowledge** tab and from **Knowledge base** drop-down list select **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_AI_KB">Your_Attendee_ID</span>_2000_AI_KB<span class="copy" title="Click to copy!"></span></span>**. Click **Save Changes**.
     ![Profiles](../graphics/Lab1_AI_Agent/2.5.gif)
 
-14  Click **Publish**. Provide any version name in popped up window (ex. "1.0").<br>
+15.  Click **Publish**. Provide any version name in popped up window (ex. "1.0").<br>
     ![Profiles](../graphics/Lab1_AI_Agent/2.6.gif)
 
 
 ### Task 2. Test your AI Agent
 
-1. Click on **Preview** and spend 5 mins on testing the AI Agent to understnad how it behaives. You can start the conversation with: **"I need flower for my friend"**<span class="copy-static" title="Click to copy!" data-copy-text="I need flower for my friend"><span class="copy"></span></span> and try to customize you order. 
+1. Click on **Preview** and testing the AI Agent to understnad how it behaives using Chat channel. You can start the conversation with: **"I need flower for my friend"**<span class="copy-static" title="Click to copy!" data-copy-text="I need flower for my friend"><span class="copy"></span></span> and try to customize you order. 
 
-![Profiles](../graphics/Lab1_AI_Agent/2.7.gif)
+![Profiles](../graphics/Lab1_AI_Agent/2.59.gif)
 
----
+2. Click on **Preview** and testing the AI Agent to understnad how it behaives using Voice channel. You can start the conversation with: **"I need flower for my friend"**<span class="copy-static" title="Click to copy!" data-copy-text="I need flower for my friend"><span class="copy"></span></span> and try to customize you order. 
 
+![Profiles](../graphics/Lab1_AI_Agent/2.60.gif)
