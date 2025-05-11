@@ -233,5 +233,5 @@ Also see this change in action below.
 1. Click on preview and order flowers for you friend. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.72.gif)
 
-2. Check if the confirmation SMS was received on your phone. 
+2. Check if the confirmation SMS was received on your phone. </br>
    ![Profiles](../graphics/Lab1_AI_Agent/2.73.png)
