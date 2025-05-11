@@ -212,6 +212,7 @@ Also see this change in action below.
      >Message as below:<br>
      ><br>
      ><b>Here is your order details:<br>
+     >orderNumber: "$(n3.orderNumber)"<br>
      >orderDetails: "$(n2.aiAgent.orderDetails)"<br>
      >orderTotal: "$(n2.aiAgent.orderTotal)"<br>
      >delivery: "$(n2.aiAgent.delivery)"<br>
@@ -228,3 +229,9 @@ Also see this change in action below.
 
 
 ### Task 5. The order creating and details delivery over SMS. 
+
+1. Click on preview and order flowers for you friend. 
+   ![Profiles](../graphics/Lab1_AI_Agent/2.72.gif)
+
+2. Check if the confirmation SMS was received on your phone. 
+   ![Profiles](../graphics/Lab1_AI_Agent/2.73.png)
