@@ -36,8 +36,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  logo: template_assets/webexLogo91.png
-  favicon: template_assets/webex75.png
+  logo: template_assets/cisco_logo.png
+  favicon: template_assets/cisco_logo.png
 extra:
   generator: false
 extra_css:
