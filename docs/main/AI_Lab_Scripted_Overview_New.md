@@ -1,6 +1,6 @@
 ## Story
 
-The mission is designed to provide a hands-on understanding of creating Scripted AI Agents. It covers key tasks such as creating a virtual agent using a template, integrating the AI Agent with a flow for voice calls, updating AI Agent responses, adding new intents and entities, enhancing training data using generative AI, and using fulfillment to track order status.
+The mission is designed to provide a hands-on understanding of creating Scripted AI Agents. It covers key tasks such as creating a virtual agent using a template, integrating the AI Agent with a flow for voice calls, updating AI Agent responses, adding new intents and entities, enhancing training data using generative AI, and using fulfillment to track order status
 
 
 ## Call Flow Overview
