@@ -33,8 +33,6 @@ icon: material/bullseye-arrow
 
 > Admin:   **<span class="attendee-id-container">wxcclabs+admin_ID<span class="attendee-id-placeholder" data-prefix="wxcclabs+admin_ID" data-suffix="@gmail.com">Your_Attendee_ID</span>@gmail.com<span class="copy"></span></span>**
 
-> Agent:   **<span class="attendee-id-container">wxcclabs+agent_ID<span class="attendee-id-placeholder" data-prefix="wxcclabs+agent_ID" data-suffix="@gmail.com">Your_Attendee_ID</span>@gmail.com<span class="copy"></span></span>**
-
 > Webex App has been pre-installed on your Lab PC
 
 > Assigned Inbound Channel Number: **Provided by Lab Instructor**
@@ -45,16 +43,36 @@ More pre-configured entities will be mentioned during the lab missions if they h
 
 ### Testing
 
-#### Agent Desktop
+#### Login to Webex Control. 
 
-Use Agent Desktop application ![profiles](../graphics/overview/Desktop_Icon40x40.png) pre-installed on your workstation to login your agent. In addition, Desktop profile was configured in a way where you don't need to select a Telephony line. By default only Desktop Audio (WebRTC) has been enabled.
+1. Open up Google Chrome Web browser and start login to [Control Hub](https://admin.webex.com){:target="_blank"}.
+   ![Profiles](../graphics/Lab1_AI_Agent/GS1.png)
 
+2. Login using your Admin user name and password. 
+   ![Profiles](../graphics/Lab1_AI_Agent/GS2.gif)
+
+#### Login to Agent Desktop
+
+1. Click on **Contact Center** Service. 
+   ![Profiles](../graphics/Lab1_AI_Agent/GS.3.png)
+
+2. From **Quick Links** click on **Desktop**.
+   ![Profiles](../graphics/Lab1_AI_Agent/GS4.png)
+
+3. Allo notification for the Aget Desktop. Select login option as **Desktop**, select your Team and click on **Submit**.
+   ![Profiles](../graphics/Lab1_AI_Agent/GS5.png)
+
+4. Click Continue on the Emergency Serice Notification. 
+   ![Profiles](../graphics/Lab1_AI_Agent/GS6.png)
+
+5. Allow use of microphones.
+   ![Profiles](../graphics/Lab1_AI_Agent/GS7.png)
 
 #### Calling to Contact Center
-You can place calls from Webex App which has been pre-installed for you as well as pre-logined to it.
-To make a test just open Webex App and dial the provided Support Number assigned to you.
+You can place test calls for this lab using Webex Calling phones. Find Webex App and login with the Admin credentials that was shared with you. 
+   ![Profiles](../graphics/Lab1_AI_Agent/GS8.gif)
 
-   ![profiles](../graphics/Lab1/WxApp_Test.gif)
+Place test call to the test number  +15206603129 to confirm that you Webex Phone is configured to place calls
 
 !!! Note
     International dialing is not allowed so you won't be able to dial your cell phones unless you have a US number.
