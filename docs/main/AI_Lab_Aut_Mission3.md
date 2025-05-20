@@ -31,3 +31,5 @@ If you were not able to complete Mission 2 on time or encountered some issues du
 
 5. Test your AI Agent. Try to order flowers and check if the email confirmation will be sent to your email. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.46.gif)
+
+<p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

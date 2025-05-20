@@ -56,3 +56,5 @@ Your mission is to configure intents, entities, and responses to check the statu
 
 12. Click on the **Preview** button on the top right side to test the bot. Try the bot flow by typing ***"I would like to truck my order"***<span class="copy-static" title="Click to copy!" data-copy-text="I would like to truck my order"><span class="copy"></span></span> and provide an order number that you created earlier. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.26.png) 
+
+<p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

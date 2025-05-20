@@ -226,3 +226,4 @@ Alse see this change in action below.
    ![Profiles](../graphics/Lab1_AI_Agent/2.42.gif)
 
 
+<p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

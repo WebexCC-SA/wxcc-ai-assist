@@ -88,3 +88,5 @@ Path Expression: **$[0].status**</br>
     ![Profiles](../graphics/Lab1_AI_Agent/6.55.gif)
 
 14. In the next **Mission 5** you will configure the flow to return the order status details back to the caller. 
+
+<p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

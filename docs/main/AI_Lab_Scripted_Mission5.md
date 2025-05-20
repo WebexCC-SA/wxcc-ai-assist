@@ -68,3 +68,5 @@ Event Data: **{"status":"{{order_status}}"}**
 
 2. During IVR, press 2 to and say "I want to track my order". Provide the order details that you created earlier, or use the order with number 22 for the example.
 
+<p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
+

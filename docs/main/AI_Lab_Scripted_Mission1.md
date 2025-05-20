@@ -81,4 +81,5 @@ Please do it for **Web** and Voice **channels**. Aftger the change, Save and Pub
 12. Click on the **Preview** button on the top right side to test the bot. Try the bot flow by typing ***"What is the store hours?"***<span class="copy-static" title="Click to copy!" data-copy-text="What is the store hours?"><span class="copy"></span></span>
     ![Profiles](../graphics/Lab1_AI_Agent/6.12.png) 
 
+<p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
 

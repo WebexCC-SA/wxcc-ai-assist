@@ -45,3 +45,5 @@ Your mission is to integrate the Scripted AI agent with Voiceflow to enable it t
     ![Profiles](../graphics/Lab1_AI_Agent/6.37.png) 
 
 12. During IVR, press 2 to and ask **What is the store hours?**
+
+<p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

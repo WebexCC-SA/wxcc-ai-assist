@@ -100,13 +100,13 @@ nav:
   - Getting Started:
       - Lab Overview: ./main/overview.md
       - Getting to know your environment: ./main/PreRequisites.md
-      - Chrome and Webex App Setup: ./main/Browser_and_Desktop_Setup.md 
+#      - Chrome and Webex App Setup: ./main/Browser_and_Desktop_Setup.md 
   - Topic Analytics:
       - Lab Guide:
             - "Lab overview": ./main/AI_Lab_Topic_Overview.md
             - "Mission 1: Explore Topic Analytics": ./main/AI_Lab_Topic_Mission1.md
       - Conclusion: ./main/AI_Lab_Topic_Conclusion.md
-  - Autonomouse AI Agent:
+  - Autonomous AI Agent:
       - Lab Guide:
             - "Lab overview": ./main/AI_Lab_Overview.md
             - "Mission 1: Create AI Autonomous Agent": ./main/AIAgentTrack_Mission1.md

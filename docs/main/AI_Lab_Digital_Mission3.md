@@ -25,3 +25,5 @@ In this mission, you will test the conversation with an AI Agent over the Chat D
 
 2. Login to [Agent Desktop](https://desktop.wxcc-us1.cisco.com){:target="_blank"} with your agent credentials to receive the test chat. You should see the transcripts with details of what the customer was discussing with the AI Agent before the conversation was handed off to the live agent.
    ![Profiles](../graphics/Lab1_AI_Agent/4.40.gif)
+
+<p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

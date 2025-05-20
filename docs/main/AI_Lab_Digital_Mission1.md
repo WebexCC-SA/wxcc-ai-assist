@@ -146,4 +146,6 @@ Go to **Services** and look for the service that you have created earlier. The n
 4. Click on the website preview, and you should see the chat bubble appear in the bottom-right corner.
      ![Profiles](../graphics/Lab1_AI_Agent/4.26.gif)
 
+<p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
+
 
