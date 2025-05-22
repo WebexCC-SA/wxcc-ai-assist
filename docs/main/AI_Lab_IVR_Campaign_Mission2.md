@@ -129,5 +129,8 @@ Your mission is to create a new campaign that will deliver call to your cellphon
 11. Click on **Refresh** you should see that you campaign is **Running**. 
    ![Profiles](../graphics/Lab1_AI_Agent/8.37.gif)
 
-12
+12. Initially, the contact will be in the **Eligible Open** status. Wait until the contact transitions to **Sent to Dialer - Awaiting Outcome**. At that point, you should receive a call. When you answer, please say "Hello" to allow the system to detect a live voice. Once detected, you will begin the conversation with the AI Agent.
+   ![Profiles](../graphics/Lab1_AI_Agent/8.39.png)
 
+13. Open up your flow, and you can trace this call. 
+   ![Profiles](../graphics/Lab1_AI_Agent/8.40.png)
