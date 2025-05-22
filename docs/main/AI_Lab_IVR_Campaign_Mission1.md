@@ -31,6 +31,9 @@ You will explore the Webex Campaign User Interface and understand how to configu
 7. Click on **Field mappings**. This settings refer to the process of uploading a template or sample data and mapping the headers with the headers of dialer system. When you create a campaign, you have to assign the field mappings to a campaign and appropriate contact list has to be uploaded. When you upload a contact list to a campaign, and if the headers of the field mappings do not match, then you will get an error.
    ![Profiles](../graphics/Lab1_AI_Agent/7.6.png) 
 
+8. For this lab, **Field Mapping** is preconfigured. However, it is important for you to understand that, during the creation of the field mapping, we assigned the Global Variables to match the headers of the file you will be uploading when managing the campaign list.
+   ![Profiles](../graphics/Lab1_AI_Agent/8.41.png) 
+
 8. Click on **Global Variable**. These attributes are configured in the control hub application. Webex Campaign will receive these variables from control hub application. At least one variable has to be made a customer unique identifier.
    ![Profiles](../graphics/Lab1_AI_Agent/7.7.png) 
 
