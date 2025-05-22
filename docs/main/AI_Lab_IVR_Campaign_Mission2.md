@@ -97,3 +97,37 @@ Your mission is to create a new campaign that will deliver call to your cellphon
 
 ### Task 4. Upload Contact List. 
 
+1. Click on [Customers_List_sample](https://drive.google.com/file/d/1fvHfKhbtPtU6uBmRa7ngEN5bfDHUX7Cz/view?usp=sharing){:target="_blank"} to download the sample file.
+
+2. On the next page, click on **Download**.
+   ![Profiles](../graphics/Lab1_AI_Agent/8.28.png)
+
+3. Open the file and change the number to your 10 digits cellphone number. 
+   ![Profiles](../graphics/Lab1_AI_Agent/8.29.gif)
+
+4. Go back to Webex Campaign Manger, find your campaign and click on Manage contact lists. 
+   ![Profiles](../graphics/Lab1_AI_Agent/8.30.png)
+
+5. Click on **Upload file to create contact list**.
+   ![Profiles](../graphics/Lab1_AI_Agent/8.31.png)
+
+6. Click on **Browse**, select your file and then click on **Save and Proceed**.
+   ![Profiles](../graphics/Lab1_AI_Agent/8.32.png)
+
+7. If you click on **Refresh** you should see the contact list is **Active**. 
+   ![Profiles](../graphics/Lab1_AI_Agent/8.33.gif)
+
+8. **Close** the **Manage contact list** page. 
+   ![Profiles](../graphics/Lab1_AI_Agent/8.34.png)
+
+9. Find your Campaign and make it **Active**.
+   ![Profiles](../graphics/Lab1_AI_Agent/8.35.png)
+
+10. On the next page click on **Confirm** 
+   ![Profiles](../graphics/Lab1_AI_Agent/8.36.png)
+
+11. Click on **Refresh** you should see that you campaign is **Running**. 
+   ![Profiles](../graphics/Lab1_AI_Agent/8.37.gif)
+
+12
+
