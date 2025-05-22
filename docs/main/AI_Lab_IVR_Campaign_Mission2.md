@@ -89,4 +89,11 @@ Your mission is to create a new campaign that will deliver call to your cellphon
 14. Click on **Save & exit** the Campaign configuration. 
    ![Profiles](../graphics/Lab1_AI_Agent/8.24.png)
 
-15. Name the Campaign as **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Campaign**
+15. Name the Campaign as **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Campaign**. For **P&L** from the list select **TrainingAB_PL_17748776940323**. For **Purpose** select from the list **Sales**, and click on **Save campaign**.
+   ![Profiles](../graphics/Lab1_AI_Agent/8.26.png)
+
+16. You will see you campaign will show up in the **DRAFT** status. 
+   ![Profiles](../graphics/Lab1_AI_Agent/8.27.png)
+
+### Task 4. Upload Contact List. 
+
