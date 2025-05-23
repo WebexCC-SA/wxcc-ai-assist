@@ -100,6 +100,7 @@ nav:
   - Getting Started:
       - Lab Overview: ./main/overview.md
       - Getting to know your environment: ./main/PreRequisites.md
+      - Qucik Links: quicklinks.md
 #      - Chrome and Webex App Setup: ./main/Browser_and_Desktop_Setup.md 
   - Topic Analytics:
       - Lab Guide:
@@ -113,7 +114,7 @@ nav:
             - "Mission 2: Configure Action and create an order": ./main/AI_Lab_Aut_Mission2.md
 #            - "Mission 3: Upload prebuilt AI Agent. Failover for Mission 2": ./main/AI_Lab_Aut_Mission3.md
             - "Mission 3: Integrating the AI Agent with Flow for Voice Calls": ./main/AI_Lab_Aut_MissionX.md
-      - Conclusion: ./main/CoreTrack_Conclusion.md
+      - Conclusion: ./main/AI_Lab_Aut_Conclusion.md
   - AI Assistant:
       - Lab Guide:
             - "Lab overview": ./main/AI_Lab_Features_Overview.md
@@ -149,6 +150,6 @@ nav:
             - "Mission 1: Portal Overview": ./main/AI_Lab_IVR_Campaign_Mission1.md
             - "Mission 2: Configure Campaign": ./main/AI_Lab_IVR_Campaign_Mission2.md
       - Conclusion: ./main/AIAgentTrack_Conclusion.md
-  - Quick Links: quicklinks.md
+  - Related Sessions: ./main/Related_Sessions.md
 ###  - Ask a Question<i class="fa-solid fa-hand" style="color:#63E6BE;"></i>: slido-QA-iFrame.md
 
