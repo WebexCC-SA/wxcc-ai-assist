@@ -48,8 +48,8 @@ extra_javascript:
 plugins:
   - search
   #- with-pdf:
-  #    cover_title: TS-2025
-  #    cover_subtitle: "From Good to Great: Enhancing Customer Experience with the Webex Contact Center Flow Designer"
+  #    cover_title: LTRCCT-2000
+  #    cover_subtitle: "Hands-On AI in Action: The Future of Customer Care with Webex Contact Center"
   #    cover_logo: template_assets/Cisco-Live-White-Blue-APJC.svg
   - glightbox:
       touchNavigation: true
