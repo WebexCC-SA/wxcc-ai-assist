@@ -60,7 +60,7 @@ Your mission is to:
 5. Validate and Publish the flow. 
    ![Profiles](../graphics/Lab1_AI_Agent/3.14.gif) 
 
-### Task 3. Test Agent Transfer Summary Feature
+### Task 3. Test Real-Time Transcript feature
 
 1. Login to the Agent Deskopt.
    ![Profiles](../graphics/Lab1_AI_Agent/3.15.png)
