@@ -228,7 +228,7 @@ Also see this change in action below.
    ![Profiles](../graphics/Lab1_AI_Agent/2.70.gif)
 
 
-### Task 5. The order creating and details delivery over SMS. 
+### Task 6. The order creating and details delivery over SMS. 
 
 1. Click on preview and order flowers for you friend. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.72.gif)
