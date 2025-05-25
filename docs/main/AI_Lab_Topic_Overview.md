@@ -9,4 +9,5 @@ Topic Analytics provides easy to use interface for the Contact center administra
 Ability to filter interactions by Topics</br>
 View interactions details (Transcripts, call recordings, contact details)</br>
 Improved coverage and accuracy with our enhanced AI models</br>
+Customize the Topics based on your business needs</br>
 

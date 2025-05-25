@@ -22,7 +22,7 @@ Use the Main Flow tab to script the primary flow based on the Trigger Event defi
 At any point during the execution of the Main Flow, the system triggers events that interrupt the Main Flow. For example, when an agent answers a phone call, the caller’s experience in the queue is interrupted. If you want to define unique behavior when these events are triggered, you can script optional Event Flows. Event Flows are asynchronous to the Main Flow. You can’t predict if or when an Event Flow will be triggered. For this reason, Event Flows are optional and are intended to extend the Main Flow functionality.
 
 !!! Note
-    You can configure multiple event handling flows in the Event Flows canvas. Each event flow must have a unique start and end, with no shared activities.
+    You can configure multiple event handling flows in the Event Flows canvas. Each event flow must have a unique start and end,with no shared activities.
 
 ### Zoom Toolbar
 
