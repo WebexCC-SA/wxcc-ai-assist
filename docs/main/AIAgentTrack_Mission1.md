@@ -19,7 +19,8 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
 
 ### Task 1. Creating new AI Agent with Knowladge Base.
 
-1. <span style="color: red;">[IMPORTANT]</span> [Flowrs_Catalog](https://cisco.box.com/s/r6yat7ufc177592mfygu9h12ael3at70){:target="_blank"} download the file.
+1. <span style="color: red;">[IMPORTANT]</span> Download .xlsx the file [Flowrs_Catalog](https://docs.google.com/spreadsheets/d/1QjbL58okbEfl-ODgyv_ohIIPUiPBP34n/edit?usp=sharing&ouid=100862210011127627593&rtpof=true&sd=true){:target="_blank"}.
+    ![Profiles](../graphics/Lab1_AI_Agent/2.74.png)
     
     > 
     > **Flower_Catalog.xlsx** - file contains information on the available single flowers and bouquets, including the price of the flowers or bouquets and occasions that suit the flowers.
@@ -58,7 +59,7 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
     >
     > AI engine: **Webex AI Pro 1.0**
     > 
-    > Agent's goal: ***This is Flower Shop. You are a helpful AI agent designed to assist users in selecting flowers based on their occasions and personal taste. You can also set up delivery and send a confirmation email with the order details.***<span class="copy-static" title="Click to copy!" data-copy-text="This is Flower Shop. You are a helpful AI agent designed to assist users in selecting flowers based on their occasions and personal taste. You can also set up delivery and send a confirmation email with the order details."><span class="copy"></span></span>
+    > Agent's goal: ***This is Flower Shop. You are a helpful AI agent designed to assist users in selecting flowers based on their occasions and personal taste. You can also set up delivery and send a confirmation SMS with the order details.***<span class="copy-static" title="Click to copy!" data-copy-text="This is Flower Shop. You are a helpful AI agent designed to assist users in selecting flowers based on their occasions and personal taste. You can also set up delivery and send a confirmation SMS with the order details."><span class="copy"></span></span>
 
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.3.gif)
@@ -104,9 +105,6 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
     >Highlight promotions, discounts, and special packages to attract and retain customers.
     >Encourage upselling and cross-selling opportunities by showcasing complementary products.
 
-    >Never ever user double quotes (") in the generated responses. 
-    >For example never response with something like "Thankful Blooms"
-
     >Ask if the customer needs the deliver. Collect the address and add price of the delivery to the Total. 
 
     >Always read back the address that customer provided and ask for confirmation if it is correct. If it is not correct, ask to provide the address again.
@@ -133,3 +131,5 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
 2. Click on **Preview** and testing the AI Agent to understnad how it behaives using Voice channel. You can start the conversation with: **"I need flower for my friend"**<span class="copy-static" title="Click to copy!" data-copy-text="I need flower for my friend"><span class="copy"></span></span> and try to customize you order. 
 
 ![Profiles](../graphics/Lab1_AI_Agent/2.60.gif)
+
+<p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

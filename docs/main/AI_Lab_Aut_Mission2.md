@@ -8,8 +8,7 @@ icon: material/medal
 # Mission 2: Configure Action and create an order.
 
  **<details><summary>What is Action? <span style="color: orange;">[Optional]</span></summary>**
-An action is a functionality that lets your AI agent connect with external systems so it can perform more
-complex tasks, such as bookings or finding information. 
+Action is a task that an AI agent performs by understanding user intents and completes by connecting to external systems.
 
 For more information visit [Webex Documentation](https://help.webex.com/en-us/article/ncs9r37/Webex-AI-Agent-Studio-Administration-guide#concept-template_5ea99e1f-a679-4cf9-8e33-7a4f83d9f66a){:target="_blank"}
 
@@ -133,16 +132,16 @@ Required: <b>Yes</b>
 3. Then click on **Parse** and **Save** the change.
    ![Profiles](../graphics/Lab1_AI_Agent/2.62.gif)
 
-3. Drag and drop **HTTP Request** node from the left side of the Webex Connect Flow Builder. Connect **AI Agent** block to the **HTTP Request** block. 
+4. Drag and drop **HTTP Request** node from the left side of the Webex Connect Flow Builder. Connect **AI Agent** block to the **HTTP Request** block. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.27.gif)
 
 
-4. Open up HTTP Request node and configure it with the following HTTP Request: <br>
+5. Open up HTTP Request node and configure it with the following HTTP Request: <br>
 
     > Method: **POST**
     > <br>
     > Endpoint URL: ***https://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder***<span class="copy-static" title="Click to copy!" data-copy-text="https://        > 67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder"><span class="copy"></span></span><br>
-    > Header: ***Content-Type***<span class="copy-static" title="Click to copy!" data-copy-text="Content-Type"><span class="copy"></span></span>: ***application/      > json***<span class="copy-static" title="Click to copy!" data-copy-text="application/json"><span class="copy"></span></span>
+    > Header: ***Content-Type***<span class="copy-static" title="Click to copy!" data-copy-text="Content-Type"><span class="copy"></span></span>: ***application/ json***<span class="copy-static" title="Click to copy!" data-copy-text="application/json"><span class="copy"></span></span>
     > <br>
     > Body: <br>
     >       ``` JSON
@@ -165,16 +164,16 @@ Required: <b>Yes</b>
     >    ![Profiles](../graphics/Lab1_AI_Agent/2.63.gif)
 
 
-5. Compare your settings with the screenshot below to make sure you configured the HTTP Request correctly. Make sure you **Save**S the changies. 
+6. Compare your settings with the screenshot below to make sure you configured the HTTP Request correctly. Make sure you **Save**S the changies. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.29.png)
 
 
-6. Save changies and click on **Make Live**.
+7. Save changies and click on **Make Live**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.32.gif)
 
 ### Task 4. Deliver data from Webex Connect to AI studio for the response to the customer. 
 
-1. <span style="color: red;">[Read Only]</span> Once the HTTP request is completed a new object will be created on the third pary application. You can see all opbject by using the this link [ttps://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder](ttps://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder){:target="_blank"}. Below you can see the screenshot with all order informations. Currently there are only 2, but by the time of this lab there could be more.
+1. <span style="color: red;">[Read Only]</span> Once the HTTP request is completed a new object will be created on the third pary application. You can see all opbject by using the this link [https://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder](https://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder){:target="_blank"}. Below you can see the screenshot with all order informations. Currently there are only 2, but by the time of this lab there could be more.
    ![Profiles](../graphics/Lab1_AI_Agent/2.64.png)
 Each order/object will content all the information that we sent from AI Studio but one - id. This key is created automatically once we create the object. The goal of this talks to send the value of the ID back to the AI Agent so he can provide it to the customer while they are still in live contact, like you can see on the picture below.<br>
    ![Profiles](../graphics/Lab1_AI_Agent/2.31.png)
@@ -192,7 +191,7 @@ Also see this change in action below.
    ![Profiles](../graphics/Lab1_AI_Agent/2.38.gif)
 
 5. Click on **Make Live** to publish the flow. 
-   ![Profiles](../graphics/Lab1_AI_Agent/2.367.gif)
+   ![Profiles](../graphics/Lab1_AI_Agent/2.67.gif)
 
 ### Task 5. Configure SMS confirmation. 
 
