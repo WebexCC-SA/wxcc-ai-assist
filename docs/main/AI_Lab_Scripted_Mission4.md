@@ -5,88 +5,56 @@ icon: material/medal
 
 ### Mission Details
 
-In the previous **Mission 3**, you created intents, entities, and responses to enable the Scripted Agent to understand and respond to order-tracking requests. However, no logic or API calls were configured yet to retrieve the order information. In this mission, you will configure the fulfillment flow to use an API call to retrieve the order status and send it back to the caller.
+Your mission is to configure intents, entities, and responses to check the status of an existing order that you created in the **Autonomous AI Agent** lab. In the next **Mission 4**, you will configure Fulfillment for this order tracking flow.
 
 ### Build
 
-#### Task 1. Configure Custom Event to send data from AI Studio to WxCC Voice Flow. 
+#### Task 1. Test track an order flow. 
 
-1. The fullfilment for Scripted AI Agent currently is done in the WxCC Voice Flow in order to complay with all policies and regualtions.
+1. Click on the **Preview** button on the top right side to test the bot. Try the bot flow by typing ***"I want to track my order"***<span class="copy-static" title="Click to copy!" data-copy-text="I want to track my order"><span class="copy"></span></span>. You will see that Scripted AI agent is not configured yet to assit with this task.
+    ![Profiles](../graphics/Lab1_AI_Agent/6.14.png) 
 
-2. Open up **AI Studio** portal go to **Scripts** > **Respones** and open up resposne ***track_order***<span class="copy-static" title="Click to copy!" data-copy-text="track_order"><span class="copy"></span></span>. Go to Voice Channel. 
-    ![Profiles](../graphics/Lab1_AI_Agent/6.38.gif) 
+#### Task 2. Configure intents, entities, and responses.
 
-3. Add **Custom Event** and configure it with the following: </br>
-Event Name: ***order_details***<span class="copy-static" title="Click to copy!" data-copy-text="order_details"><span class="copy"></span></span></br>
-Event payload: **{"ordernumber":"${entity.order_number}"}**.</br>
-**Save** the updated response. 
-    ![Profiles](../graphics/Lab1_AI_Agent/6.39.gif) 
+1. While on the **Script** configuration page, switch to **Entities** tab and click on the **Create entity** option. Provide the name as ***order_number***<span class="copy-static" title="Click to copy!" data-copy-text="order_number"><span class="copy"></span></span>. Entity type select as **Digits**. Provide **Lenght** as ***2***<span class="copy-static" title="Click to copy!" data-copy-text="2"><span class="copy"></span></span>.
+    ![Profiles](../graphics/Lab1_AI_Agent/6.17.gif) 
 
-4. Save and Publish your changies. 
-    ![Profiles](../graphics/Lab1_AI_Agent/6.54.png) 
+2. While on the **Script** configuration page, switch to **Intents** tab and click on the **Create Intent** button located in the top right corner.
+3. Add a new intent by providing the intent name as ***track_order***<span class="copy-static" title="Click to copy!" data-copy-text="track_order"><span class="copy"></span></span> and include the following two utterances:
 
-4. Understanding why we need to use a Custom Event for fulfillment: The API call to retrieve the order status can be made from the Voice Flow. By using a Custom Event, we send the order_number entity that the Scripted Agent collects during the call to retrieve the status.
-    ![Profiles](../graphics/Lab1_AI_Agent/6.40.png) 
+    - ***I want to track my order***<span class="copy-static" title="Click to copy!" data-copy-text="I want to track my order"><span class="copy"></span></span>
+    - ***Waht is my order status?***<span class="copy-static" title="Click to copy!" data-copy-text="Waht is my order status?"><span class="copy"></span></span>
+    ![Profiles](../graphics/Lab1_AI_Agent/6.15.gif)
+
+4. Click on the **Generate** button to utilize Generative AI for creating additional training phrases.
+
+5. Enter a description such as ***Generate intents to track an order status***<span class="copy-static" title="Click to copy!" data-copy-text="Generate intents to track an order status"><span class="copy"></span></span> Set the Number of Variants to **10**, which will determine the number of new phrases to be generated.
+    ![Profiles](../graphics/Lab1_AI_Agent/6.16.gif) 
+
+6. Click on **+ Link** and add **order_number** as an entity.Make it as **Required**. Click on the **Response** serach and select **order_number** response. .
+    ![Profiles](../graphics/Lab1_AI_Agent/6.19.gif)    
+
+7. You can review it later, but for your information, the **order_number** response was preconfigured for you for this lab. In this response, the AI agent simply asks for the order number. Refer to the picture below. This is an interim response needed to fill the entity.
+    ![Profiles](../graphics/Lab1_AI_Agent/6.20.png)  
+
+8. Scroll down and click on **Create new** response. 
+    ![Profiles](../graphics/Lab1_AI_Agent/6.21.gif)  
+
+9. Name the response as ***track_order***<span class="copy-static" title="Click to copy!" data-copy-text="track_order"><span class="copy"></span></span>. Update Varient 1 test to ***Please wait while I check the order status.***<span class="copy-static" title="Click to copy!" data-copy-text="Please wait while I check the order status."><span class="copy"></span></span>.
+    ![Profiles](../graphics/Lab1_AI_Agent/6.22.gif) 
+
+9. Add **Voice Channel**.
+    ![Profiles](../graphics/Lab1_AI_Agent/6.23.gif) 
+
+10. Configure **Voice Channel** with the same varients and click on **Create**. </br>
+***Please wait while I check the order status.***<span class="copy-static" title="Click to copy!" data-copy-text="Please wait while I check the order status."><span class="copy"></span></span>.
+    ![Profiles](../graphics/Lab1_AI_Agent/6.24.gif) 
+
+11. Now after we added the response to our intent we can complete the intent configuration. Click on **Add** on the right bottom corner. **Save** and **Publish** the Scripted AI Agent. 
+    ![Profiles](../graphics/Lab1_AI_Agent/6.25.gif) 
 
 
-#### Task 2. Make API call from Voice Flow to retrive the order status. 
-
-1. From [Control Hub](https://admin.webex.com){:target="_blank"}, go to Contact Center click on flows. Open up your flow. If you follow all lab stesp the name should be **<span class="attendee-id-container">Autonomous_Scripted_Flow_2000_<span class="attendee-id-placeholder" data-prefix="Autonomous_Scripted_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>**. Or if you have different name, find your flow. Click on it to open the Flow. 
-    ![Profiles](../graphics/Lab1_AI_Agent/6.41.gif) 
-
-2. Select **Edit** for the flow, click anywhere on the gray area in the flow, and look for the **Flow Variables** on the right side.
-    ![Profiles](../graphics/Lab1_AI_Agent/6.42.gif) 
-
-3. Create 3 empty String Variables with names:</br>
-***order_id***<span class="copy-static" title="Click to copy!" data-copy-text="order_id"><span class="copy"></span></span></br>
-***MetaData_Scripted_Agent***<span class="copy-static" title="Click to copy!" data-copy-text="MetaData_Scripted_Agent"><span class="copy"></span></span></br>
-***order_status***<span class="copy-static" title="Click to copy!" data-copy-text="order_status"><span class="copy"></span></span>
-    ![Profiles](../graphics/Lab1_AI_Agent/6.43.gif) 
-
-4. The fulfillment will go over the Handled output. So in your Voice flow, remvoe the **Disconnect Contact** block and add **SetVariable block**. Connect Handled output to the SetVariable block. 
-    ![Profiles](../graphics/Lab1_AI_Agent/6.46.gif) 
-
-5. In the next step, you will assign the flow variable **MetaData_Scripted_Agent**, which we created earlier, with the value of the MetaData from the **VirtualAgentV2** block. This will allow us to decrypt and review the MetaData from the **VirtualAgentV2** block, which could be useful for troubleshooting any issues with the fulfillment flow.</br>
-
-6. Click on the **VirtualAgentV2** block, scroll down to Activity Output Variables, and copy the MetaData variable name. Then, open the **SetVariable** block and configure the **MetaData_Scripted_Agent** variable with the variable value you copied from the VirtualAgentV2 block. Make sure to enclose it in curly brackets.
-    ![Profiles](../graphics/Lab1_AI_Agent/6.47.gif) 
-
-7. Add **Parse** node and connect it to **SetVariable** node. 
-    ![Profiles](../graphics/Lab1_AI_Agent/6.48.gif) 
-
-8. Configure the **Parse** node with the following:</br>
-Input Variable: **MetaData_Scripted_Agent**</br>
-Content Type: **JSON**</br>
-Output Variable: **order_id** </br>
-Path Expression: **$.ordernumber**
-    ![Profiles](../graphics/Lab1_AI_Agent/6.49.gif) 
-
-9. Understanding the **Parse** node configuration: The goal of the Parse node is to extract the **order_number** entity received from AI Studio and assign it to the flow variable named **order_id**. This variable will be used later in the API call.
-    ![Profiles](../graphics/Lab1_AI_Agent/6.50.png) 
-
-10. Add **HTTPRequest** node and connect it to **Parce** node. 
-    ![Profiles](../graphics/Lab1_AI_Agent/6.51.gif)
-
-11. Configure the HTTP block with the following:</br>
-Use Authenticated Endpoint: **off**</br>
-Request URL: **https://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder**</br>
-Method: **GET**</br>
-Queue Parameters: </br>
-Key: **id**</br>
-Value: **{{order_id}}**</br>
-Content Type: **Application/JSON**</br>
-Parse Settings:</br>
-Content Type: **JSON**</br>
-Output Variable: **order_status**</br>
-Path Expression: **$[0].status**</br>
-    ![Profiles](../graphics/Lab1_AI_Agent/6.52.gif)
-
-12. Add **Disconnect Contact** and connect **HTTPRequest** node to the **Disconnect Contact** node. Validate and Publish the flow. 
-    ![Profiles](../graphics/Lab1_AI_Agent/6.53.gif)
-
-13. Please test the call by dialing the number configured with the **Channel** and **Flow**. Select option 2 in the IVR and say, "I want to track my order." Provide the order number that you created earlier. The call will then be disconnected. Open the Debug mode for your flow, find the latest call, and review the logs. You should see the status of your order.
-    ![Profiles](../graphics/Lab1_AI_Agent/6.55.gif)
-
-14. In the next **Mission 5** you will configure the flow to return the order status details back to the caller. 
+12. Click on the **Preview** button on the top right side to test the bot. Try the bot flow by typing ***"I would like to truck my order"***<span class="copy-static" title="Click to copy!" data-copy-text="I would like to truck my order"><span class="copy"></span></span> and provide an order number that you created earlier. 
+    ![Profiles](../graphics/Lab1_AI_Agent/6.26.png) 
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

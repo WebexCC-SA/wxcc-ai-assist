@@ -122,15 +122,16 @@ nav:
             - "Mission 2: Call Drop Summary": ./main/AI_Lab_Assist_Mission_2.md
             - "Mission 3: Real Time Transcript": ./main/AI_Lab_Assist_Mission3.md
             - "Mission 4: AutoCSAT": ./main/AI_Lab_Assist_AutoCSAT.md
-      - Conclusion: ./main/APITrack_Conclusion.md
+      - Conclusion: ./main/AI_Lab_Assist_Conclusion.md
   - Scripted AI Agent:
       - Lab Guide:
             - "Lab overview": ./main/AI_Lab_Scripted_Overview_New.md
             - "Mission 1: Configure Scripted Agent to answer basic questions": ./main/AI_Lab_Scripted_Mission1.md
-            - "Mission 2: Integrate Scripted Agent with Voice Flow.": ./main/AI_Lab_Scripted_Mission2.md
-            - "Mission 3: Configure flow to track an order": ./main/AI_Lab_Scripted_Mission3.md
-            - "Mission 4: Configure the fulfillment": ./main/AI_Lab_Scripted_Mission4.md
-            - "Mission 5: Deliver fulfillment results to the caller": ./main/AI_Lab_Scripted_Mission5.md
+            - "Mission 2 (Review Only): Integrate Scripted Agent with Voice Flow.": ./main/AI_Lab_Scripted_Mission2.md
+            - "Mission 3 (BONUS): Integrate Scripted Agent with Voice Flow.": ./main/AI_Lab_Scripted_Mission3.md
+            - "Mission 4 (BONUS): Configure flow to track an order": ./main/AI_Lab_Scripted_Mission4.md
+            - "Mission 5 (BONUS): Configure the fulfillment": ./main/AI_Lab_Scripted_Mission5.md
+            - "Mission 6 (BONUS): Deliver fulfillment results to the caller": ./main/AI_Lab_Scripted_Mission6.md
       - Conclusion: ./main/CallbackTrack_Conclusion.md
 #  - Scripted AI Agent:
 #      - Lab Guide:

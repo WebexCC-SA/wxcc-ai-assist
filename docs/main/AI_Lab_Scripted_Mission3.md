@@ -5,56 +5,45 @@ icon: material/medal
 
 ### Mission Details
 
-Your mission is to configure intents, entities, and responses to check the status of an existing order that you created in the **Autonomous AI Agent** lab. In the next **Mission 4**, you will configure Fulfillment for this order tracking flow.
+Your mission is to integrate the Scripted AI agent with Voiceflow to enable it to answer questions about store hours.
 
 ### Build
 
-#### Task 1. Test track an order flow. 
+#### Task 1. Add new created Scripted Agent to the Voice flow. 
 
-1. Click on the **Preview** button on the top right side to test the bot. Try the bot flow by typing ***"I want to track my order"***<span class="copy-static" title="Click to copy!" data-copy-text="I want to track my order"><span class="copy"></span></span>. You will see that Scripted AI agent is not configured yet to assit with this task.
-    ![Profiles](../graphics/Lab1_AI_Agent/6.14.png) 
+1. In [Control Hub](https://admin.webex.com){:target="_blank"} go to **Contact Center**, click on **Flows**, and search for the flow with name **<span class="attendee-id-container">AutonomousAI_Flow_2000_<span class="attendee-id-placeholder" data-prefix="AutonomousAI_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>**. Or if you created the flow with different name in the lab "Autonomouse AI Agent, try to find your flow. 
+    ![Profiles](../graphics/Lab1_AI_Agent/6.27.gif) 
 
-#### Task 2. Configure intents, entities, and responses.
+2. Click on the Edit and rename the flow to **<span class="attendee-id-container">Autonomous_Scripted_Flow_2000_<span class="attendee-id-placeholder" data-prefix="Autonomous_Scripted_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>**. Publish the flow. 
+    ![Profiles](../graphics/Lab1_AI_Agent/6.28.gif) 
 
-1. While on the **Script** configuration page, switch to **Entities** tab and click on the **Create entity** option. Provide the name as ***order_number***<span class="copy-static" title="Click to copy!" data-copy-text="order_number"><span class="copy"></span></span>. Entity type select as **Digits**. Provide **Lenght** as ***2***<span class="copy-static" title="Click to copy!" data-copy-text="2"><span class="copy"></span></span>.
-    ![Profiles](../graphics/Lab1_AI_Agent/6.17.gif) 
+3. Add **Menu** node in front of the VirtualAgentV2 node. 
+    ![Profiles](../graphics/Lab1_AI_Agent/6.29.gif) 
 
-2. While on the **Script** configuration page, switch to **Intents** tab and click on the **Create Intent** button located in the top right corner.
-3. Add a new intent by providing the intent name as ***track_order***<span class="copy-static" title="Click to copy!" data-copy-text="track_order"><span class="copy"></span></span> and include the following two utterances:
+4. Click on the **Menu** node and Enable Text-to-Speech. Select native **Cisco Cloud Text-to-Speech** connector, add Text-to-Speech message, remove the Audio File option. Finally enter the text: ***Press 1 to create a new order. Pless 2 to track an order or check the store hours.***<span class="copy-static" title="Click to copy!" data-copy-text="Press 1 to create a new order. Pless 2 to track an order or check the store hours."><span class="copy"></span></span>
+    ![Profiles](../graphics/Lab1_AI_Agent/6.30.gif) 
 
-    - ***I want to track my order***<span class="copy-static" title="Click to copy!" data-copy-text="I want to track my order"><span class="copy"></span></span>
-    - ***Waht is my order status?***<span class="copy-static" title="Click to copy!" data-copy-text="Waht is my order status?"><span class="copy"></span></span>
-    ![Profiles](../graphics/Lab1_AI_Agent/6.15.gif)
+5. Adjust the **Menu** node to have options 1 and 2. 
+    ![Profiles](../graphics/Lab1_AI_Agent/6.31.gif) 
 
-4. Click on the **Generate** button to utilize Generative AI for creating additional training phrases.
+6. Bring one more VirtualAgentV2 node. Click on it. In the Contact Center AI Config serach for scripted and select **Webex AI Agent (Scripted)**. Under the Virtual Agent option, search for the Scripted AI Agent with name **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_Scripted_AI_Agent">Your_Attendee_ID</span>_Scripted_AI_Agent<span class="copy" title="Click to copy!"></span></span>**.
+    ![Profiles](../graphics/Lab1_AI_Agent/6.32.gif) 
 
-5. Enter a description such as ***Generate intents to track an order status***<span class="copy-static" title="Click to copy!" data-copy-text="Generate intents to track an order status"><span class="copy"></span></span> Set the Number of Variants to **10**, which will determine the number of new phrases to be generated.
-    ![Profiles](../graphics/Lab1_AI_Agent/6.16.gif) 
+7. Connect Option 1 of the **Menu** to the **VirtualAgentV2** node that is configured with Autonomouse AI agent. And connect Option 2 to the **VirtualAgentV2** node that is configured with you Scripted AI Agent. 
+    ![Profiles](../graphics/Lab1_AI_Agent/6.33.gif) 
 
-6. Click on **+ Link** and add **order_number** as an entity.Make it as **Required**. Click on the **Response** serach and select **order_number** response. .
-    ![Profiles](../graphics/Lab1_AI_Agent/6.19.gif)    
+8. Connect Escalated output from the **VirtualAgentV2** node to the **Queue** node. Connect Handled output to the **Disconnect Contact** node. 
+    ![Profiles](../graphics/Lab1_AI_Agent/6.34.gif) 
 
-7. You can review it later, but for your information, the **order_number** response was preconfigured for you for this lab. In this response, the AI agent simply asks for the order number. Refer to the picture below. This is an interim response needed to fill the entity.
-    ![Profiles](../graphics/Lab1_AI_Agent/6.20.png)  
+9. Validate and Publish the Flow. 
+    ![Profiles](../graphics/Lab1_AI_Agent/6.35.gif) 
 
-8. Scroll down and click on **Create new** response. 
-    ![Profiles](../graphics/Lab1_AI_Agent/6.21.gif)  
+10. From Control Hub, make sure that the Channel **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel** is configured with **<span class="attendee-id-container">Autonomous_Scripted_Flow_2000_<span class="attendee-id-placeholder" data-prefix="Autonomous_Scripted_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>**.
+    ![Profiles](../graphics/Lab1_AI_Agent/6.36.gif) 
 
-9. Name the response as ***track_order***<span class="copy-static" title="Click to copy!" data-copy-text="track_order"><span class="copy"></span></span>. Update Varient 1 test to ***Please wait while I check the order status.***<span class="copy-static" title="Click to copy!" data-copy-text="Please wait while I check the order status."><span class="copy"></span></span>.
-    ![Profiles](../graphics/Lab1_AI_Agent/6.22.gif) 
+11. Dial the number that is assosiated with **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel** Channel. 
+    ![Profiles](../graphics/Lab1_AI_Agent/6.37.png) 
 
-9. Add **Voice Channel**.
-    ![Profiles](../graphics/Lab1_AI_Agent/6.23.gif) 
-
-10. Configure **Voice Channel** with the same varients and click on **Create**. </br>
-***Please wait while I check the order status.***<span class="copy-static" title="Click to copy!" data-copy-text="Please wait while I check the order status."><span class="copy"></span></span>.
-    ![Profiles](../graphics/Lab1_AI_Agent/6.24.gif) 
-
-11. Now after we added the response to our intent we can complete the intent configuration. Click on **Add** on the right bottom corner. **Save** and **Publish** the Scripted AI Agent. 
-    ![Profiles](../graphics/Lab1_AI_Agent/6.25.gif) 
-
-
-12. Click on the **Preview** button on the top right side to test the bot. Try the bot flow by typing ***"I would like to truck my order"***<span class="copy-static" title="Click to copy!" data-copy-text="I would like to truck my order"><span class="copy"></span></span> and provide an order number that you created earlier. 
-    ![Profiles](../graphics/Lab1_AI_Agent/6.26.png) 
+12. During IVR, press 2 to and ask **What is the store hours?**
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
