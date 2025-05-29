@@ -13,7 +13,7 @@ Integrate the AI Agent with the Voice Flow.
 
 ### Task 1. Build WxCC voice flow with AI Agent.
 
-1. In Control Hub navigate to **Flows**, click on **Manage Flows** dropdown list and select **Create Flows**. Select Start Fresh.
+1. In Control Hub navigate to **Flows**, click on **Manage Flows** dropdown list and select **Create Flows**. Select **Start Fresh**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.47.gif)
 
 2.  Name the new flow **<span class="attendee-id-container">AutonomousAI_Flow_2000_<span class="attendee-id-placeholder" data-prefix="AutonomousAI_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>** and click **Create Flow**.
@@ -30,14 +30,14 @@ Integrate the AI Agent with the Voice Flow.
     >
     > Connect the Errored outputs to **DisconnectContact** 
     >
-    > Set **Static Contact Center AI Config**
+    > Click on **VirtulaAgentV2** block and set **Static Contact Center AI Config**
     >
     > Contact Center AI Config: **Webex AI Agent (Autonomous)**
     >
     > Virtual Agent: **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_AutoAI_Lab">Your_Attendee_ID</span>_2000_AutoAI_Lab<span   class="copy" title="Click to copy!"></span></span>**
     ![Profiles](../graphics/Lab1_AI_Agent/2.49.gif)  
 
-4. Drag and drop following nodes:
+4. Drag and drop **Queue Contact** and **Play Music** nodes. Configure them as the following:
 
     - **Queue Contact** activity onto the Flow from the left side panel
 
@@ -48,7 +48,7 @@ Integrate the AI Agent with the Voice Flow.
       >
       > Connect the **Failure** path from the **Queue Contact** activity to the **Disconnect Contact** activity.
       > 
-      > Select **Static Queue**
+      > Click on **Queue Contact** node and select **Static Queue**.
       > 
       > Queue name: **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Voice_Queue">Your_Attendee_ID</span>_2000_Voice_Queue<span class="copy" title="Click to copy!"></span></span>**
       > 
@@ -64,7 +64,7 @@ Integrate the AI Agent with the Voice Flow.
       >
     ![Profiles](../graphics/Lab1_AI_Agent/2.50.gif)  
 
-5. **Validate** and **Publish** Flow. In popped up window click on dropdown menu to select **Latest** label, then click **Publish**  
+5. **Validate** and **Publish** Flow. In popped up window click on dropdown menu to select **Latest** label (**DO NOT** Select any other tag but only **Latest**), then click **Publish**.
     ![Profiles](../graphics/Lab1_AI_Agent/2.51.gif)  
 
 6. Assign the Flow to your **Channel (Entry Point)** - Do this by first going to **Channel** > Search for your channel **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel**.

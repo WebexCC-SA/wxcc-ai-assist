@@ -42,7 +42,7 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.1.gif)
 
-7. Click **Add File** or drag and drop file **Flower_Catalog.xlsx** you downloaded from external drive on **Step 1**. Then click **Process Files**.
+7. Click **Add File** or drag and drop file **Flower_Catalog.xlsx** you downloaded from external drive on **Step 1**. Then click **Process Files**. Wait until the file is processed. It could take 1-2 mins.
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.2.gif)
 

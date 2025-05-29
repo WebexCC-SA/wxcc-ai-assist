@@ -28,7 +28,7 @@ Configure an action to collect order details from the customer and send them to 
 
 ### Task 1. Create Service and AI Agent Flow in Webex Connect. 
 
-1. From Control Hub, go to Contact Center and open up Webex Connect Portal. 
+1. From Control Hub, go to **Contact Center** and open up **Webex Connect** Portal. 
     ![Profiles](../graphics/Lab1_AI_Agent/2.9.gif)
 
 
@@ -37,14 +37,14 @@ Configure an action to collect order details from the customer and send them to 
     ![Profiles](../graphics/Lab1_AI_Agent/2.10.gif)
 
 
-3. Click on Flows and create new flow with the name ***Create_Ordedr_Flowers***<span class="copy-static" title="Click to copy!" data-copy-text="Create_Ordedr_Flowers"><span class="copy"></span></span>.
+3. Click on **Flows** and create new flow with the name ***Create_Ordedr_Flowers***<span class="copy-static" title="Click to copy!" data-copy-text="Create_Ordedr_Flowers"><span class="copy"></span></span>.
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.11.gif)
 
 4. From the Integrations list select AI Agent. 
     ![Profiles](../graphics/Lab1_AI_Agent/2.12.gif)
 
-5. For now, save the flow and make it live. We will return to configuring this flow later. Creating it now is necessary to complete configurations in the AI Studio Portal.
+5. For now, save the flow and **Make it live**. We will return to configuring this flow later. Creating it now is necessary to complete configurations in the AI Studio Portal.
     ![Profiles](../graphics/Lab1_AI_Agent/2.13.gif)
 
 ### Task 2. Configure Action in the AI Studio.
@@ -52,14 +52,14 @@ Configure an action to collect order details from the customer and send them to 
 1. Login to the AI Studio Portal. 
     ![Profiles](../graphics/Lab1_AI_Agent/2.14.gif)
 
-2. Select your AI agent with name **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_AutoAI_Lab">Your_Attendee_ID</span>_2000_AutoAI_Lab<span   class="copy" title="Click to copy!"></span></span>** that we created earlier, go to Actions. You will see one action is already created by default for the Agent Handoff. We will be creating more actions.
+2. Select your AI agent with name **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_AutoAI_Lab">Your_Attendee_ID</span>_2000_AutoAI_Lab<span   class="copy" title="Click to copy!"></span></span>** that we created earlier, go to **Actions**. You will see one Action is already created by default for the Agent Handoff. We will be creating more actions.
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.17.gif)
 
 3. Click on creat <b>New Action</b>. Configure it with name ***Create_New_Order***<span class="copy-static" title="Click to copy!" data-copy-text="Create_New_Order"><span class="copy"></span></span> and the Action Description ***Collect order details, delivery address, total and response with the orderNumber once the order is completed.***<span class="copy-static" title="Click to copy!" data-copy-text="Collect order details, delivery address, total and response with the orderNumber once the order is completed."><span class="copy"></span></span>. In the Action score select <b>Slot filling and fulfillment</b>.
     ![Profiles](../graphics/Lab1_AI_Agent/2.18.gif)
 
-4. Scroll down and click to create "New input entity". Fill up the table with the following: <br>
+4. Scroll down and click to create **New input entity**. Fill up the table with the following and then click on **Add**. <br>
 Entity Name: ***address***<span class="copy-static" title="Click to copy!" data-copy-text="address"><span class="copy"></span></span> <br>
 Entity Typs: <b>string</b> <br>
 Description: ***Collect the customer's delivery address***<span class="copy-static" title="Click to copy!" data-copy-text="Collect the customer's delivery address"><span class="copy"></span></span> <br>
@@ -92,14 +92,14 @@ Required: <b>Yes</b>
 Entity Name: ***orderTotal***<span class="copy-static" title="Click to copy!" data-copy-text="orderTotal"><span class="copy"></span></span> <br>
 Entity Typs: <b>string</b> <br>
 Description: ***After the customer inform if they need delivery or not, and confirm that they would like to proceed with completing the order, collect the Total information and assigned it to this slot.***<span class="copy-static" title="Click to copy!" data-copy-text="After the customer inform if they need delivery or not, and confirm that they would like to proceed with completing the order, collect the Total information and assigned it to this slot."><span class="copy"></span></span> <br>
-Example: ***150 dollars, 70 $***<span class="copy-static" title="Click to copy!" data-copy-text="Romantic Roses standard bouquet and one more bouquet with 9 roses"><span class="copy"></span></span> <br>
+Example: ***150 dollars, 70 dollars***<span class="copy-static" title="Click to copy!" data-copy-text="150 dollars, 70 dollars "><span class="copy"></span></span> <br>
 Required: <b>Yes</b>
 
 9. By following the same pattern, create an entity to store the order status information.<br>
 Entity Name: ***status***<span class="copy-static" title="Click to copy!" data-copy-text="status"><span class="copy"></span></span> <br>
 Entity Typs: <b>string</b> <br>
 Description: ***Always create it as "new"***<span class="copy-static" title="Click to copy!" data-copy-text="Always create it as new"><span class="copy"></span></span> <br>
-Example: ***new***<span class="copy-static" title="Click to copy!" data-copy-text="Romantic Roses standard bouquet and one more bouquet with 9 roses"><span class="copy"></span></span> <br>
+Example: ***new***<span class="copy-static" title="Click to copy!" data-copy-text="new"><span class="copy"></span></span> <br>
 Required: <b>Yes</b>
 
 10. At this point you should see 6 created entities. Please double check it. 
@@ -157,6 +157,7 @@ Required: <b>Yes</b>
     > <br>
     > 
     > Output Variable Type: <b>JSON</b><br>
+    > Click on **+Add Variable**<br>
     > Output Variable Name: ***orderNumber***<span class="copy-static" title="Click to copy!" data-copy-text="orderNumber"><span class="copy"></span></span><br>
     > Response Entity: ***Body***<span class="copy-static" title="Click to copy!" data-copy-text="Body"><span class="copy"></span></span><br>
     > Response Path ***$.id***<span class="copy-static" title="Click to copy!" data-copy-text="$.id"><span class="copy"></span></span><br>
@@ -164,7 +165,7 @@ Required: <b>Yes</b>
     >    ![Profiles](../graphics/Lab1_AI_Agent/2.63.gif)
 
 
-6. Compare your settings with the screenshot below to make sure you configured the HTTP Request correctly. Make sure you **Save**S the changies. 
+6. Compare your settings with the screenshot below to make sure you configured the HTTP Request correctly. Make sure you **Save** the changies. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.29.png)
 
 
@@ -173,18 +174,18 @@ Required: <b>Yes</b>
 
 ### Task 4. Deliver data from Webex Connect to AI studio for the response to the customer. 
 
-1. <span style="color: red;">[Read Only]</span> Once the HTTP request is completed a new object will be created on the third pary application. You can see all opbject by using the this link [https://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder](https://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder){:target="_blank"}. Below you can see the screenshot with all order informations. Currently there are only 2, but by the time of this lab there could be more.
+1. <span style="color: red;">[Read Only]</span> Once the HTTP request is completed a new object will be created on the third pary application. You can see all object by using the this link [https://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder](https://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder){:target="_blank"}. Below you can see the screenshot with all order informations. Currently there are only 2, but by the time of this lab there could be more.
    ![Profiles](../graphics/Lab1_AI_Agent/2.64.png)
-Each order/object will content all the information that we sent from AI Studio but one - id. This key is created automatically once we create the object. The goal of this talks to send the value of the ID back to the AI Agent so he can provide it to the customer while they are still in live contact, like you can see on the picture below.<br>
+Each order/object will content all the information that we sent from AI Studio but one - id. This key is created automatically once we create the object. The goal of this Task is to send the value of the **id** back to the AI Agent so AI Agent can provide it to the customer while they are still in live contact, like you can see on the picture below.<br>
    ![Profiles](../graphics/Lab1_AI_Agent/2.31.png)
 
-2. <span style="color: red;">[Read Only]</span> When you were configuring HTTP Request in your previous TASK on the bottom of the request you were configuring the Output Variable. This variable will be used to parse the unique order id and pass the value to the Outbobount Variable with name orderNumber. See the screenshot below. In the next step we will be configuring this orderNumber variable to be sent Webex AI studio.</br>
+2. <span style="color: red;">[Read Only]</span> When you were configuring HTTP Request in your previous Task, on the bottom of the request you were configuring the Output Variable. This variable will be used to parse the unique order **id** and pass the value to the Outbobount Variable with name **orderNumber**. See the screenshot below. In the next step we will be configuring this orderNumber variable to be sent Webex AI studio.</br>
    ![Profiles](../graphics/Lab1_AI_Agent/2.65.png)
 
-3. While on your Webex Connect flow, click on **Edit** the flow then click on the settings and on the top select **Flow Outcomes**. In the JSON payout section select **Enter JSON**.
+3. While on your Webex Connect flow, click on **Edit** the flow then click on the **Settings** and on the top select **Flow Outcomes** and expend **Last Execution Status**. In the **Define key-value pairs to be sent to the AI Agent** select **Enter JSON**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.66.gif)
 
-4. We need to add the key-value pear to the existing JSON body. Add the comma after the last pear and insert ***"orderNumber": "$(n3.orderNumber)"***. Make sure there is no comma after the pear that you inserted. 
+4. We need to add the key-value pear to the existing JSON body. Add the comma after the last pear and insert ***"orderNumber": "$(n3.orderNumber)"***. Make sure there is no comma after the pear that you inserted. Then click on **Save**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.37.png) <br>
    <br>
 Also see this change in action below. 
@@ -195,11 +196,11 @@ Also see this change in action below.
 
 ### Task 5. Configure SMS confirmation. 
 
-1. Open up Webex Connect Portal. Find your Service **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Service">Your_Attendee_ID</span>_2000_Service<span   class="copy" title="Click to copy!"></span></span>**, navigate to the flow and click on **Manage** the flow. 
+1. If it is not open, navigate to **Webex Connect** portal. Find your Service **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Service">Your_Attendee_ID</span>_2000_Service<span   class="copy" title="Click to copy!"></span></span>**, navigate to the flow and click on **Manage** the flow. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.39.gif)
 
 
-2. On the right top click on **Edit** then from the available Utilities on the left side find the **SMS** and drag and drop the block to the flow. Connect **HTTP Request** node to the **SMS** node. 
+2. On the right top click on **Edit**. Then from the available Utilities on the left side find the **SMS** and drag and drop the block to the flow. Connect **HTTP Request** node to the **SMS** node. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.68.gif)
 
 3. Double clikc on the SMS block and configure the following:
@@ -227,9 +228,9 @@ Also see this change in action below.
    ![Profiles](../graphics/Lab1_AI_Agent/2.70.gif)
 
 
-### Task 6. The order creating and details delivery over SMS. 
+### Task 6. Test the order creating and details delivery over SMS. 
 
-1. Click on preview and order flowers for you friend. 
+1. In the Webex AI Agent Studio, click on preview and order flowers for you friend. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.72.gif)
 
 2. Check if the confirmation SMS was received on your phone. </br>
