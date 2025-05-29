@@ -27,31 +27,38 @@ Your mission is to:
    ![Profiles](../graphics/Lab1_AI_Agent/3.1.png)
 
 
-3. The Agent needs to logged in to the Team that is configured with Desktop Layout that has AS 
+3. The Agent needs to logged in to the Team that is configured with Desktop Layout that has Agent Assistance features configured. 
     <br/>Agents Team:
    ![Profiles](../graphics/Lab1_AI_Agent/3.2.png)    
     <br/>Desktop Layout:
    ![Profiles](../graphics/Lab1_AI_Agent/3.4.png) 
-    <br/>Desktop Layout file: Make sure **ai-assistant** is configured under the **advancedHeader**
+    <br/>Desktop Layout file: </br>
+     Make sure **ai-assistant** is configured under the **advancedHeader**.
    ![Profiles](../graphics/Lab1_AI_Agent/3.5.png)
     <br/>You can download preconfigured desktop layout here.
-   [Desktop Layout](https://cisco.box.com/shared/static/o4nrnjengm6od7coql9etz3a3lwzvw1w.json){:target="_blank"} 
+   [Desktop Layout](https://drive.google.com/file/d/1EnM-2r9XOVm2EcE6ND4fL3L62qZesm5_/view?usp=sharing){:target="_blank"} 
 
 
 ### Task 2. Test Agent Transfer Summary Feature
 
-1. Login to the Agent Deskopt and make sure you can see Agent Assistant widgit
+1. Login to the **Agent Deskopt**. 
+   ![Profiles](../graphics/Lab1_AI_Agent/3.39.png)
+
+2. Select telephony opion as **Desktop**.
+   ![Profiles](../graphics/Lab1_AI_Agent/3.40.png)
+
+2. Make sure you can see Agent Assistant widgit.
    ![Profiles](../graphics/Lab1_AI_Agent/3.6.png)
 
-2. Confirm that your Channel **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel** is still configured with the flow **<span class="attendee-id-container">AutonomousAI_Flow_2000_<span class="attendee-id-placeholder" data-prefix="AutonomousAI_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>** that includes the Autonomous AI agent, and the **Escalated** output is connected to the Queue node. This configuration is expected to remain the same as in the Autonomous AI Agent lab.
+3. Confirm that your Channel **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel** is still configured with the flow **<span class="attendee-id-container">AutonomousAI_Flow_2000_<span class="attendee-id-placeholder" data-prefix="AutonomousAI_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>** that includes the Autonomous AI agent, and the **Escalated** output is connected to the Queue node. This configuration is expected to remain the same as in the Autonomous AI Agent lab.
    ![Profiles](../graphics/Lab1_AI_Agent/3.7.gif)
 
-3. Place a test call and, for example, mention that you need some flowers for a wedding party. **Allow the AI Agent to complete its response before requesting to transfer the call to a live or human agent**. 
+4. Place a test call and, for example, mention that you need some flowers for a wedding party. **Allow the AI Agent to complete its response before requesting to transfer the call to a live or human agent**. 
 
-4. Become Available on the Agent Desktop and answer the call. You will see a window with the message **AI agent transfer summary is ready** pops up. You can click on View Summary from the window.
+5. Become Available on the Agent Desktop and answer the call. You will see a window with the message **AI agent transfer summary is ready** pops up. You can click on View Summary from the window.
    ![Profiles](../graphics/Lab1_AI_Agent/3.8.png)
 
-5. The **AI agent transfer summary is ready** notification will disappear after a few seconds. However, you can always reopen it by clicking on the AI Assistant widget.
+6. The **AI agent transfer summary is ready** notification will disappear after a few seconds. However, you can always reopen it by clicking on the AI Assistant widget.
    ![Profiles](../graphics/Lab1_AI_Agent/3.9.png)
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

@@ -37,10 +37,10 @@ Your mission is to learn how to view the AutoCSAT score for customer interaction
 2. Go to Visualizations and search for the report with name **Auto CSAT**. It should has the ID -1282. Open the report. 
     ![Profiles](../graphics/Lab1_AI_Agent/3.23.gif)
 
-3. In the report you can see AudoCSAT that were generated for the calls based on the Queue. You can see AutoCSAt information related to specific calls by expecding the AutoCSAT fields. 
+3. In the report you can see AudoCSAT that were generated for the calls, based on the Queue. You can see AutoCSAt information related to specific calls by expecding the AutoCSAT fields. 
     ![Profiles](../graphics/Lab1_AI_Agent/3.24.gif)
 
-4. <span style="color: red;">[READ ONLY]</span> When you log in to the Supervisor Dashboard, you can view the AutoCSAT score for specific calls and listen to the call recordings directly from the portal
+4. <span style="color: red;">[READ ONLY]</span> When you log in to the Supervisor Dashboard, you can view the AutoCSAT score for specific calls and listen to the call recordings directly from the portal. (The Supervisor user account is not configured for this lab. Please refer to the screenshot below to understand the experience of viewing the AutoCSAT from the Supervisor Portal.)
     ![Profiles](../graphics/Lab1_AI_Agent/3.25.png)
 
 

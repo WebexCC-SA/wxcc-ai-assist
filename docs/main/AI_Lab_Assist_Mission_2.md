@@ -24,7 +24,7 @@ Understand the provisioning process and Control Hub settings required to activat
    ![Profiles](../graphics/Lab1_AI_Agent/3.18.png)
 
 
-3. The Agent needs to logged in to the Team that is configured with Desktop Layout that has AS 
+3. The Agent needs to logged in to the Team that is configured with Desktop Layout that has Agent Assistance features configured.  
     <br/>Agents Team:
    ![Profiles](../graphics/Lab1_AI_Agent/3.2.png)    
     <br/>Desktop Layout:
@@ -32,7 +32,7 @@ Understand the provisioning process and Control Hub settings required to activat
     <br/>Desktop Layout file: Make sure **ai-assistant** is configured under the **advancedHeader**
    ![Profiles](../graphics/Lab1_AI_Agent/3.5.png)
     <br/>You can download preconfigured desktop layout here.
-   [Desktop Layout](https://cisco.box.com/shared/static/o4nrnjengm6od7coql9etz3a3lwzvw1w.json){:target="_blank"} 
+   [Desktop Layout](https://drive.google.com/file/d/1EnM-2r9XOVm2EcE6ND4fL3L62qZesm5_/view?usp=sharing){:target="_blank"}
 
 
 ### Task 2. Test Call Drop Summary Feature
