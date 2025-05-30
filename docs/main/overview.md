@@ -87,7 +87,28 @@ icon: material/bullseye-arrow
 
 ## Use Case 
 
-You are designing a Webex AI agent for a flower shop. This AI agent will communicate with customers over voice and digital channels. It will recommend flowers, collect order details, and calculate the total price for standard and custom bouquets. Additionally, it will gather delivery information and email addresses to send order confirmations via SMS. The virtual agent can provide order status updates, store hours or transfer customers to a human agent if needed. The human agent will be equipped with the latest AI technology to ensure exceptional customer support.
+## Webex AI Agent Design for Flower Shop
+
+Designing a **Webex AI Agent** for a flower shop to assist customers via **voice and digital channels**.
+
+### AI Agent Capabilities
+
+- **Recommending flowers** based on customer preferences or occasions  
+- **Collecting order details** for both **standard and custom bouquets**  
+- **Calculating total price** in real time  
+- **Gathering delivery information**, including **address** and **delivery date**  
+- **order confirmations via SMS**  
+- **Providing order status updates** upon request  
+- **Sharing store hours** and relevant **business information**  
+- **Transferring to a human agent** when needed for complex inquiries  
+
+### Human Agent Support
+
+- **Human agents** are equipped with **AI-powered tools** to ensure:
+  - **Fast issue resolution**  
+  - **Personalized service**  
+  - **Exceptional customer experience** across all interactions
+
 
 You can read more about the Webex AI Agent below and review the video of the use case that we will be imitating in this lab. 
 
