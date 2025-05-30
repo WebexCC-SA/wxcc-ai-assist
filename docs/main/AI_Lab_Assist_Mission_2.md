@@ -20,7 +20,7 @@ Understand the provisioning process and Control Hub settings required to activat
 
 1. You should purchase the new AI Assistant SKU **A-FLEX-AI-ASST** from CCW.
 
-2. Once you purchase the offer, admins with the appropriate profile and access controls will be able to see the AI Assistant menu in Control Hub. Post purchasing the offer, the customer can enable/disable the **Virtual Agent Transfer Summary** features from the Control Hub.
+2. Once you purchase the offer, admins with the appropriate profile and access controls will be able to see the AI Assistant menu in Control Hub. Post purchasing the offer, the customer can enable/disable the **Call Drop Summary** features from the Control Hub.
    ![Profiles](../graphics/Lab1_AI_Agent/3.18.png)
 
 
