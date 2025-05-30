@@ -65,4 +65,30 @@ Your mission is to review preconfigured Scripted AI Agent for tracking existing 
 
 #### Task 3. Send the data from Voice Flow to AI Agent. 
 
-1. To send data back to AI Studio we need to use one more VirtualAgentV2 block. Click on it to review configurations. You can see that we use the same Scripted AI agent **180_Scripted_AI_Agent**, but we also configured the State Event. The **Evant Name** will refare to the response on AI Studio. And the **Evant Data** contains the result of the **order_status** that can be retrived from the AI Studio.  
+1. To send data back to AI Studio we need to use one more VirtualAgentV2 block. Click on it to review configurations. You can see that we use the same Scripted AI agent **180_Scripted_AI_Agent**, but we also configured the **State Event**. The **Evant Name** will refare to the response on AI Studio. And the **Evant Data** contains the result of the **order_status** that can be retrived in the AI Studio.
+     ![Profiles](../graphics/Lab1_AI_Agent/6.84.png) 
+
+2. Go to AI Studio and open AI Agent with name ***180_Scripted_AI_Agent***<span class="copy-static" title="Click to copy!" data-copy-text="180_Scripted_AI_Agent"><span class="copy"></span></span>. Kindly asking not making any changes to this agent, as this lab is for review purposes only for the entire group.
+    ![Profiles](../graphics/Lab1_AI_Agent/6.69.png) 
+
+3. Open the response with the name **order_status**. The same name that was specifed in the VirtualAgentV2 block as the **Event Name**. 
+     ![Profiles](../graphics/Lab1_AI_Agent/6.85.png) 
+
+4. Open up the response and you can see that data will be returned using the following format: **${eventStore.status}**.
+     ![Profiles](../graphics/Lab1_AI_Agent/6.86.png) 
+
+#### Task 4. Place test call and review the trace. 
+
+1. Call the number +15206603129 that is configured to deliver the call to the flow **Autonomous_Scripted_Flow_2000_180**.
+     ![Profiles](../graphics/Lab1_AI_Agent/6.87.png) 
+
+2. Press 2 to go ot the Scripted AI agent. Ask to track your order. Provide the order number as 17 or any other order that you created earlier. You should hear the response that the order status is "new".
+
+3. Open up Debug mode in the flow **Autonomous_Scripted_Flow_2000_180**.
+     ![Profiles](../graphics/Lab1_AI_Agent/6.88.png) 
+
+4. Review the trace. 
+     ![Profiles](../graphics/Lab1_AI_Agent/6.89.png) 
+
+5. In the AI Agent Studio, go to Sessions and review the traces. 
+     ![Profiles](../graphics/Lab1_AI_Agent/6.90.png) 
