@@ -36,6 +36,8 @@ To activate post-call survey functionality, historical customer data is required
 1. Capture surveys using **Webex Contact Center Experience Management**.
 2. Capture customer survey responses using the **Global variable** within your flow.
 
+Make a note in AutoCSAT setting in Controlhub we using **Global Variable** 
+
    ![Profiles](../graphics/Lab1_AI_Agent/3.21.png)
 
 ### Task 2 Explore AutoCSAT using Analyzer report and Supervisor Dashboard
