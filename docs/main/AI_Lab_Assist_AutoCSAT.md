@@ -26,7 +26,16 @@ Your mission is to learn how to view the AutoCSAT score for customer interaction
 
 1. You should purchase the new AI Assistant SKU **A-FLEX-AI-ASST** from CCW.
 
-2. Once you purchase the offer, admins with the appropriate profile and access controls will be able to see the AI Assistant menu in Control Hub. Post purchasing the offer, the customer can enable/disable the **Virtual Agent Transfer Summary** features from the Control Hub.
+2. Once you purchase the offer, admins with the appropriate profile and access controls will be able to view the **AI Assistant** menu in Control Hub.
+
+- You can enable or disable the **AutoCSAT** feature directly from the Control Hub.
+- AutoCSAT can be enabled for **all agents** or for **selected individual agents**.
+
+> **Note:**  
+To activate post-call survey functionality, historical customer data is required to train the AutoCSAT model. There are two ways to collect this data:
+1. Capture surveys using **Webex Contact Center Experience Management**.
+2. Capture customer survey responses using the **Global variable** within your flow.
+
    ![Profiles](../graphics/Lab1_AI_Agent/3.21.png)
 
 ### Task 2 Explore AutoCSAT using Analyzer report and Supervisor Dashboard
