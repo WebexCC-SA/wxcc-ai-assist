@@ -49,7 +49,7 @@ Configure an action to collect order details from the customer and send them to 
 
 ### Task 2. Configure Action in the AI Studio.
 
-1. Login to the AI Studio Portal. 
+1. If not logged-in in AI Agent Studio, login to the AI Studio Portal.
     ![Profiles](../graphics/Lab1_AI_Agent/2.14.gif)
 
 2. Select your AI agent with name **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_AutoAI_Lab">Your_Attendee_ID</span>_2000_AutoAI_Lab<span   class="copy" title="Click to copy!"></span></span>** that we created earlier, go to **Actions**. You will see one Action is already created by default for the Agent Handoff. We will be creating more actions.
@@ -74,7 +74,7 @@ Description: ***Check if the customer needs delivery or not. Event if they want 
 Example: ***Yes,No***<span class="copy-static" title="Click to copy!" data-copy-text="Yes,No"><span class="copy"></span></span> <br>
 Required: <b>Yes</b>
 
-6. By following the same pattern, create an entity to collect the customer's email address.<br>
+6. By following the same pattern, create an entity to collect the customer's phone number.<br>
 Entity Name: ***phoneNumber***<span class="copy-static" title="Click to copy!" data-copy-text="phoneNumber"><span class="copy"></span></span> <br>
 Entity Typs: <b>string</b> <br>
 Description: ***Collect customer's phone number. Before the customer complete the order, ask if they would like to receive confirmation over the SMS. If so, collect the phone number.***<span class="copy-static" title="Click to copy!" data-copy-text="Collect customer's phone number. Before the customer complete the order, ask if they would like to receive confirmation over the SMS. If so, collect the phone number."><span class="copy"></span></span> <br>
@@ -105,7 +105,7 @@ Required: <b>Yes</b>
 10. At this point you should see 6 created entities. Please double check it. 
     ![Profiles](../graphics/Lab1_AI_Agent/2.61.png)
 
-11. In the Webex Connect Builder Fulfillment select Service: **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Service">Your_Attendee_ID</span>_2000_Service<span   class="copy" title="Click to copy!"></span></span>** and Flow: <b>Create_Order_Flowers</b>
+11. In the Webex Connect Builder Fulfillment select Service: **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Service">Your_Attendee_ID</span>_2000_Service<span   class="copy" title="Click to copy!"></span></span>** and Flow: <b>Create_Order_Flowers</b> Click **Add**
    ![Profiles](../graphics/Lab1_AI_Agent/2.22.gif)
 
 12. Publish the update of your AI Agent. 
