@@ -92,3 +92,5 @@ Your mission is to review preconfigured Scripted AI Agent for tracking existing 
 
 5. In the AI Agent Studio, go to Sessions and review the traces. 
      ![Profiles](../graphics/Lab1_AI_Agent/6.90.png) 
+
+<p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
