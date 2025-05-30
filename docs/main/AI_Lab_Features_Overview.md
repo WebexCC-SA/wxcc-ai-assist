@@ -1,7 +1,21 @@
 
 ## Story
 
-This lab is designed to explore how to pass contextual intelligence from AI agents to Webex Contact Center agents. It involves leveraging AI summaries for Webex AI agent conversational transcripts. Once the call is connected to a human agent, live transcripts will be available to assist the agent in better supporting the caller. By completing this lab, you will gain practical skills and knowledge on providing the right context to agents to improve their ability to handle customer queries.
+## Webex Contact Center AI Assistant Lab – Context Transfer
+
+This lab demonstrates how to pass contextual intelligence from AI agents to Webex Contact Center agents.
+
+### Key Objectives:
+- Capture AI-generated summaries of virtual agent conversations
+- Enable real-time call transcription for human agents
+- Provide agents with full context before and during live interactions
+
+### Benefits:
+- Reduce customer repetition
+- Improve agent efficiency and accuracy
+- Deliver smoother transitions from AI to human support
+
+By completing this lab, you'll learn how to enhance agent experiences using AI-powered context and live insights.
 
 
 ## Call Flow Overview
