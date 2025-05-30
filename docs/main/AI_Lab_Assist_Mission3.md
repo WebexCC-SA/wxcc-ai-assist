@@ -21,7 +21,7 @@ Benefits:
 
 Your mission is to:
 
-1. Enable Real-Time Transcript feautre
+1. Enable Real-Time Transcript feature
 2. Configure flow with **Start Media Stream** block
 3. Test Real-Time Transcript feature
 
@@ -32,7 +32,7 @@ Your mission is to:
 
 1. You should purchase the new AI Assistant SKU **A-FLEX-AI-ASST** from CCW.
 
-2. Once you purchas the offer, admins with the appropriate profile and access controls will be able to see the AI Assistant menu in Control Hub. Post purchasing the offer, the customer can enable/disable the **Real-time Transcriptions** from the Control Hub.
+2. Once you purchase the offer, admins with the appropriate profile and access controls will be able to see the AI Assistant menu in Control Hub. Post purchasing the offer, the customer can enable/disable the **Real-time Transcriptions** from the Control Hub.
    ![Profiles](../graphics/Lab1_AI_Agent/3.10.png)
 
 
@@ -62,7 +62,7 @@ Your mission is to:
 
 ### Task 3. Test Real-Time Transcript feature
 
-1. Login to the Agent Deskopt.
+1. Login to the Agent Desktop.
    ![Profiles](../graphics/Lab1_AI_Agent/3.15.png)
 
 2. Confirm that your Channel **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel** is still configured with the flow **<span class="attendee-id-container">AutonomousAI_Flow_2000_<span class="attendee-id-placeholder" data-prefix="AutonomousAI_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>** that includes the Autonomous AI agent, and the **Escalated** output is connected to the Queue node. This configuration is expected to remain the same as in the Autonomous AI Agent lab.
