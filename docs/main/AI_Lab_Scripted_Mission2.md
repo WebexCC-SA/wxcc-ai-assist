@@ -24,7 +24,7 @@ Your mission is to review preconfigured Scripted AI Agent for tracking existing 
  AI agent. Click on **Script > Intents** and then open up **track_order** intent. 
      ![Profiles](../graphics/Lab1_AI_Agent/6.70.png) 
 
-4. If this intent is triggered (customer request matchs the Utterances), then system will initiate the response **order number** until the required entity is filled or the number of retries is exceeded.
+4. If this intent is triggered (customer request matches the Utterances), then system will initiate the response **order number** until the required entity is filled or the number of retries is exceeded.
      ![Profiles](../graphics/Lab1_AI_Agent/6.71.png) 
 
 5. Once the entity is filled, the system initiates the final response for this intent. In this case, it is **track_order**.
@@ -32,6 +32,9 @@ Your mission is to review preconfigured Scripted AI Agent for tracking existing 
 
 6. Click on Entities and review **order_number** Entity configuration. 
      ![Profiles](../graphics/Lab1_AI_Agent/6.73.gif) 
+
+7. Click on **Responces** and seach for **order_number** responce and review it for responce message  
+     ![Profiles](../graphics/Lab1_AI_Agent/scriptedOrdernumber6.91.gif) 
 
 #### Task 2. Send the data from AI Agent to Voice Flow​.
 
