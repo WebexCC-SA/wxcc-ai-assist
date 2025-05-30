@@ -11,7 +11,8 @@ Your mission is to review preconfigured Scripted AI Agent for tracking existing 
 
 #### Task 1. Review the Configurations in AI Studio to track an order. 
 
-1. Go to AI Studio and open AI Agent with name ***180_Scripted_AI_Agent***<span class="copy-static" title="Click to copy!" data-copy-text="180_Scripted_AI_Agent"><span class="copy"></span></span>. Kindly asking not making any changes to this agent, as this lab is for review purposes only for the entire group.
+1. Go to AI Studio and open AI Agent with name ***180_Scripted_AI_Agent***<span class="copy-static" title="Click to copy!" data-copy-text="180_Scripted_AI_Agent"><span class="copy"></span></span>. 
+> **Please do not making any changes to this agent, as this lab is for review purposes only for the entire group.**
     ![Profiles](../graphics/Lab1_AI_Agent/6.69.png) 
 
 
