@@ -5,7 +5,8 @@ icon: material/medal
 
 #### Task 1. <span style="color: red;">[OVERVIEW ONLY]</span> Review Flower Delivery Topic Collection.
 
-1. Go to <b>Contact centre overview</b>. Under Quick Links , click on **Topic Analytics**.
+1. Go to <b>Contact centre overview</b>. Under Quick Links , click on **Topic Analytics**. 
+Enter your administrator login user, if prompted. 
    ![Profiles](../graphics/Lab1_AI_Agent/1.1.gif)
 
 2. On left side click on “Topic Analytics” and click on collection with name **Flower Delivery**.
@@ -14,7 +15,7 @@ icon: material/medal
 3. Make a note of Total Analyzed interaction and how many of those has recording available.
    ![Profiles](../graphics/Lab1_AI_Agent/1.3.png)
 
-4. Click on **Topic**. There are various **Topics** for which customers are contacting the Contct Center. Knowing this information gives the opportunities for automation and enhanced self-service through virtual agents. For example, one such topic could be **Flower Delivery**. As a business analyst, you might consider implementing an AI agent capable of creating an order and scheduling deliveries.
+4. Click on **Topic**. There are various **Topics** for which customers are contacting the Contact Center. Knowing this information gives the opportunities for automation and enhanced self-service through virtual agents. For example, one such topic could be **Flower Delivery**. As a CX Architect/Business leader, you might consider implementing an AI agent capable of creating an order and scheduling deliveries.
    ![Profiles](../graphics/Lab1_AI_Agent/1.4.png)
 
 5. There is option for you to download the Topics with details. 
@@ -34,6 +35,9 @@ Click on **Edit Topics** on the top-right corner.
 
 3. Click on Add New
    ![Profiles](../graphics/Lab1_AI_Agent/1.9.png)
+
+Optionally, Topics can be merged or deleted
+   ![Profiles](../graphics/Lab1_AI_Agent/1.17.png)
 
 4. Configure the tops with the contact reason examples.
    ![Profiles](../graphics/Lab1_AI_Agent/1.10.png)
