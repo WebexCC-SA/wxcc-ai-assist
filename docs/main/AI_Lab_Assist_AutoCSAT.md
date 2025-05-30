@@ -42,7 +42,7 @@ To activate post-call survey functionality, historical customer data is required
 
 ### Task 2 Explore AutoCSAT using Analyzer report and Supervisor Dashboard
 
-1. Go Contact Center in Control Hub and from Quick Links open up Analyzer.
+1. Under Contact Center in Control Hub, click **Overview** and from **Quick Links** open up **Analyser**.
     ![Profiles](../graphics/Lab1_AI_Agent/3.22.gif)
 
 2. Go to Visualizations and search for the report with name **Auto CSAT**. It should have the ID -1282. Open the report. 
