@@ -50,7 +50,7 @@ Understand the provisioning process and Control Hub settings required to activat
 
 5. Call back from the same number. Ask to talk to an agent. 
 
-6. Become Available on the Agnet Desktop and answer the call. You will see AI Assistant Widget will have Call Drop Summary and the Agent Transfer Summary.
+6. Become Available on the Agent Desktop and answer the call. You will see AI Assistant Widget will have Call Drop Summary and the Agent Transfer Summary.
    ![Profiles](../graphics/Lab1_AI_Agent/3.20.png)
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
