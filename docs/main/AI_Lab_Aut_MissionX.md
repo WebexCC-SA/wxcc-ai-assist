@@ -80,7 +80,7 @@ Integrate the AI Agent with the Voice Flow.
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.53.gif)
 
-9. Dial Support Number assigned to your **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel** to test the Autonomous Virtual Agent over a voice call.
+9. Dial Support Number assigned to your **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel** to test the Autonomous AI Agent over a voice call.
 
 
 ### Task 2. Test Agent Handoff Configurations.
@@ -91,7 +91,7 @@ Integrate the AI Agent with the Voice Flow.
 
     ![profiles](../graphics/Lab1/5-Agent_Login.gif)
 
-4. Dial the support number assigned to your **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel** channel, and during the conversation with the virtual agent, ask to talk to a representetive or live agent. 
+4. Dial the support number assigned to your **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel** channel, and during the conversation with the AI agent, ask to talk to a representetive or live agent. 
 
 5. By default, the **Conversation Transcripts** setting is enabled in VirtualAgentV2 block.
     ![Profiles](../graphics/Lab1_AI_Agent/2.54.png)
@@ -100,4 +100,4 @@ Integrate the AI Agent with the Voice Flow.
     ![Profiles](../graphics/Lab1_AI_Agent/2.55.png)
 
 
-<p style="text-align:center"><strong>Congratulations, you have officially completed the Autonomous Virtual Agent lab! 🎉🎉 </strong></p>
+<p style="text-align:center"><strong>Congratulations, you have officially completed the Autonomous AI Agent lab! 🎉🎉 </strong></p>
