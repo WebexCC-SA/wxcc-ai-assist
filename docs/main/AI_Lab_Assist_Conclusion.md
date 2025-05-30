@@ -1,31 +1,14 @@
-## Lab Summary: Webex AI Assistance Features
+## Lab Summary: Webex AI Assistance
 
-By completing this lab, you gained hands-on experience with **Webex AI Assistance** features designed to transform contact center operations and enhance customer satisfaction.
+In this lab, you explored key AI features in Webex Contact Center that enhance customer service and agent efficiency.
 
-### Key Features Explored
+### Highlights
 
-- **Agent Transfer Summary**  
-  Provides agents with a concise overview of customer interactions with Virtual Agents, helping them address customer needs more effectively.
+- **Agent Transfer Summary**: Gives agents context from Virtual Agent interactions.
+- **Dropped-Call Summary**: Helps agents resume conversations smoothly.
+- **Real-Time Transcription**: Improves accuracy and response time.
+- **Auto CSAT**: Uses AI to predict satisfaction for every interaction, beyond traditional surveys.
 
-- **Dropped-Call Summary**  
-  Enables agents to seamlessly resume conversations after dropped calls, reducing customer frustration and improving efficiency.
+### Takeaway
 
-- **Real-Time Transcription**  
-  Enhances communication by allowing agents to:
-  - Follow conversations more accurately.
-  - Respond promptly and appropriately.
-  - Deliver a better customer experience.
-
-- **Auto CSAT (Customer Satisfaction Prediction)**  
-  Demonstrates how Cisco’s native AI:
-  - Predicts CSAT scores for every interaction.
-  - Overcomes limitations of traditional surveys.
-  - Offers a more comprehensive view of customer sentiment.
-
-### Conclusion
-
-These features collectively highlight how **Cisco is leveraging AI** to:
-
-- Streamline contact center processes  
-- Improve agent-customer communication  
-- Deliver **exceptional customer experiences** in modern contact centers
+Cisco AI features streamline operations, boost communication, and elevate the customer experience in modern contact centers.
