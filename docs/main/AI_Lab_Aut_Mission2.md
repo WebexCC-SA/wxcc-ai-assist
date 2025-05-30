@@ -203,7 +203,7 @@ Also see this change in action below.
 2. On the right top click on **Edit**. Then from the available Utilities on the left side find the **SMS** and drag and drop the block to the flow. Connect **HTTP Request** node to the **SMS** node. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.68.gif)
 
-3. Double clikc on the SMS block and configure the following:
+3. Double click on the SMS block and configure the following:
 
      > Destination: ***$(n2.aiAgent.phoneNumber)***<span class="copy-static" title="Click to copy!" data-copy-text="$(n2.aiAgent.phoneNumber)"><span class="copy"></span></span><br>
      > From Number: ***12066478712***<span class="copy-static" title="Click to copy!" data-copy-text="12066478712"><span class="copy"></span></span><br>
@@ -224,7 +224,7 @@ Also see this change in action below.
      >
    ![Profiles](../graphics/Lab1_AI_Agent/2.69.gif)
 
-4. Click on **Make Live**. 
+4. Save and Click on **Make Live**. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.70.gif)
 
 
