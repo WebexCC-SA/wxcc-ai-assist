@@ -14,8 +14,7 @@ Your mission is to:
 
 1. Configure a smooth handoff to live human agent from AI Agent.
 2. Modify Virtual Agent transcript
-3. Configure routing based on last used intent
-4. Use AI Assistant
+3. Use AI Assistant
 
 ## Build
 

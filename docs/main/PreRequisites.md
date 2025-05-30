@@ -4,9 +4,9 @@ icon: material/bullseye-arrow
 ---
 
 ## Learning Objectives
-1. Ensure that you have **"POD <span class="attendee-id-placeholder">Your_Attendee_ID</span>.pdf"** file on your desktop with instructions and credentials to access your lab. If you do not, please ask your lab proctor now.
+1. Ensure that you have **LTRCCT-2000_LAB_Credential** file on your desktop with instructions and credentials to access your lab. If you do not, please ask your lab proctor now.
 2. Understand your configuration instructions
-3. Familiarize yourself how we will use Google Chrome profiles to simulate various scenarios covered in the next labs.
+
 
 ### Know before you start
 
@@ -15,12 +15,13 @@ icon: material/bullseye-arrow
     <details><summary>WxCC Schema</summary>![Profiles](../graphics/overview/WxCC_Schema.png)</details>
 
 2. The majority of the configuration in Control Hub is already set up, allowing you to focus primarily on configuration Webex AI Virtual Agent and other AI features. Of course, there may still be some elements to adjust, but these should be minimal, letting you concentrate on building and refining the flow logic rather than spending time on initial setup.
-3. The Agents have been configured for you. You will be performing the rest of the configurations for AI Agent and integartion with channels.
+3. The Human Agent have been configured for you. You will be performing the rest of the configurations for AI Agent and integartion with channels.
 4. All your configurations should contain your attendee ID so the lab users don't step over each other's configurations.
 5. Each of you has been provided with the phone number to dial (Entry point DN), 1 agent and 1 admin.
-6. We are going to use built-in Cisco Text to Speech for playing all messages in the lab.
-7. Please ask for help when you need it. You can do it by clicking on **"Ask a Question"** or by raising your hand and calling the proctor.
-
+6. Please ask for help when you need it. You can do so by:
+   * Dropping your question in the LAB Space **LTRCCT-2000: In Room Lab Support** from Webex App in your Lab PC. 
+   * Raising your hand and calling the proctor.
+       ![Profiles](../graphics/Lab1_AI_Agent/GS8.gif)
 ---
 
 ### Predefined configuration
@@ -69,7 +70,7 @@ More pre-configured entities will be mentioned during the lab missions if they h
    ![Profiles](../graphics/Lab1_AI_Agent/GS7.png)
 
 #### Calling to Contact Center
-You can place test calls for this lab using Webex Calling phones. Find Webex App and login with the Admin credentials that was shared with you. 
+You can make test calls from your mobile phone or by using Webex Calling phones. Please find the Webex App and log in with the admin credentials that were shared with you.
    ![Profiles](../graphics/Lab1_AI_Agent/GS8.gif)
 
 Place test call to the test number  +15206603129 to confirm that you Webex Phone is configured to place calls
