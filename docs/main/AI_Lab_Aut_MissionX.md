@@ -30,9 +30,9 @@ Integrate the AI Agent with the Voice Flow.
     >
     > Connect the Errored outputs to **DisconnectContact** 
     >
-    > Click on **VirtulaAgentV2** block and set **Static Contact Center AI Config**
+    > Click on **VirtulaAgentV2** block and select **Static Contact Center AI Config**
     >
-    > Contact Center AI Config: **Webex AI Agent (Autonomous)**
+    > Select Contact Center AI Config as **Webex AI Agent (Autonomous)**
     >
     > Virtual Agent: **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_AutoAI_Lab">Your_Attendee_ID</span>_2000_AutoAI_Lab<span   class="copy" title="Click to copy!"></span></span>**
     ![Profiles](../graphics/Lab1_AI_Agent/2.49.gif)  
@@ -60,7 +60,7 @@ Integrate the AI Agent with the Voice Flow.
       >
       > Connect the **Failure** path from the **Play Music** activity to the **Disconnect Contact** activity.
       > 
-      > Music File: **defaultmusic_on_hold.wav**
+      > Music File: **defaultmusic_on_hold_cisco_opus_no_1.wav**
       >
     ![Profiles](../graphics/Lab1_AI_Agent/2.50.gif)  
 
