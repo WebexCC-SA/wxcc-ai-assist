@@ -100,7 +100,7 @@ nav:
   - Getting Started:
       - Lab Overview: ./main/overview.md
       - Getting to know your environment: ./main/PreRequisites.md
-      - Qucik Links: quicklinks.md
+      - Quick Links: quicklinks.md
 #      - Chrome and Webex App Setup: ./main/Browser_and_Desktop_Setup.md 
   - Topic Analytics:
       - Lab Guide:
