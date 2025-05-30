@@ -65,4 +65,4 @@ Your mission is to review preconfigured Scripted AI Agent for tracking existing 
 
 #### Task 3. Send the data from Voice Flow to AI Agent. 
 
-1. 
+1. To send data back to AI Studio we need to use one more VirtualAgentV2 block. Click on it to review configurations. You can see that we use the same Scripted AI agent **180_Scripted_AI_Agent**, but we also configured the State Event. The **Evant Name** will refare to the response on AI Studio. And the **Evant Data** contains the result of the **order_status** that can be retrived from the AI Studio.  
