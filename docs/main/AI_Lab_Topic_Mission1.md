@@ -36,7 +36,7 @@ Click on **Edit Topics** on the top-right corner.
 3. Click on Add New
    ![Profiles](../graphics/Lab1_AI_Agent/1.9.png)
 
-Optionally, Topics can be merged or deleted
+   Optionally, Topics can be merged or deleted
    ![Profiles](../graphics/Lab1_AI_Agent/1.17.png)
 
 4. Configure the tops with the contact reason examples.
