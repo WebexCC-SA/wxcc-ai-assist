@@ -22,11 +22,16 @@ Your mission is to create a new Scripted AI Agent from the template and configur
 
 3. Click on **Import agent** to create a new AI Agent by importing preconfigured template. Click on **Upload** button, locate and select **ScriptedAIAgent.json** you downloaded at the beginning of the mission.
 4. Name your Agent as **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_Scripted_AI_Agent">Your_Attendee_ID</span>_Scripted_AI_Agent<span class="copy" title="Click to copy!"></span></span>** and click **Import**
-5. Make the bot live by clicking on the **Publish** button on the top right.
-6. Enter **v1** in the popup window, then click **Publish**.
+5. Make the bot live by clicking on **Save Changes** and then **Publish** button on top right.
+6. Enter **v1** in the popup comment window, then click **Publish**.
     ![Profiles](../graphics/Lab1_AI_Agent/5.1.gif)
 
 7. Click on the **Preview** button on the top right side to test the bot. Try the bot flow by typing ***"What are the store hours?"***<span class="copy-static" title="Click to copy!" data-copy-text="What are the store hours?"><span class="copy"></span></span>
+You will notice the following response:
+
+> Sorry, I was unable to understand your query accurately.
+
+
     ![Profiles](../graphics/Lab1_AI_Agent/6.1.png) 
 
 8. The initial response can be customized, and we also need to configure intents and responses to enable the Scripted AI Agent to answer questions about store hours.
@@ -54,13 +59,15 @@ Please do it for **Web** and Voice **channels**. After the change, Save and Publ
 
 4. Click on the **Generate** button to utilize Generative AI for creating additional training phrases.
 
-5. Enter a description such as ***Generate intents store business hours***<span class="copy-static" title="Click to copy!" data-copy-text="Generate intents store business hours"><span class="copy"></span></span> Set the Number of Variants to **10**, which will determine the number of new phrases to be generated.
+5. Enter a description such as ***Generate intents store business hours***<span class="copy-static" title="Click to copy!" data-copy-text="Generate intents store business hours"><span class="copy"></span></span> Set the Number of Variants to **10**, which will determine the number of new phrases to be generated. Click **Generate**
+> Make a note of newly created **Utterances**
     ![Profiles](../graphics/Lab1_AI_Agent/6.5.gif) 
 
 6. Now we need to configure a response that would be related to this intent. Scroll down and click on **Create new**.
     ![Profiles](../graphics/Lab1_AI_Agent/6.6.gif) 
 
 7. Name the response as ***store_hours***<span class="copy-static" title="Click to copy!" data-copy-text="store_hours"><span class="copy"></span></span>. Update Variant 1 text to ***The store hours are from 9 am to 5 pm. Please let me know if you have any other questions.***<span class="copy-static" title="Click to copy!" data-copy-text="The store hours are from 9 am to 5 pm. Please let me know if you have any other questions."><span class="copy"></span></span>.
+Move to next step before clicking **Create**
     ![Profiles](../graphics/Lab1_AI_Agent/6.7.gif) 
 
 8. Add one more Variant and provide the text: ***The store is open from 9 am to 5 pm. Is there anything else I can do for you?***<span class="copy-static" title="Click to copy!" data-copy-text="The store is open from 9 am to 5 pm. Is there anything else I can do for you?"><span class="copy"></span></span>.
