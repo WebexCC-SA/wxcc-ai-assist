@@ -46,7 +46,7 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.2.gif)
 
-    Optional: You can also natively create a Knowledge Base document by Clicking **Documents** then **Create Document** and paste the content. 
+    Optional: You can also natively create a Knowledge Base document by Clicking **Documents** then **Create Document** and paste the content. **Save** it. 
     ![Profiles](../graphics/Lab1_AI_Agent/2.75KBDocument.gif)
     
 8. Navigate to **Dashboard** from the right-hand side menu panel and click **Create Agent**
