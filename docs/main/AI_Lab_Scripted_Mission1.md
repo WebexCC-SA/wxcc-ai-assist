@@ -26,7 +26,7 @@ Your mission is to create a new Scripted AI Agent from the template and configur
 6. Enter **v1** in the popup window, then click **Publish**.
     ![Profiles](../graphics/Lab1_AI_Agent/5.1.gif)
 
-7. Click on the **Preview** button on the top right side to test the bot. Try the bot flow by typing ***"What is the store hours?"***<span class="copy-static" title="Click to copy!" data-copy-text="What is the store hours?"><span class="copy"></span></span>
+7. Click on the **Preview** button on the top right side to test the bot. Try the bot flow by typing ***"What are the store hours?"***<span class="copy-static" title="Click to copy!" data-copy-text="What are the store hours?"><span class="copy"></span></span>
     ![Profiles](../graphics/Lab1_AI_Agent/6.1.png) 
 
 8. The initial response can be customized, and we also need to configure intents and responses to enable the Scripted AI Agent to answer questions about store hours.
@@ -34,7 +34,7 @@ Your mission is to create a new Scripted AI Agent from the template and configur
 #### Task 2. Update the initial greeting.  
 
 1. As soon as the interaction reaches the Scripted AI Agent, the system initiates the **Welcome** response. To change the initial greeting, go to **Script** > **Responses** then open the **Welcome** response and update the response text there. Change the text to: ***Hi, my name is Blossom, the virtual assistant. I can help you with tracking your order or providing the store's business hours.***<span class="copy-static" title="Click to copy!" data-copy-text="Hi, my name is Blossom, the virtual assistant. I can help you with tracking your order or providing the store's business hours."><span class="copy"></span></span>. </br>
-Please do it for **Web** and Voice **channels**. Aftger the change, Save and Publish the Scripted AI agent. 
+Please do it for **Web** and Voice **channels**. After the change, Save and Publish the Scripted AI agent. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.3.gif) 
 
 2. Click on the **Preview** button on the top right side to test the bot. Check if the initial greeting was changed. 
@@ -48,7 +48,7 @@ Please do it for **Web** and Voice **channels**. Aftger the change, Save and Pub
 2. While on the **Script** configuration page, switch to **Intents** tab and click on the **Create Intent** button located in the top right corner.
 3. Add a new intent by providing the intent name as ***store_hours***<span class="copy-static" title="Click to copy!" data-copy-text="store_hours"><span class="copy"></span></span> and include the following two utterances:
 
-    - ***What is the store hours?***<span class="copy-static" title="Click to copy!" data-copy-text="What is the store hours?"><span class="copy"></span></span>
+    - ***What are the store hours?***<span class="copy-static" title="Click to copy!" data-copy-text="What are the store hours?"><span class="copy"></span></span>
     - ***What is the business hours for this store?***<span class="copy-static" title="Click to copy!" data-copy-text="What is the business hours for this store?"><span class="copy"></span></span>
     ![Profiles](../graphics/Lab1_AI_Agent/6.3.gif) 
 
@@ -60,17 +60,17 @@ Please do it for **Web** and Voice **channels**. Aftger the change, Save and Pub
 6. Now we need to configure a response that would be related to this intent. Scroll down and click on **Create new**.
     ![Profiles](../graphics/Lab1_AI_Agent/6.6.gif) 
 
-7. Name the response as ***store_hours***<span class="copy-static" title="Click to copy!" data-copy-text="store_hours"><span class="copy"></span></span>. Update Varient 1 test to ***The store hours is from 9 am to 5 pm. Please let me know if you have any other questions.***<span class="copy-static" title="Click to copy!" data-copy-text="The store hours is from 9 am to 5 pm. Please let me know if you have any other questions."><span class="copy"></span></span>.
+7. Name the response as ***store_hours***<span class="copy-static" title="Click to copy!" data-copy-text="store_hours"><span class="copy"></span></span>. Update Variant 1 text to ***The store hours are from 9 am to 5 pm. Please let me know if you have any other questions.***<span class="copy-static" title="Click to copy!" data-copy-text="The store hours are from 9 am to 5 pm. Please let me know if you have any other questions."><span class="copy"></span></span>.
     ![Profiles](../graphics/Lab1_AI_Agent/6.7.gif) 
 
-8. Add one more varient and provide the text: ***The store is open from 9 am to 5 pm. Is there anything else I can do for you?***<span class="copy-static" title="Click to copy!" data-copy-text="The store is open from 9 am to 5 pm. Is there anything else I can do for you?"><span class="copy"></span></span>.
+8. Add one more Variant and provide the text: ***The store is open from 9 am to 5 pm. Is there anything else I can do for you?***<span class="copy-static" title="Click to copy!" data-copy-text="The store is open from 9 am to 5 pm. Is there anything else I can do for you?"><span class="copy"></span></span>.
     ![Profiles](../graphics/Lab1_AI_Agent/6.8.gif) 
 
 9. Add **Voice Channel**.
     ![Profiles](../graphics/Lab1_AI_Agent/6.9.gif) 
 
-10. Configure **Voice Channel** with the same varients and click on **Create**. </br>
-***The store hours is from 9 am to 5 pm. Please let me know if you have any other questions.***<span class="copy-static" title="Click to copy!" data-copy-text="The store hours is from 9 am to 5 pm. Please let me know if you have any other questions."><span class="copy"></span></span>.</br>
+10. Configure **Voice Channel** with the same Variants and click on **Create**. </br>
+***The store hours are from 9 am to 5 pm. Please let me know if you have any other questions.***<span class="copy-static" title="Click to copy!" data-copy-text="The store hours are from 9 am to 5 pm. Please let me know if you have any other questions."><span class="copy"></span></span>.</br>
 ***The store is open from 9 am to 5 pm. Is there anything else I can do for you?***<span class="copy-static" title="Click to copy!" data-copy-text="The store is open from 9 am to 5 pm. Is there anything else I can do for you?"><span class="copy"></span></span>.
     ![Profiles](../graphics/Lab1_AI_Agent/6.10.gif) 
 
@@ -78,7 +78,7 @@ Please do it for **Web** and Voice **channels**. Aftger the change, Save and Pub
     ![Profiles](../graphics/Lab1_AI_Agent/6.11.gif) 
 
 
-12. Click on the **Preview** button on the top right side to test the bot. Try the bot flow by typing ***"What is the store hours?"***<span class="copy-static" title="Click to copy!" data-copy-text="What is the store hours?"><span class="copy"></span></span>
+12. Click on the **Preview** button on the top right side to test the bot. Try the bot flow by typing ***"What are the store hours?"***<span class="copy-static" title="Click to copy!" data-copy-text="What are the store hours?"><span class="copy"></span></span>
     ![Profiles](../graphics/Lab1_AI_Agent/6.12.png) 
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
