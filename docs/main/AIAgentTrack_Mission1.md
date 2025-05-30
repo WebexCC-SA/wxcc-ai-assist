@@ -73,7 +73,7 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
     ![Profiles](../graphics/Lab1_AI_Agent/2.16.png)
 
 
-13. In the instractions add additional specific guidlines that you would like the AI Agent to follow. Just **copy the text below and paste it to the Instractions section**: <br>
+13. In the instructions add additional specific guidlines that you would like the AI Agent to follow. Just **copy the text below and paste it to the Instractions section**: <br>
 
 
     >Always first check what is the event for the flowers so you can provide the best option. 
@@ -132,6 +132,10 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
 ![Profiles](../graphics/Lab1_AI_Agent/2.59.gif)
 
 2. Click on **Preview** and testing the AI Agent to understnad how it behaives using Voice channel. You can start the conversation with: **"I need flower for my friend"**<span class="copy-static" title="Click to copy!" data-copy-text="I need flower for my friend"><span class="copy"></span></span> and try to customize you order. 
+> **Note:** This Lab is being conducted in a classroom with approximately 30 attendees.  
+> Environmental factors, such as background noise and other attendees speaking next to you, may affect the response accuracy.  
+> For best results, it is **strongly recommended to use computer headphones**, if available.
+
 
 ![Profiles](../graphics/Lab1_AI_Agent/2.60.gif)
 
