@@ -20,7 +20,7 @@ Note: To deliver the call back to AI Studio, you need to add an additional **Vir
 2. Delete the **Disconnect Contact** node and add **VirtualAgentV2** node. Connect **HttpRequest** block to **VirtualAgentV2** block. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.57.gif)
 
-3. Click on **VirtualAgentV2**. In the Contact Center AI Config serach for scripted and select **Webex AI Agent (Scripted)**. Under the Virtual Agent option, search for the Scripted AI Agent with name **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_Scripted_AI_Agent">Your_Attendee_ID</span>_Scripted_AI_Agent<span class="copy" title="Click to copy!"></span></span>**.
+3. Click on **VirtualAgentV2**. In the Contact Center AI Config search for scripted and select **Webex AI Agent (Scripted)**. Under the Virtual Agent option, search for the Scripted AI Agent with name **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_Scripted_AI_Agent">Your_Attendee_ID</span>_Scripted_AI_Agent<span class="copy" title="Click to copy!"></span></span>**.
     ![Profiles](../graphics/Lab1_AI_Agent/6.58.gif)
 
 4. Connect Escalated output from the **VirtualAgentV2** node to the **Queue** node.
