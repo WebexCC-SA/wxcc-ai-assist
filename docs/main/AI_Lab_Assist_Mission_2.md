@@ -45,7 +45,9 @@ Understand the provisioning process and Control Hub settings required to activat
 
 3. Place a test call and ask to talk to an agent. 
 
-4. Become Available on the Agent Desktop and answer the call. Stay on the call for 35 - 45 seconds and then disconnect from the caller side. 
+4. Become Available on the Agent Desktop and answer the call. 
+* Stay on the call for 35 - 45 seconds 
+* Have some conversation and then disconnect from the caller side. 
    ![Profiles](../graphics/Lab1_AI_Agent/3.19.png)
 
 5. Call back from the same number. Ask to talk to an agent. 
