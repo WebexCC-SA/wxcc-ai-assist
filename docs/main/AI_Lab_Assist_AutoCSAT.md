@@ -26,18 +26,18 @@ Your mission is to learn how to view the AutoCSAT score for customer interaction
 
 1. You should purchase the new AI Assistant SKU **A-FLEX-AI-ASST** from CCW.
 
-2. Once you purchas the offer, admins with the appropriate profile and access controls will be able to see the AI Assistant menu in Control Hub. Post purchasing the offer, the customer can enable/disable the **Virtual Agent Transfer Summary** features from the Control Hub.
+2. Once you purchase the offer, admins with the appropriate profile and access controls will be able to see the AI Assistant menu in Control Hub. Post purchasing the offer, the customer can enable/disable the **Virtual Agent Transfer Summary** features from the Control Hub.
    ![Profiles](../graphics/Lab1_AI_Agent/3.21.png)
 
-### Task 2 Explore AutoCSAT using Analyzre report and Supervisor Dashboard
+### Task 2 Explore AutoCSAT using Analyzer report and Supervisor Dashboard
 
-1. Go Contac Center in Control Hub and from Quick Links open up Analyzer.
+1. Go Contact Center in Control Hub and from Quick Links open up Analyzer.
     ![Profiles](../graphics/Lab1_AI_Agent/3.22.gif)
 
-2. Go to Visualizations and search for the report with name **Auto CSAT**. It should has the ID -1282. Open the report. 
+2. Go to Visualizations and search for the report with name **Auto CSAT**. It should have the ID -1282. Open the report. 
     ![Profiles](../graphics/Lab1_AI_Agent/3.23.gif)
 
-3. In the report you can see AudoCSAT that were generated for the calls, based on the Queue. You can see AutoCSAt information related to specific calls by expecding the AutoCSAT fields. 
+3. In the report you can see AutoCSAT that were generated for the calls, based on the Queue. You can see AutoCSAT information related to specific calls by expanding the AutoCSAT fields. 
     ![Profiles](../graphics/Lab1_AI_Agent/3.24.gif)
 
 4. <span style="color: red;">[READ ONLY]</span> When you log in to the Supervisor Dashboard, you can view the AutoCSAT score for specific calls and listen to the call recordings directly from the portal. (The Supervisor user account is not configured for this lab. Please refer to the screenshot below to understand the experience of viewing the AutoCSAT from the Supervisor Portal.)
