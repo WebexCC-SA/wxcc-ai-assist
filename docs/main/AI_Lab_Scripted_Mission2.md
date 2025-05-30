@@ -90,7 +90,7 @@ Your mission is to review preconfigured Scripted AI Agent for tracking existing 
 2. Press 2 to go to the Scripted AI agent. Ask to track your order. Provide the order number as 17 or any other order that you created earlier. You should hear the response that the order status is "new".
 
 3. Open up Debug mode in the flow **Autonomous_Scripted_Flow_2000_180**.
-     ![Profiles](../graphics/Lab1_AI_Agent/6.88.png) 
+     ![Profiles](../graphics/Lab1_AI_Agent/6.88.gif)
 
 4. Review the trace. 
      ![Profiles](../graphics/Lab1_AI_Agent/6.89.png) 
