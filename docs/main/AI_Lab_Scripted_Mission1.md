@@ -12,7 +12,8 @@ Your mission is to create a new Scripted AI Agent from the template and configur
 
 #### Task 1. Creating a AI Agent using a Template
 
-1. <span style="color: red;">[IMPORTANT]</span> Download the [Scripted Agent](https://cisco.box.com/shared/static/q636qc41q0brifn0h8anbfug7duq3536.json){:target="_blank"}.
+1. <span style="color: red;">[IMPORTANT]</span> Download the [Scripted Agent](https://drive.google.com/file/d/1HjXCeIJ4TkcW8XOIHePVKa6pVi6Lw2sO/view?usp=sharing){:target="_blank"}.
+    ![Profiles](../graphics/Lab1_AI_Agent/6.91.png) 
 
 2. Login in to [Webex Control Hub](https://admin.webex.com){:target="_blank"} by using your Admin profile **wxcclabs+admin_ID<span class="attendee-id-placeholder">Your_Attendee_ID</span>@gmail.com**. You will see another login screen with OKTA on it where you may need to enter the email address again and the password provided to you.
 
@@ -20,21 +21,19 @@ Your mission is to create a new Scripted AI Agent from the template and configur
 
     ![Profiles](../graphics/AI_Track/AI_Scripted_OpenWebexAI.gif)  
 
-3. Click on **Import agent** to create a new AI Agent by importing preconfigured template. Click on **Upload** button, locate and select **ScriptedAIAgent.json** you downloaded at the beginning of the mission.
-4. Name your Agent as **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_Scripted_AI_Agent">Your_Attendee_ID</span>_Scripted_AI_Agent<span class="copy" title="Click to copy!"></span></span>** and click **Import**
-5. Make the bot live by clicking on **Save Changes** and then **Publish** button on top right.
-6. Enter **v1** in the popup comment window, then click **Publish**.
+4. Click on **Import agent** to create a new AI Agent by importing preconfigured template. Click on **Upload** button, locate and select **ScriptedAIAgent.json** you downloaded at the beginning of the mission.
+5. Name your Agent as **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_Scripted_AI_Agent">Your_Attendee_ID</span>_Scripted_AI_Agent<span class="copy" title="Click to copy!"></span></span>** and click **Import**
+6. Make the bot live by clicking on **Save Changes** and then **Publish** button on top right.
+7. Enter **v1** in the popup comment window, then click **Publish**.
     ![Profiles](../graphics/Lab1_AI_Agent/5.1.gif)
 
-7. Click on the **Preview** button on the top right side to test the bot. Try the bot flow by typing ***"What are the store hours?"***<span class="copy-static" title="Click to copy!" data-copy-text="What are the store hours?"><span class="copy"></span></span>
-You will notice the following response:
-
-> Sorry, I was unable to understand your query accurately.
-
-
+8. Click on the **Preview** button on the top right side to test the bot. Try the bot flow by typing ***"What are the store hours?"***<span class="copy-static" title="Click to copy!" data-copy-text="What are the store hours?"><span class="copy"></span></span>
+You will notice the following response: 
+>Sorry, I was unable to understand your query accurately.
+    
     ![Profiles](../graphics/Lab1_AI_Agent/6.1.png) 
 
-8. The initial response can be customized, and we also need to configure intents and responses to enable the Scripted AI Agent to answer questions about store hours.
+9. The initial response can be customized, and we also need to configure intents and responses to enable the Scripted AI Agent to answer questions about store hours.
 
 #### Task 2. Update the initial greeting.  
 
