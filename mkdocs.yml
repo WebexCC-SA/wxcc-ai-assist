@@ -48,8 +48,9 @@ extra_javascript:
 plugins:
   - search
   #- with-pdf:
-  #    cover_title: LTRCCT-200
+  #    cover_title: LTRCCT-2000
   #    cover_subtitle: "From Good to Great: Enhancing Customer Experience with the Webex Contact Center Flow Designer"
+  #    cover_subtitle: "Speakers: Krishna Tyagi & Mykola Danylchuk"
   #    cover_logo: template_assets/Cisco-Live-White-Blue-APJC.svg
   - glightbox:
       touchNavigation: true
