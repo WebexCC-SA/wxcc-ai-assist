@@ -9,7 +9,7 @@ You will explore the Webex Campaign User Interface and understand how to configu
 
 ## Featurs Overview.
 
-### Task 1 <span style="color: red;">[OVERVIEW ONLY]</span>. Order Provisioning & Control Hub Settings
+### Task 1 <span style="color: red;">[OVERVIEW ONLY]</span>. Explore the Webex Campaign User Interface.
 
 1. Using your admin credentials login to the portal  [Campaign Manager](https://traininglab.wxcc.webexcampaign.us/nextgen/){:target="_blank"}
 
