@@ -23,7 +23,7 @@ Event payload: **{"ordernumber":"${entity.order_number}"}**.</br>
     ![Profiles](../graphics/Lab1_AI_Agent/6.39.gif) 
 
 4. Save and Publish your changes. 
-    ![Profiles](../graphics/Lab1_AI_Agent/6.54.png) 
+    ![Profiles](../graphics/Lab1_AI_Agent/6.54.gif) 
 
 4. Understanding why we need to use a Custom Event for fulfillment: The API call to retrieve the order status can be made from the Voice Flow. By using a Custom Event, we send the order_number entity that the Scripted Agent collects during the call to retrieve the status.
     ![Profiles](../graphics/Lab1_AI_Agent/6.40.png) 
