@@ -11,7 +11,7 @@ You will explore the Webex Campaign User Interface and understand how to configu
 
 ### Task 1 <span style="color: red;">[OVERVIEW ONLY]</span>. Explore the Webex Campaign User Interface.
 
-1. Using your admin credentials login to the portal  [Campaign Manager](https://traininglab.wxcc.webexcampaign.us/nextgen/){:target="_blank"}
+1. Using the following user name and the password (wxcclabscx@gmail.com/TSSumm!t_2024!$%) login to the portal  [Campaign Manager](https://traininglab.wxcc.webexcampaign.us/nextgen/){:target="_blank"}
 
 2. You will see a welcome message along with a list of required configurations that need to be completed to set up the Campaign Voice Flow. Click on Got it. 
    ![Profiles](../graphics/Lab1_AI_Agent/7.1.png) 
