@@ -13,14 +13,24 @@
       <td style="border: 1px solid black; padding: 8px;">Walk-in Lab</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 8px;">67890</td>
-      <td style="border: 1px solid black; padding: 8px;">Example abstract text 2</td>
-      <td style="border: 1px solid black; padding: 8px;">Type 2</td>
+      <td style="border: 1px solid black; padding: 8px;">LABCCT-2016</td>
+      <td style="border: 1px solid black; padding: 8px;">Autonomous Webex AI Agent functionalities in Webex Contact Center</td>
+      <td style="border: 1px solid black; padding: 8px;">Walk-in Lab</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">CTF-1039</td>
+      <td style="border: 1px solid black; padding: 8px;">Next-Gen Customer Experience: Exploring Webex Contact Center's AI Capabilities.</td>
+      <td style="border: 1px solid black; padding: 8px;">TAC Speaker Sessions</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">LABCOL-1027</td>
+      <td style="border: 1px solid black; padding: 8px;">Unlock the Power of AI in Webex Contact Center</td>
+      <td style="border: 1px solid black; padding: 8px;">Walk-in Lab</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 8px;">54321</td>
       <td style="border: 1px solid black; padding: 8px;">Example abstract text 3</td>
-      <td style="border: 1px solid black; padding: 8px;">Type 3</td>
+      <td style="border: 1px solid black; padding: 8px;">Walk-in Lab</td>
     </tr>
   </tbody>
 </table>
