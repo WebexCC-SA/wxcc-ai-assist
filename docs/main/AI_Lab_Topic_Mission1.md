@@ -30,34 +30,34 @@ Enter your administrator login user, if prompted.
 Click on **Edit Topics** on the top-right corner.
    ![Profiles](../graphics/Lab1_AI_Agent/1.7.png)
 
-2. In the Name Copy screen, edit the topic collection name. By default, Copy of existing collection name appears in the Topic collection name field.
+2. In the Name Copy screen, edit the topic collection name. By default, Copy of existing collection name appears in the Topic collection name field. For this lab you can call it with any name you prefare. 
    ![Profiles](../graphics/Lab1_AI_Agent/1.8.png)
 
-3. Click on Add New
-   ![Profiles](../graphics/Lab1_AI_Agent/1.9.png)
-
-   Optionally, Topics can be merged or deleted
+3.  Optionally, topics can be merged or deleted. **Please do not do it whle working on this lab**. 
    ![Profiles](../graphics/Lab1_AI_Agent/1.17.png)
 
-4. Configure the tops with the contact reason examples.
+4. Click on Add New
+   ![Profiles](../graphics/Lab1_AI_Agent/1.9.png)
+
+5. Configure the tops with the contact reason examples.
    ![Profiles](../graphics/Lab1_AI_Agent/1.10.png)
 
-5. Click on **Next**.
+6. Click on **Next**.
    ![Profiles](../graphics/Lab1_AI_Agent/1.11.png)
 
-6. Review the **Edits** and click on **Create new topic collection**.
+7. Review the **Edits** and click on **Create new topic collection**.
    ![Profiles](../graphics/Lab1_AI_Agent/1.12.png)
 
-7. Don't delete the orginal Topic while the edited version is creating. Click on **Done**.
+8. Don't delete the orginal Topic while the edited version is creating. Click on **Done**.
    ![Profiles](../graphics/Lab1_AI_Agent/1.13.png)
 
-8. You will see that a new Topic collection will be creating, and if you have enough calls with the provided reason, the data will show up in the Topic.
+9. You will see that a new Topic collection will be creating, and if you have enough calls with the provided reason, the data will show up in the Topic.
    ![Profiles](../graphics/Lab1_AI_Agent/1.14.png)
 
-9. After the data is generated, you can see the new Topic Collection.
+10. After the data is generated, you can see the new Topic Collection.
    ![Profiles](../graphics/Lab1_AI_Agent/1.15.png)
 
-10. You can click on it to review the results. 
+11. You can click on it to review the results. 
    ![Profiles](../graphics/Lab1_AI_Agent/1.16.png)
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
