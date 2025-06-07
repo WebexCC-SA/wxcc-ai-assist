@@ -28,9 +28,9 @@
       <td style="border: 1px solid black; padding: 8px;">Walk-in Lab</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 8px;">54321</td>
-      <td style="border: 1px solid black; padding: 8px;">Example abstract text 3</td>
-      <td style="border: 1px solid black; padding: 8px;">Walk-in Lab</td>
+      <td style="border: 1px solid black; padding: 8px;">BRKCCT-2345</td>
+      <td style="border: 1px solid black; padding: 8px;">Boosting Customer Experience with Flow Orchestration in Webex Contact Center</td>
+      <td style="border: 1px solid black; padding: 8px;">Breakout</td>
     </tr>
   </tbody>
 </table>
