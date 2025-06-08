@@ -39,8 +39,10 @@ Click on **Edit Topics** on the top-right corner.
 4. Click on Add New
    ![Profiles](../graphics/Lab1_AI_Agent/1.9.png)
 
-5. Configure the tops with the contact reason examples.
+5. Configure the tops with the contact reason examples.</br>
+
    ![Profiles](../graphics/Lab1_AI_Agent/1.10.png)
+
 
 6. Click on **Next**.
    ![Profiles](../graphics/Lab1_AI_Agent/1.11.png)

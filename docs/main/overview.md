@@ -110,12 +110,6 @@ Designing a **Webex AI Agent** for a flower shop to assist customers via **voice
   - **Exceptional customer experience** across all interactions
 
 
-You can read more about the Webex AI Agent below and review the video of the use case that we will be imitating in this lab. 
-
-[Webex AI Agent](https://blog.webex.com/customer-experience/announcing-general-availability-of-webex-ai-agent-paving-way-new-era-cx/){:target="_blank"}
-
-
-
 ## Learning Objectives
 
 Welcome to **"Hands-on AI in Action with Webex Contact Center: Enhancing Self-Service, Agent Assistance & Customer Insights - LTRCCT-2000"** Instructor-led Lab
