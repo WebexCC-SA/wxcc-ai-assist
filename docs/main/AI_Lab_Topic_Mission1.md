@@ -40,26 +40,30 @@ Click on **Edit Topics** on the top-right corner.
    ![Profiles](../graphics/Lab1_AI_Agent/1.9.png)
 
 5. Configure the tops with the contact reason examples.</br>
-
+    Add Topic Labol: ***Flower Reason***<span class="copy-static" title="Click to copy!" data-copy-text="Flower Reason"><span class="copy"></span></span></br>
+    
+    Contact Reasons: </br>
+    
+    ***I need flowers for the party***<span class="copy-static" title="Click to copy!"data-copy-text="I need flowers for the party"><span class="copy"></span></span></br>
+    ***Need to order flower for Birthday***<span class="copy-static" title="Click to copy!" data-copy-text="Need to order flower for Birthday"><span class="copy"></span></span></br>
+    ***Anniversary***<span class="copy-static" title="Click to copy!" data-copy-text="Anniversary"><span class="copy"></span></span>
+    >
    ![Profiles](../graphics/Lab1_AI_Agent/1.10.png)
-
 
 6. Click on **Next**.
    ![Profiles](../graphics/Lab1_AI_Agent/1.11.png)
 
-7. Review the **Edits** and click on **Create new topic collection**.
+7. <span style="color: red;">[Read Only]</span>  Review the **Edits** but for this lab overview **DO NOT click** on  **Create new topic collection**. 
    ![Profiles](../graphics/Lab1_AI_Agent/1.12.png)
 
-8. Don't delete the orginal Topic while the edited version is creating. Click on **Done**.
+8. <span style="color: red;">[Read Only]</span>  On the next Windows you would see that new collection is creating.
    ![Profiles](../graphics/Lab1_AI_Agent/1.13.png)
 
-9. You will see that a new Topic collection will be creating, and if you have enough calls with the provided reason, the data will show up in the Topic.
+9. <span style="color: red;">[Read Only]</span>  From Topic Analytytics you would see that a new Topic collection will be creating, and if you have enough calls with the provided reason, the data will show up in the Topic.
    ![Profiles](../graphics/Lab1_AI_Agent/1.14.png)
 
-10. After the data is generated, you can see the new Topic Collection.
+10. For this lab open up topic with name **Flower Delivery 2** to see the expected results.
    ![Profiles](../graphics/Lab1_AI_Agent/1.15.png)
 
-11. You can click on it to review the results. 
-   ![Profiles](../graphics/Lab1_AI_Agent/1.16.png)
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
