@@ -33,7 +33,7 @@ Your mission is to review preconfigured Scripted AI Agent for tracking existing 
 6. Click on Entities and review **order_number** Entity configuration. 
      ![Profiles](../graphics/Lab1_AI_Agent/6.73.gif) 
 
-7. Click on **Responces** and seach for **order_number** responce and review it for responce message  
+7. Click on **Response** and search for **order_number** response and review it for response message  
      ![Profiles](../graphics/Lab1_AI_Agent/scriptedOrdernumber6.91.gif) 
 
 #### Task 2. Send the data from AI Agent to Voice Flow​.
