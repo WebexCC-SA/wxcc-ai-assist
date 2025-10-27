@@ -85,22 +85,34 @@ icon: material/bullseye-arrow
 
 # Overview
 
+We will begin with building an Autonomous Agent that will help the contact order flowers for theis partner. It could be an anniversary or other occasions. The agent will also capture email address, shipping address, offer choices etc.
+We will get the agent to capture and store the booking in a database.
+
+We will then hook it up the voice flow and interact with it.
+
+We will also build Scripted AI Agent to do specific tasks.
+
 ## Use Case 
 
-## Webex AI Agent Design for Flower Shop
+## Webex AI Agent Design - to order flowers! As easy as that!
 
-Designing a **Webex AI Agent** for a flower shop to assist customers via **voice and digital channels**.
+Designing a **Webex AI Agent** for 4Flowers, a flower shop, to assist callers to order flowers.
 
 ### AI Agent Capabilities
 
 - **Recommending flowers** based on customer preferences or occasions  
 - **Collecting order details** for both **standard and custom bouquets**  
 - **Calculating total price** in real time  
-- **Gathering delivery information**, including **address** and **delivery date**  
-- <p style="color: red;">**place holder for order confirmation**</p>
+- **Gathering delivery information**, including **address**, **email**, and **sms number**.
+- **BONUS - not part of this lab**
+    - Try including **delivery date** - you may need to make changes to the MockAPI database and other related changes in the AI Agent and flows.
+- **Order Confirmation will be sent to the email that the contact provides when interacting with the AI agent.**
+    - We are using Gmail with OAuth 2.0 to send emails
+    - This setup is not part of this lab but if you have questions, we can cover it after the lab.
+    - SMS would be the best way but considering the lab tenant we are using has US numbers as MSID, SMS delivery is not 100%
 - **Providing order status updates** upon request  
 - **Sharing store hours** and relevant **business information**  
-- **Transferring to a human agent** when needed for complex inquiries  
+- **Transferring to a human agent** when needed - augmenting the human 
 
 ### Human Agent Support
 
@@ -117,7 +129,7 @@ Welcome to **"Hands-on AI in Action with Webex Contact Center: Enhancing Self-Se
 ![Profiles](../graphics/NewLab/Overview/1.1.png)
 
 In this lab, participants will: <br><br>
- **• Uncover Trends & Opportunities:** Analyze customer conversation data to identify key themes, trends, and automation opportunities for improved service efficiency. <br><br>
+ **• Uncover Opportunities:** Analyze current datea to identify key themes, trends, and automation opportunities for improved service efficiency. <br><br>
  **• Integrate Intelligent AI Agents:** Utilize Cisco Autonomous and Scripted AI Agents to build dynamic, context-aware self-service flows that adapt to customer needs in real-time. <br><br>
 **• Seamless AI-to-Human Collaboration:** Experience smooth transitions from AI agents to human agents, ensuring continuous context and interaction summaries for effective issue resolution. <br><br>
 <!--**• Enhance In-Interaction Insights:** Experience AI-driven call summarisation to enhance agent productivity and service quality.
@@ -127,5 +139,5 @@ In this lab, participants will: <br><br>
     
 ## Disclaimer
 The lab design and configuration examples provided are for educational purposes. For production design queries, please consult your Cisco representative or an authorized Cisco partner.
-Let’s get started and discover how **Webex Contact Center Flow Designer** takes customer experiences from good to great!
+Let’s get started and discover how **Webex Contact Center** can transform your customer operations and experience with AI agents!
 

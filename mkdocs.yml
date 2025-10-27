@@ -98,7 +98,7 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
 nav:
-  - Home: index.md
+##  - Home: index.md
   - Getting Started:
       - Lab Overview: ./main/overview.md
       - Access you Lab Environment: ./main/PreRequisites.md
@@ -117,14 +117,6 @@ nav:
 #            - "Mission 3: Upload prebuilt AI Agent. Failover for Mission 2": ./main/AI_Lab_Aut_Mission3.md
             - "Mission 3: Integrating the AI Agent with Flow for Voice Calls": ./main/AI_Lab_Aut_MissionX.md
       - Conclusion: ./main/AI_Lab_Aut_Conclusion.md
-  - AI Assistant:
-      - Lab Guide:
-            - "Lab overview": ./main/AI_Lab_Features_Overview.md
-            - "Mission 1: AI Agent Transfer Summary": ./main/AI_Lab_Assist_Mission1.md
-            - "Mission 2: Call Drop Summary": ./main/AI_Lab_Assist_Mission_2.md
-            - "Mission 3: Real Time Transcript": ./main/AI_Lab_Assist_Mission3.md
-            - "Mission 4: AutoCSAT": ./main/AI_Lab_Assist_AutoCSAT.md
-      - Conclusion: ./main/AI_Lab_Assist_Conclusion.md
   - Scripted AI Agent:
       - Lab Guide:
             - "Lab overview": ./main/AI_Lab_Scripted_Overview_New.md
@@ -135,24 +127,32 @@ nav:
             - "Mission 5 (BONUS): Configure the fulfillment": ./main/AI_Lab_Scripted_Mission5.md
             - "Mission 6 (BONUS): Deliver fulfillment results to the caller": ./main/AI_Lab_Scripted_Mission6.md
       - Conclusion: ./main/AI_Lab_Scripted_Conclusion.md
+  - AI Assistant [BONUS]:
+      - Lab Guide:
+            - "Lab overview": ./main/AI_Lab_Features_Overview.md
+            - "Mission 1: AI Agent Transfer Summary": ./main/AI_Lab_Assist_Mission1.md
+            - "Mission 2: Call Drop Summary": ./main/AI_Lab_Assist_Mission_2.md
+            - "Mission 3: Real Time Transcript": ./main/AI_Lab_Assist_Mission3.md
+            - "Mission 4: AutoCSAT": ./main/AI_Lab_Assist_AutoCSAT.md
+      - Conclusion: ./main/AI_Lab_Assist_Conclusion.md
 #  - Scripted AI Agent:
 #      - Lab Guide:
 #            - "Lab overview": ./main/AI_Lab_Scripted_Overview.md
 #            - "Mission 1: Scripted AI Agent in Action": ./main/AIAgentTrack_NewUI_Mission2.md
 #          #  - "Mission 4: (Not Completed)Routing based on intent": ./main/AIAgentTrack_Mission3.md
-  - (BONUS) Integration with Digital Channel:
-      - Lab Guide:
-            - "Lab overview": ./main/AI_Lab_Digital_Ch_Overview.md
-            - "Mission 1: Create Chat Appliction and configure Webex Engage": ./main/AI_Lab_Digital_Mission1.md
-            - "Mission 2: Upload and configure Webex Connect flow": ./main/AI_Lab_Digital_Mission2.md
-            - "Mission 3: Test the AI Agent integration with the Digital Channel": ./main/AI_Lab_Digital_Mission3.md
-      - Conclusion: ./main/AI_Lab_Digital_Overview.md
-  - (BONUS) IVR Campaign:
-      - Lab Guide:
-            - "Lab overview": ./main/AI_Lab_IVR_Campaign_Overview.md
-            - "Mission 1: Portal Overview": ./main/AI_Lab_IVR_Campaign_Mission1.md
-            - "Mission 2: Configure Campaign": ./main/AI_Lab_IVR_Campaign_Mission2.md
-      - Conclusion: ./main/AI_Lab_IVR_Campaign_Conclusion.md
-  - Related Sessions: ./main/Related_Sessions.md
+#  - (BONUS) Integration with Digital Channel:
+#      - Lab Guide:
+#            - "Lab overview": ./main/AI_Lab_Digital_Ch_Overview.md
+#           - "Mission 1: Create Chat Appliction and configure Webex Engage": ./main/AI_Lab_Digital_Mission1.md
+#            - "Mission 2: Upload and configure Webex Connect flow": ./main/AI_Lab_Digital_Mission2.md
+#            - "Mission 3: Test the AI Agent integration with the Digital Channel": ./main/AI_Lab_Digital_Mission3.md
+#      - Conclusion: ./main/AI_Lab_Digital_Overview.md
+#  - (BONUS) IVR Campaign:
+#      - Lab Guide:
+#            - "Lab overview": ./main/AI_Lab_IVR_Campaign_Overview.md
+#            - "Mission 1: Portal Overview": ./main/AI_Lab_IVR_Campaign_Mission1.md
+#            - "Mission 2: Configure Campaign": ./main/AI_Lab_IVR_Campaign_Mission2.md
+#      - Conclusion: ./main/AI_Lab_IVR_Campaign_Conclusion.md
+#  - Related Sessions: ./main/Related_Sessions.md
 ###  - Ask a Question<i class="fa-solid fa-hand" style="color:#63E6BE;"></i>: slido-QA-iFrame.md
 

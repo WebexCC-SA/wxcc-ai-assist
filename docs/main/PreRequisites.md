@@ -4,8 +4,9 @@ icon: material/bullseye-arrow
 ---
 
 ## Learning Objectives
-1. Ensure that you have **LTRCCT-2000_LAB_Credential** file on your desktop with instructions and credentials to access your lab. If you do not, please ask your lab proctor now.
-2. Understand your configuration instructions
+1. Ensure that you have **LTRCCT-2000 LAB Credentials handed to you - card or digitally** with instructions link to access your lab. If you do not, please ask your lab proctor now.
+2. Understand your configuration instructions. Don't rush. Take your time.
+3. If you have never used Webex Contact Center, don't worry. You should be able to follow these instructions and finish the lab.
 
 
 ### Know before you start
@@ -19,8 +20,8 @@ icon: material/bullseye-arrow
 4. All your configurations should contain your attendee ID so the lab users don't step over each other's configurations.
 5. Each of you has been provided with the phone number to dial (Entry point DN), 1 agent and 1 admin.
 6. Please ask for help when you need it. You can do so by:
-   * Dropping your question in the LAB Space **LTRCCT-2000: In Room Lab Support** from Webex App in your Lab PC. 
-   * Raising your hand and calling the proctor.
+      * Raising your hand and calling the proctor.
+      * You can also join use this space [LTRCCT-2000 Hands-On AI in Action: The Future of Customer Care with Webex Contact Center](webexteams://im?space=0c8620a0-afba-11f0-87f8-bf6b9c030752)
        ![Profiles](../graphics/Lab1_AI_Agent/GS8.gif)
 ---
 

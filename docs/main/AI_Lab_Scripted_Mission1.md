@@ -58,7 +58,7 @@ Please do it for **Web** and Voice **channels**. After the change, Save and Publ
 
 4. Click on the **Generate** button to utilize Generative AI for creating additional training phrases.
 
-5. Enter a description such as ***Generate intents store business hours***<span class="copy-static" title="Click to copy!" data-copy-text="Generate intents store business hours"><span class="copy"></span></span> Set the Number of Variants to **10**, which will determine the number of new phrases to be generated. Click **Generate**
+5. Enter a description such as ***Generate intents for store business hours***<span class="copy-static" title="Click to copy!" data-copy-text="Generate intents store business hours"><span class="copy"></span></span> Set the Number of Variants to **10**, which will determine the number of new phrases to be generated. Click **Generate**
 > Make a note of newly created **Utterances**
     ![Profiles](../graphics/Lab1_AI_Agent/6.5.gif) 
 

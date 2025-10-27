@@ -59,7 +59,7 @@ This mission is designed to provide an in-depth understanding of the Webex AI Ag
         **You**:"yes"</br>
         **AI Agent**: Your appointment for 20/01/2025 at 15:00 is cancelled.</br>
 
-    ![Profiles](../graphics/Lab1/L1M6_TaskBot_Preview.gif)  
+    ![Profiles](../graphics/Lab1/L1M6_PreviewNTest.gif)  
 
 ---
 
