@@ -97,7 +97,7 @@ Designing a **Webex AI Agent** for a flower shop to assist customers via **voice
 - **Collecting order details** for both **standard and custom bouquets**  
 - **Calculating total price** in real time  
 - **Gathering delivery information**, including **address** and **delivery date**  
-- **order confirmations via SMS**  
+- <p style="color: red;">**place holder for order confirmation**</p>
 - **Providing order status updates** upon request  
 - **Sharing store hours** and relevant **business information**  
 - **Transferring to a human agent** when needed for complex inquiries  
@@ -120,9 +120,9 @@ In this lab, participants will: <br><br>
  **• Uncover Trends & Opportunities:** Analyze customer conversation data to identify key themes, trends, and automation opportunities for improved service efficiency. <br><br>
  **• Integrate Intelligent AI Agents:** Utilize Cisco Autonomous and Scripted AI Agents to build dynamic, context-aware self-service flows that adapt to customer needs in real-time. <br><br>
 **• Seamless AI-to-Human Collaboration:** Experience smooth transitions from AI agents to human agents, ensuring continuous context and interaction summaries for effective issue resolution. <br><br>
-**• Enhance In-Interaction Insights:** Experience AI-driven call summarisation to enhance agent productivity and service quality. <br><br>
+<!--**• Enhance In-Interaction Insights:** Experience AI-driven call summarisation to enhance agent productivity and service quality.
 **• Predict Customer Sentiment:** Learn to leverage AI to forecast customer satisfaction (CSAT) based on interaction data, enabling proactive service adjustments and how to use this for proactive customer engagement. <br><br>
-**• Utilize Proactive Campaign:** Proactively engage customers through intelligent outreach and dynamic self-service using Webex AI Agents.
+**• Utilize Proactive Campaign:** Proactively engage customers through intelligent outreach and dynamic self-service using Webex AI Agents.-->
 
     
 ## Disclaimer
