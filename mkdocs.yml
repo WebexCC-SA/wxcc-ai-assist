@@ -47,7 +47,7 @@ extra_javascript:
   - js/copy-button.js
   - js/attendee-id.js
 plugins:
-  - search
+ # - search
   #- with-pdf:
   #    cover_title: LTRCCT-2000
   #    cover_subtitle: "From Good to Great: Enhancing Customer Experience with the Webex Contact Center Flow Designer"

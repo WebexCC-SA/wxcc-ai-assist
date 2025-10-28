@@ -4,6 +4,7 @@ icon: material/bullseye-arrow
 ---
 
 ## Learning Objectives
+0. <span style="color: red;">[Impotant: [In the Getting Started page](https://webexcc-sa.github.io/AUS_LTRCCT-2000/main/overview/), you must have set your attendee ID. For example: 148. This will make it easy to copy paste the configs]</span>
 1. Ensure that you have **LTRCCT-2000 LAB Credentials handed to you - card or digitally** with instructions link to access your lab. If you do not, please ask your lab proctor now.
 2. Understand your configuration instructions. Don't rush. Take your time.
 3. If you have never used Webex Contact Center, don't worry. You should be able to follow these instructions and finish the lab.
