@@ -53,7 +53,7 @@ More pre-configured entities will be mentioned during the lab missions if they h
 1. Open up Google Chrome Web browser and start login to [Control Hub](https://admin.webex.com){:target="_blank"}.
    ![Profiles](../graphics/Lab1_AI_Agent/GS1.png)
 
-2. Login using your Agent user name and password. 
+2. Login using your **Admin** user name and password. 
    ![Profiles](../graphics/Lab1_AI_Agent/GS2.gif)
 
 #### Login to Agent Desktop Using Microsoft Edge
@@ -65,14 +65,14 @@ More pre-configured entities will be mentioned during the lab missions if they h
 2. Allow notification for the Agent Desktop. Select login option as **Desktop**, select your Team and click on **Submit**.
    ![Profiles](../graphics/Lab1_AI_Agent/GS5.png)
 
-3. Click Continue on the Emergency Serice Notification. 
+3. Click Continue on the Emergency Serice Notification (if applicable).
    ![Profiles](../graphics/Lab1_AI_Agent/GS6.png)
 
-4. Allow use of microphones.
+4. Allow use of microphones. This is important because we will be using WebRTC (that is what the Desktop radiobutton choice was about)
    ![Profiles](../graphics/Lab1_AI_Agent/GS7.png)
 
 #### Calling to Contact Center
-You can make test calls from your mobile phone or by using Webex Calling phones. Please find the Webex App and log in with the admin credentials that were shared with you.
+You can make test calls from your mobile phone or by using Webex Calling app. Please find the Webex App and log in with the admin credentials that were shared with you.
    ![Profiles](../graphics/Lab1_AI_Agent/GS8.gif)
 
 Place test call to the test number  +15206603129 to confirm that you Webex Phone is configured to place calls
