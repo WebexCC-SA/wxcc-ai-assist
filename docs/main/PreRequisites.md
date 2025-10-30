@@ -34,6 +34,8 @@ icon: material/bullseye-arrow
 
 > Team:  **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Team">Your_Attendee_ID</span>_2000_Team<span class="copy"></span></span>**
 
+> Site: SiteOne (Do not try to change this)
+
 > Admin:   **<span class="attendee-id-container">wxcclabs+admin_ID<span class="attendee-id-placeholder" data-prefix="wxcclabs+admin_ID" data-suffix="@gmail.com">Your_Attendee_ID</span>@gmail.com<span class="copy"></span></span>**
 
 > Webex App has been pre-installed on your Lab PC
@@ -44,31 +46,29 @@ More pre-configured entities will be mentioned during the lab missions if they h
 
 ---
 
-### Testing
+### Getting your computers ready
 
 #### Login to Webex Control. 
 
 1. Open up Google Chrome Web browser and start login to [Control Hub](https://admin.webex.com){:target="_blank"}.
    ![Profiles](../graphics/Lab1_AI_Agent/GS1.png)
 
-2. Login using your Admin user name and password. 
+2. Login using your Agent user name and password. 
    ![Profiles](../graphics/Lab1_AI_Agent/GS2.gif)
 
-#### Login to Agent Desktop
+#### Login to Agent Desktop Using Microsoft Edge
 
-1. Click on **Contact Center** Service. 
-   ![Profiles](../graphics/Lab1_AI_Agent/GS.3.png)
+1. Click <a href="microsoft-edge:https://desktop.wxcc-us1.cisco.com">Agent Desktop in Edge</a>.
+   Or you can copy paste this URL to the Edge browser's address bar: https://desktop.wxcc-us1.cisco.com
+   <!--![Profiles](../graphics/Lab1_AI_Agent/GS.3.png)-->
 
-2. From **Quick Links** click on **Desktop**.
-   ![Profiles](../graphics/Lab1_AI_Agent/GS4.png)
-
-3. Allo notification for the Aget Desktop. Select login option as **Desktop**, select your Team and click on **Submit**.
+2. Allow notification for the Agent Desktop. Select login option as **Desktop**, select your Team and click on **Submit**.
    ![Profiles](../graphics/Lab1_AI_Agent/GS5.png)
 
-4. Click Continue on the Emergency Serice Notification. 
+3. Click Continue on the Emergency Serice Notification. 
    ![Profiles](../graphics/Lab1_AI_Agent/GS6.png)
 
-5. Allow use of microphones.
+4. Allow use of microphones.
    ![Profiles](../graphics/Lab1_AI_Agent/GS7.png)
 
 #### Calling to Contact Center
