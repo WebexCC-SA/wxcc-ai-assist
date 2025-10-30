@@ -6,3 +6,5 @@ In this lab, you’ve learned to create and enhance virtual agents by integratin
 
 
 By following the call flow, you’ve seen how AI Agents can efficiently handle tasks like providing store hours and tracking orders, enabling seamless customer interactions. These skills equip you to build intelligent, effective virtual agents for real-world applications.
+
+[The Deck](../graphics/Lab1_AI_Agent/LTRCCT-2000.pptx)
