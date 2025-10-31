@@ -1,9 +1,9 @@
 ---
-site_name: "LTRCCT-2000 Hands-On AI in Action: The Future of Customer Care with Webex Contact Center"
-site_description: "LTRCCT-2000 Hands-On AI in Action: The Future of Customer Care with Webex Contact Center"
-Speaker: "Speakers: Dominic Franklin Gonsalves"
-site_author: domgonsa
-site_name: LTRCCT-2000
+site_name: "Webex Contact Center AI Assistant"
+site_description: "Webex Contact Center AI Assistant"
+Speaker: "Speakers: Iranthi Ulluwishewa"
+site_author: iulluwis
+site_name: Webex Contact Center AI Assistant
 # must be same as "site_name"
 copyright: Copyright &copy; 2025 Cisco Systems Inc. All Rights Reserved.
 theme:
@@ -108,26 +108,26 @@ nav:
 ##      - Lab Guide:
 ##            - "Lab overview": ./main/AI_Lab_Topic_Overview.md
 ##            - "Mission 1: Explore Topic Analytics": ./main/AI_Lab_Topic_Mission1.md
-      - Conclusion: ./main/AI_Lab_Topic_Conclusion.md
-  - Autonomous AI Agent:
-      - Lab Guide:
-            - "Lab overview": ./main/AI_Lab_Overview.md
-            - "Mission 1: Create AI Autonomous Agent": ./main/AIAgentTrack_Mission1.md
-            - "Mission 2: Configure Action and create an order": ./main/AI_Lab_Aut_Mission2.md
-#            - "Mission 3: Upload prebuilt AI Agent. Failover for Mission 2": ./main/AI_Lab_Aut_Mission3.md
-            - "Mission 3: Integrating the AI Agent with Flow for Voice Calls": ./main/AI_Lab_Aut_MissionX.md
-      - Conclusion: ./main/AI_Lab_Aut_Conclusion.md
-  - Scripted AI Agent:
-      - Lab Guide:
-            - "Lab overview": ./main/AI_Lab_Scripted_Overview_New.md
-            - "Mission 1: Configure Scripted Agent to answer basic questions": ./main/AI_Lab_Scripted_Mission1.md
-            - "Mission 2 (Review & Testing): Integrate Scripted Agent with Voice Flow.": ./main/AI_Lab_Scripted_Mission2.md
-            - "Mission 3 (BONUS): Integrate Scripted Agent with Voice Flow.": ./main/AI_Lab_Scripted_Mission3.md
-            - "Mission 4 (BONUS): Configure flow to track an order": ./main/AI_Lab_Scripted_Mission4.md
-            - "Mission 5 (BONUS): Configure the fulfillment": ./main/AI_Lab_Scripted_Mission5.md
-            - "Mission 6 (BONUS): Deliver fulfillment results to the caller": ./main/AI_Lab_Scripted_Mission6.md
-      - Conclusion: ./main/AI_Lab_Scripted_Conclusion.md
-  - AI Assistant [BONUS]:
+##      - Conclusion: ./main/AI_Lab_Topic_Conclusion.md
+##  - Autonomous AI Agent:
+##      - Lab Guide:
+##            - "Lab overview": ./main/AI_Lab_Overview.md
+##            - "Mission 1: Create AI Autonomous Agent": ./main/AIAgentTrack_Mission1.md
+##            - "Mission 2: Configure Action and create an order": ./main/AI_Lab_Aut_Mission2.md
+##            - "Mission 3: Upload prebuilt AI Agent. Failover for Mission 2": ./main/AI_Lab_Aut_Mission3.md
+##            - "Mission 3: Integrating the AI Agent with Flow for Voice Calls": ./main/AI_Lab_Aut_MissionX.md
+##      - Conclusion: ./main/AI_Lab_Aut_Conclusion.md
+##  - Scripted AI Agent:
+##      - Lab Guide:
+##            - "Lab overview": ./main/AI_Lab_Scripted_Overview_New.md
+##            - "Mission 1: Configure Scripted Agent to answer basic questions": ./main/AI_Lab_Scripted_Mission1.md
+##            - "Mission 2 (Review & Testing): Integrate Scripted Agent with Voice Flow.": ./main/AI_Lab_Scripted_Mission2.md
+##            - "Mission 3 (BONUS): Integrate Scripted Agent with Voice Flow.": ./main/AI_Lab_Scripted_Mission3.md
+##            - "Mission 4 (BONUS): Configure flow to track an order": ./main/AI_Lab_Scripted_Mission4.md
+##            - "Mission 5 (BONUS): Configure the fulfillment": ./main/AI_Lab_Scripted_Mission5.md
+##            - "Mission 6 (BONUS): Deliver fulfillment results to the caller": ./main/AI_Lab_Scripted_Mission6.md
+##      - Conclusion: ./main/AI_Lab_Scripted_Conclusion.md
+  - AI Assistant:
       - Lab Guide:
             - "Lab overview": ./main/AI_Lab_Features_Overview.md
             - "Mission 1: AI Agent Transfer Summary": ./main/AI_Lab_Assist_Mission1.md
