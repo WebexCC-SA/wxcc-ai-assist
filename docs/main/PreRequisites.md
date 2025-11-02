@@ -5,7 +5,7 @@ icon: material/bullseye-arrow
 
 ## Learning Objectives
 0. <span style="color: red;">[Impotant: [In the Getting Started page](https://webexcc-sa.github.io/AUS_LTRCCT-2000/main/overview/), you must have set your attendee ID. For example: 148. This will make it easy to copy paste the configs]</span>
-1. Ensure that you have **LTRCCT-2000 LAB Credentials handed to you - card or digitally** with instructions link to access your lab. If you do not, please ask your lab proctor now.
+1. Ensure that you have **the LAB Credentials handed to you - card or digitally** with instructions link to access your lab. If you do not, please ask your lab proctor now.
 2. Understand your configuration instructions. Don't rush. Take your time.
 3. If you have never used Webex Contact Center, don't worry. You should be able to follow these instructions and finish the lab.
 
@@ -16,7 +16,7 @@ icon: material/bullseye-arrow
     
     <details><summary>WxCC Schema</summary>![Profiles](../graphics/overview/WxCC_Schema.png)</details>
 
-2. The majority of the configuration in Control Hub is already set up, allowing you to focus primarily on configuration Webex AI Virtual Agent and other AI features. Of course, there may still be some elements to adjust, but these should be minimal, letting you concentrate on building and refining the flow logic rather than spending time on initial setup.
+2. The majority of the configuration in Control Hub is already set up, allowing you to focus primarily on configuration and use of the AI features. Of course, there may still be some elements to adjust, but these should be minimal, letting you concentrate on the capabilities.
 3. The Human Agent have been configured for you. You will be performing the rest of the configurations for AI Agent and integartion with channels.
 4. All your configurations should contain your attendee ID so the lab users don't step over each other's configurations.
 5. Each of you has been provided with the phone number to dial (Entry point DN), 1 agent and 1 admin.
@@ -28,11 +28,11 @@ icon: material/bullseye-arrow
 
 ### Predefined configuration
 
-> Entry Point/Channels:  **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Channel">Your_Attendee_ID</span>_2000_Channel<span class="copy"></span></span>**
+> Entry Point/Channels:  **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_aiassist_Channel">Your_Attendee_ID</span>_aiassist_Channel<span class="copy"></span></span>**
 
-> Queue:  **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Voice_Queue">Your_Attendee_ID</span>_2000_Voice_Queue<span class="copy"></span></span>**
+> Queue:  **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_aiassist_Voice_Queue">Your_Attendee_ID</span>_aiassist_Voice_Queue<span class="copy"></span></span>**
 
-> Team:  **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Team">Your_Attendee_ID</span>_2000_Team<span class="copy"></span></span>**
+> Team:  **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_aiassist_Team">Your_Attendee_ID</span>_aiassist_Team<span class="copy"></span></span>**
 
 > Site: SiteOne (Do not try to change this)
 
