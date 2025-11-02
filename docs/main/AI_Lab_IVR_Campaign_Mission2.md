@@ -18,7 +18,7 @@ Your mission is to create a new campaign that will deliver call to your cellphon
 3. Click on **Start Fresh**.
    ![Profiles](../graphics/Lab1_AI_Agent/8.4.png)
 
-4. Name the flow as **<span class="attendee-id-container">OutDial_Flow_2000_<span class="attendee-id-placeholder" data-prefix="OutDial_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>** and click **Create Flow**.
+4. Name the flow as **<span class="attendee-id-container">OutDial_Flow_aiassist_<span class="attendee-id-placeholder" data-prefix="OutDial_Flow_aiassist_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>** and click **Create Flow**.
    ![Profiles](../graphics/Lab1_AI_Agent/8.5.png)
 
 6. In the Main Flow, add **End Flow** block and connect **New Phone Contact** block to the **End Flow** block. 
@@ -30,7 +30,7 @@ Your mission is to create a new campaign that will deliver call to your cellphon
 8. Add **GoTo** node and connect it to **Outbound Campaign** node. 
    ![Profiles](../graphics/Lab1_AI_Agent/8.8.gif)
 
-9. Click on **GoTo** node and configure it with the Flow that you created in earlier labs for AI agent. It could have the name Flow: **<span class="attendee-id-container">Autonomous_Scripted_Flow_2000_<span class="attendee-id-placeholder" data-prefix="Autonomous_Scripted_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>** and click **Create Flow** if you completed all the previous lab. If you just started from this lab, then you need to create another flow with your Virual Agent. </br></br> Also Validate and Publish the Flow. 
+9. Click on **GoTo** node and configure it with the Flow that you created in earlier labs for AI agent. It could have the name Flow: **<span class="attendee-id-container">Autonomous_Scripted_Flow_aiassist_<span class="attendee-id-placeholder" data-prefix="Autonomous_Scripted_Flow_aiassist_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>** and click **Create Flow** if you completed all the previous lab. If you just started from this lab, then you need to create another flow with your Virual Agent. </br></br> Also Validate and Publish the Flow. 
    ![Profiles](../graphics/Lab1_AI_Agent/8.9.gif)
 
 ### Task 2. Create Outdial Channel for the Campaign.
@@ -38,7 +38,7 @@ Your mission is to create a new campaign that will deliver call to your cellphon
 1. Click on **Channels** then click on **Create Channel** 
    ![Profiles](../graphics/Lab1_AI_Agent/8.10.png)
 
-2. Name the Channle as **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Channel_Outdial">Your_Attendee_ID</span>_2000_Channel_Outdial<span   class="copy" title="Click to copy!"></span></span>**. Select **Type** as **Outbound Telephony**.
+2. Name the Channle as **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_aiassist_Channel_Outdial">Your_Attendee_ID</span>_aiassist_Channel_Outdial<span   class="copy" title="Click to copy!"></span></span>**. Select **Type** as **Outbound Telephony**.
    ![Profiles](../graphics/Lab1_AI_Agent/8.11.png)
 
 3. Configure **Service Level Threshold** with **300** seconds, select the flow that you have created in the previous Task, add a music on hold and select the Outdial Queue with name **LTRCCT-2000_Campaign_Q**<span class="copy-static" title="Click to copy!" data-copy-text="LTRCCT-2000_Campaign_Q "><span class="copy"></span></span>
@@ -89,7 +89,7 @@ Your mission is to create a new campaign that will deliver call to your cellphon
 14. Click on **Save & exit** the Campaign configuration. 
    ![Profiles](../graphics/Lab1_AI_Agent/8.24.png)
 
-15. Name the Campaign as **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Campaign**. For **P&L** from the list select **TrainingAB_PL_17748776940323**. For **Purpose** select from the list **Sales**, and click on **Save campaign**.
+15. Name the Campaign as **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_aiassist_Campaign**. For **P&L** from the list select **TrainingAB_PL_17748776940323**. For **Purpose** select from the list **Sales**, and click on **Save campaign**.
    ![Profiles](../graphics/Lab1_AI_Agent/8.26.png)
 
 16. You will see you campaign will show up in the **DRAFT** status. 

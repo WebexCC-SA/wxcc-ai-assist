@@ -38,7 +38,7 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
 
 5. In AI Agent Builder navigate to **Knowledge** from left hand side menu panel. 
 
-6. Click **Create Knowledge Base**, provide Knowledge base name as **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_AI_KB">Your_Attendee_ID</span>_2000_AI_KB<span class="copy" title="Click to copy!"></span></span>**, then click **Create**.
+6. Click **Create Knowledge Base**, provide Knowledge base name as **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_aiassist_AI_KB">Your_Attendee_ID</span>_aiassist_AI_KB<span class="copy" title="Click to copy!"></span></span>**, then click **Create**.
     ![Profiles](../graphics/Lab1_AI_Agent/2.1.gif)
 
 7. Click **Add File** or drag and drop file **Flower_Catalog.xlsx** you downloaded from external drive on **Step 1**. Then click **Process Files**. Wait until the file is processed. It could take 1-2 mins.
@@ -55,7 +55,7 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
 
 11. New section **Add the essential details** will appear. Provide the following information, then click **Create**:
 
-    > Agent Name: **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_AutoAI_Lab">Your_Attendee_ID</span>_2000_AutoAI_Lab<span   class="copy" title="Click to copy!"></span></span>**
+    > Agent Name: **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_aiassist_AutoAI_Lab">Your_Attendee_ID</span>_aiassist_AutoAI_Lab<span   class="copy" title="Click to copy!"></span></span>**
     >
     > System ID is created automatically
     >
@@ -117,7 +117,7 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
 
 
 
-14.  Switch to **Knowledge** tab and from **Knowledge base** drop-down list select **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_AI_KB">Your_Attendee_ID</span>_2000_AI_KB<span class="copy" title="Click to copy!"></span></span>**. Click **Save Changes**.
+14.  Switch to **Knowledge** tab and from **Knowledge base** drop-down list select **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_aiassist_AI_KB">Your_Attendee_ID</span>_aiassist_AI_KB<span class="copy" title="Click to copy!"></span></span>**. Click **Save Changes**.
     <details>![Profiles](../graphics/Lab1_AI_Agent/2.5.gif)</details>
 
 15.  Click **Publish**. Provide any version name in pop-up window (ex. "1.0").<br>

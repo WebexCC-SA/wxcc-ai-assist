@@ -15,7 +15,7 @@ In this mission, you will download the Webex Connect flow and configure it to wo
 1. Download the Webex Connect flow using the following link:
 [Webex Connect Flow](https://cisco.box.com/s/w1iqxeeoz2k6abl68lhmhijv9g0jtcy5){:target="_blank"}
 
-2. Go to Webex Connect portal and open your service with the name **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Service">Your_Attendee_ID</span>_2000_Service<span   class="copy" title="Click to copy!"></span></span>**
+2. Go to Webex Connect portal and open your service with the name **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_aiassist_Service">Your_Attendee_ID</span>_aiassist_Service<span   class="copy" title="Click to copy!"></span></span>**
    ![Profiles](../graphics/Lab1_AI_Agent/4.27.gif)
 
 3. Click on **Flows** and then click on **Create Flow**.
@@ -35,10 +35,10 @@ In this mission, you will download the Webex Connect flow and configure it to wo
 1. Open up **Resolve Conversation** block and configure the **Flow Id** with the same that you can find in the URL. Click on **Save**.
    ![Profiles](../graphics/Lab1_AI_Agent/4.32.gif)
 
-2. Open up **AI Agent** block and select from the list the AI Agent that you have created earlier. The name can be **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_AutoAI_Lab">Your_Attendee_ID</span>_2000_AutoAI_Lab<span   class="copy" title="Click to copy!"></span></span>**
+2. Open up **AI Agent** block and select from the list the AI Agent that you have created earlier. The name can be **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_aiassist_AutoAI_Lab">Your_Attendee_ID</span>_aiassist_AutoAI_Lab<span   class="copy" title="Click to copy!"></span></span>**
    ![Profiles](../graphics/Lab1_AI_Agent/4.33.gif)
 
-3. Open up Queue Task and select the queue **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Chat_Queue">Your_Attendee_ID</span>_2000_Chat_Queue<span   class="copy" title="Click to copy!"></span></span>** from the list that is related to your config. 
+3. Open up Queue Task and select the queue **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_aiassist_Chat_Queue">Your_Attendee_ID</span>_aiassist_Chat_Queue<span   class="copy" title="Click to copy!"></span></span>** from the list that is related to your config. 
    ![Profiles](../graphics/Lab1_AI_Agent/4.34.gif)
 
 4. Open up New Webex Connect Window, go to Applicaitons and find the AppID that is related to your Chat Application with name **Chat_App_<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000**

@@ -31,7 +31,7 @@ Event payload: **{"ordernumber":"${entity.order_number}"}**.</br>
 
 #### Task 2. Make API call from Voice Flow to retrieve the order status. 
 
-1. From [Control Hub](https://admin.webex.com){:target="_blank"}, go to Contact Center click on flows. Open up your flow. If you follow all lab steps the name should be **<span class="attendee-id-container">Autonomous_Scripted_Flow_2000_<span class="attendee-id-placeholder" data-prefix="Autonomous_Scripted_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>**. Or if you have different name, find your flow. Click on it to open the Flow. 
+1. From [Control Hub](https://admin.webex.com){:target="_blank"}, go to Contact Center click on flows. Open up your flow. If you follow all lab steps the name should be **<span class="attendee-id-container">Autonomous_Scripted_Flow_aiassist_<span class="attendee-id-placeholder" data-prefix="Autonomous_Scripted_Flow_aiassist_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>**. Or if you have different name, find your flow. Click on it to open the Flow. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.41.gif) 
 
 2. Select **Edit** for the flow, click anywhere on the gray area in the flow, and look for the **Flow Variables** on the right side.

@@ -11,10 +11,10 @@ Your mission is to integrate the Scripted AI agent with Voiceflow to enable it t
 
 #### Task 1. Add the newly created Scripted Agent to the Voice flow. 
 
-1. In [Control Hub](https://admin.webex.com){:target="_blank"} go to **Contact Center**, click on **Flows**, and search for the flow with name **<span class="attendee-id-container">AutonomousAI_Flow_2000_<span class="attendee-id-placeholder" data-prefix="AutonomousAI_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>**. Or if you created the flow with a different name in the lab "Autonomous AI Agent, try to find your flow. 
+1. In [Control Hub](https://admin.webex.com){:target="_blank"} go to **Contact Center**, click on **Flows**, and search for the flow with name **<span class="attendee-id-container">AutonomousAI_Flow_aiassist_<span class="attendee-id-placeholder" data-prefix="AutonomousAI_Flow_aiassist_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>**. Or if you created the flow with a different name in the lab "Autonomous AI Agent, try to find your flow. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.27.gif) 
 
-2. Click on Edit and rename the flow to **<span class="attendee-id-container">Autonomous_Scripted_Flow_2000_<span class="attendee-id-placeholder" data-prefix="Autonomous_Scripted_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>**. Publish the flow. 
+2. Click on Edit and rename the flow to **<span class="attendee-id-container">Autonomous_Scripted_Flow_aiassist_<span class="attendee-id-placeholder" data-prefix="Autonomous_Scripted_Flow_aiassist_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>**. Publish the flow. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.28.gif) 
 
 3. Add **Menu** node in front of the VirtualAgentV2 node. 
@@ -38,10 +38,10 @@ Your mission is to integrate the Scripted AI agent with Voiceflow to enable it t
 9. Validate and Publish the Flow. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.35.gif) 
 
-10. From Control Hub, make sure that the Channel **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel** is configured with **<span class="attendee-id-container">Autonomous_Scripted_Flow_2000_<span class="attendee-id-placeholder" data-prefix="Autonomous_Scripted_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>**.
+10. From Control Hub, make sure that the Channel **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_aiassist_Channel** is configured with **<span class="attendee-id-container">Autonomous_Scripted_Flow_aiassist_<span class="attendee-id-placeholder" data-prefix="Autonomous_Scripted_Flow_aiassist_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>**.
     ![Profiles](../graphics/Lab1_AI_Agent/6.36.gif) 
 
-11. Dial the number that is associated with **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel** Channel. 
+11. Dial the number that is associated with **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_aiassist_Channel** Channel. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.37.png) 
 
 12. During IVR, press 2 and ask **What is the store hours?**

@@ -85,8 +85,8 @@ This mission is designed to provide an in-depth understanding of the Scripted AI
 5.  Click **Publish** Flow. In Popped up window click on dropdown menu to select **Latest** label, then click **Publish**
     ![Profiles](../graphics/Lab1_AI_Agent/5.4.gif) 
 
-6. Assign the Flow to your **Channel (Entry Point)** - Do this by first going to **Channel**, search for your channel **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Channel">Your_Attendee_ID</span>_2000_Channel<span class="copy" title="Click to copy!"></span></span>**.
-7. Click on **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel**
+6. Assign the Flow to your **Channel (Entry Point)** - Do this by first going to **Channel**, search for your channel **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_aiassist_Channel">Your_Attendee_ID</span>_aiassist_Channel<span class="copy" title="Click to copy!"></span></span>**.
+7. Click on **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_aiassist_Channel**
 8. In **Entry Point** Settings section change the following:
 
     > Routing Flow: **<span class="attendee-id-container">Scripted_AI_Flow_<span class="attendee-id-placeholder" data-prefix="Scripted_AI_Flow_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>**
@@ -96,7 +96,7 @@ This mission is designed to provide an in-depth understanding of the Scripted AI
     ![Profiles](../graphics/Lab1_AI_Agent/5.5.gif)
 
 
-9. Dial Support Number assigned to your **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel** to test the Virtual Agent over a voice call.
+9. Dial Support Number assigned to your **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_aiassist_Channel** to test the Virtual Agent over a voice call.
 
 ---
 

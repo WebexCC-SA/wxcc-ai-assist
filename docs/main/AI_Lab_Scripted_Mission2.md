@@ -45,8 +45,8 @@ Your mission is to review preconfigured Scripted AI Agent for tracking existing 
      ![Profiles](../graphics/Lab1_AI_Agent/6.75.png) 
 
 3. Go to [Control Hub](https://admin.webex.com){:target="_blank"} > Contact Center. Click on **Flows** and open the flow with name ***
-Autonomous_Scripted_Flow_2000_148***<span class="copy-static" title="Click to copy!" data-copy-text="
-Autonomous_Scripted_Flow_2000_148"><span class="copy"></span></span>.
+Autonomous_Scripted_Flow_aiassist_148***<span class="copy-static" title="Click to copy!" data-copy-text="
+Autonomous_Scripted_Flow_aiassist_148"><span class="copy"></span></span>.
      ![Profiles](../graphics/Lab1_AI_Agent/6.76.gif) 
 
 4. Click on the lower VirtualAgentV2 block. You will see the Activity Output Variables. The Entity value can be found in VirtualAgentV2.MetaData. 
@@ -86,12 +86,12 @@ Autonomous_Scripted_Flow_2000_148"><span class="copy"></span></span>.
 
 #### Task 4. Place test call and review the trace. 
 
-1. Log in to your Webex app using your agent credentials - wxcclabs+agent_IDxxx@gmail.com (where xxx is your attendee ID). Call the number +15206603142 that is configured to deliver the call to the flow **Autonomous_Scripted_Flow_2000_148**.
+1. Log in to your Webex app using your agent credentials - wxcclabs+agent_IDxxx@gmail.com (where xxx is your attendee ID). Call the number +15206603142 that is configured to deliver the call to the flow **Autonomous_Scripted_Flow_aiassist_148**.
      ![Profiles](../graphics/Lab1_AI_Agent/6.87.png) 
 
 2. Press 2 to go to the Scripted AI agent. Ask to track your order. Provide the order number as 6 or any other order that you created earlier. You should hear the response that the order status is "new".
 
-3. Open up Debug mode in the flow **Autonomous_Scripted_Flow_2000_148**.
+3. Open up Debug mode in the flow **Autonomous_Scripted_Flow_aiassist_148**.
      ![Profiles](../graphics/Lab1_AI_Agent/6.88.gif)
 
 4. Review the trace. 

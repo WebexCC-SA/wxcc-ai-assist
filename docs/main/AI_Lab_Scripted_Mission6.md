@@ -14,7 +14,7 @@ In the previous **Mission 4**, you configured a fulfillment flow that executes a
 
 Note: To deliver the call back to AI Studio, you need to add an additional **VirtualAgentV2** block to the flow.
 
-1. Open **<span class="attendee-id-container">Autonomous_Scripted_Flow_2000_<span class="attendee-id-placeholder" data-prefix="Autonomous_Scripted_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>** and click **Create Flow** flow. Click on **Edit** the flow. 
+1. Open **<span class="attendee-id-container">Autonomous_Scripted_Flow_aiassist_<span class="attendee-id-placeholder" data-prefix="Autonomous_Scripted_Flow_aiassist_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>** and click **Create Flow** flow. Click on **Edit** the flow. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.56.gif)
 
 2. Delete the **Disconnect Contact** node and add **VirtualAgentV2** node. Connect **HttpRequest** block to **VirtualAgentV2** block. 
@@ -63,7 +63,7 @@ Event Data: **{"status":"{{order_status}}"}**
 
 #### Task 4. Test Scripted AI agent order status flow.  
 
-1. Dial the number that is assosiated with **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel** Channel. 
+1. Dial the number that is assosiated with **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_aiassist_Channel** Channel. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.37.png) 
 
 2. During IVR, press 2 to and say "I want to track my order". Provide the order details that you created earlier, or use the order with number 22 for the example.

@@ -33,7 +33,7 @@ Configure an action to collect order details from the customer and send them to 
 
 
 
-2. Create new Service with name **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Service">Your_Attendee_ID</span>_2000_Service<span   class="copy" title="Click to copy!"></span></span>**
+2. Create new Service with name **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_aiassist_Service">Your_Attendee_ID</span>_aiassist_Service<span   class="copy" title="Click to copy!"></span></span>**
     ![Profiles](../graphics/Lab1_AI_Agent/2.10.gif)
 
 
@@ -52,7 +52,7 @@ Configure an action to collect order details from the customer and send them to 
 1. Login to the AI Studio Portal. 
     ![Profiles](../graphics/Lab1_AI_Agent/2.14.gif)
 
-2. Select your AI agent with name **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_AutoAI_Lab">Your_Attendee_ID</span>_2000_AutoAI_Lab<span   class="copy" title="Click to copy!"></span></span>** that your created earlier, go to **Actions**. You will see one action is already created by default for the **Agent Handoff**. You will be creating more actions.
+2. Select your AI agent with name **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_aiassist_AutoAI_Lab">Your_Attendee_ID</span>_aiassist_AutoAI_Lab<span   class="copy" title="Click to copy!"></span></span>** that your created earlier, go to **Actions**. You will see one action is already created by default for the **Agent Handoff**. You will be creating more actions.
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.17.gif)
 
@@ -105,7 +105,7 @@ Required: <b>Yes</b>
 10. At this point you should see 6 created entities. Please double check it. 
     ![Profiles](../graphics/Lab1_AI_Agent/2.21.png)
 
-11. In the Webex Connect Builder Fulfillment select Service: **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Service">Your_Attendee_ID</span>_2000_Service<span   class="copy" title="Click to copy!"></span></span>** and Flow: <b>Create_Order_Flowers</b>
+11. In the Webex Connect Builder Fulfillment select Service: **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_aiassist_Service">Your_Attendee_ID</span>_aiassist_Service<span   class="copy" title="Click to copy!"></span></span>** and Flow: <b>Create_Order_Flowers</b>
    ![Profiles](../graphics/Lab1_AI_Agent/2.22.gif)
 
 12. Publish the update of your AI Agent. 
@@ -113,7 +113,7 @@ Required: <b>Yes</b>
 
 ### Task 3. Deliver collected order information to Webex Connect for fulfillment.
 
-1. Login to the Webex Connect, got to the Service **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Service">Your_Attendee_ID</span>_2000_Service<span   class="copy" title="Click to copy!"></span></span>** and click on <b>Manage</b> the flow that you have created earlier.
+1. Login to the Webex Connect, got to the Service **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_aiassist_Service">Your_Attendee_ID</span>_aiassist_Service<span   class="copy" title="Click to copy!"></span></span>** and click on <b>Manage</b> the flow that you have created earlier.
    ![Profiles](../graphics/Lab1_AI_Agent/2.24.gif)
 
 2. Click on **Edit** the flow on the right top. Then double click on the **AI Agent**. In the Provide Sample JSON, replace the standard JSON body with the following: 
@@ -193,7 +193,7 @@ Alse see this change in action below.
 
 ### Task 5. Configure email confirmation. 
 
-1. Open up Webex Connect Portal. Find your Service **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Service">Your_Attendee_ID</span>_2000_Service<span   class="copy" title="Click to copy!"></span></span>**, navigate to the flow and click on **Manage** the flow. 
+1. Open up Webex Connect Portal. Find your Service **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_aiassist_Service">Your_Attendee_ID</span>_aiassist_Service<span   class="copy" title="Click to copy!"></span></span>**, navigate to the flow and click on **Manage** the flow. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.39.gif)
 
 
