@@ -13,7 +13,7 @@ Suggested responses in Webex Contact Center are real-time, AI-powered prompts th
 2.	Create AI assistant skills and assign to queue’s.
 3.	Create a knowledge base
 4.	Configure flow with Start Media Stream block
-5.	Test suggested responses feature - test1
+5.	Test suggested responses feature
 
 ## Build
 
